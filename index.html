@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ultra Medical Center | Advanced Care. Personalized for You.</title>
+  <meta name="description" content="Ultra Medical Center provides advanced healthcare, appointments, doctors,  access and medical services in Al Ain, UAE." />
+  <meta name="theme-color" content="#E30613" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Ultra Medical Center" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --primary-red:#E30613;
+      --primary-red-dark:#B4000B;
+      --primary-red-soft:#FFF2F3;
+      --white:#FFFFFF;
+      --page-bg:#FFFFFF;
+      --soft-bg:#FAFAFA;
+      --border-light:#EDEDED;
+      --border-red-soft:#F2D6D8;
+      --text-main:#111827;
+      --text-secondary:#4B5563;
+      --text-muted:#6B7280;
+      --dark-footer:#1F2933;
+      --success-green:#22C55E;
+      --whatsapp-green:#25D366;
+      --shadow:0 16px 42px rgba(17,24,39,.09);
+      --soft-shadow:0 10px 28px rgba(17,24,39,.07);
+      --container:1160px;
+      --radius:12px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--page-bg);font-family:Manrope,Inter,Arial,sans-serif;color:var(--text-main);letter-spacing:-.01em}
+    a{text-decoration:none;color:inherit}
+    button,input,select,textarea{font-family:inherit}
+    button{cursor:pointer}
+    img{max-width:100%;display:block}
+    .container{width:min(var(--container),calc(100% - 64px));margin:auto}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+    .btn{height:42px;border-radius:6px;border:0;display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:0 22px;font-size:13px;font-weight:900;transition:.22s ease;white-space:nowrap}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-red{background:linear-gradient(135deg,var(--primary-red),#f71723);color:#fff;box-shadow:0 12px 24px rgba(227,6,19,.22)}
+    .btn-outline{background:#fff;color:var(--primary-red);border:1px solid var(--primary-red)}
+    .btn-soft{background:var(--primary-red-soft);color:var(--primary-red);border:1px solid var(--border-red-soft)}
+    .btn-dark{background:var(--dark-footer);color:#fff}
+
+    .icon{width:28px;height:28px;stroke:var(--primary-red);stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round;flex:0 0 auto}
+    .icon-sm{width:17px;height:17px}.icon-md{width:34px;height:34px}.icon-lg{width:45px;height:45px}.icon-xl{width:54px;height:54px}
+
+    /* Header */
+    .site-header{height:81px;background:#fff;border-bottom:1px solid #ECEEF2;position:sticky;top:0;z-index:90;box-shadow:0 2px 10px rgba(16,24,40,.03)}
+    .header-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:22px}
+    .brand{display:flex;align-items:center;min-width:214px}
+    .brand img{width:190px;height:auto}
+    .main-nav{height:100%;display:flex;align-items:center;gap:25px;margin-left:auto}
+    .main-nav a{height:100%;position:relative;display:flex;align-items:center;text-transform:uppercase;font-size:12px;font-weight:900;color:#1D2430;letter-spacing:-.02em}
+    .main-nav a.active{color:var(--primary-red)}
+    .main-nav a.active::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--primary-red);border-radius:6px 6px 0 0}
+    .header-tools{display:flex;align-items:center;gap:17px;margin-left:8px;font-size:13px;font-weight:900;color:#252B36}
+    .divider{width:1px;height:18px;background:#E3E4E8}
+    .header-actions{display:flex;align-items:center;gap:12px;margin-left:12px}
+    .whatsapp-link{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:900;color:#232834;white-space:nowrap}
+    .whatsapp-dot{width:8px;height:8px;background:var(--whatsapp-green);border-radius:50%;display:inline-block}
+    .mobile-menu{display:none;border:0;background:#fff;color:var(--primary-red);font-size:24px;font-weight:900}
+
+    /* Mobile drawer */
+    .mobile-drawer{position:fixed;inset:0;background:rgba(17,24,39,.45);z-index:120;display:none;align-items:flex-start;justify-content:flex-end}
+    .mobile-drawer.show{display:flex}
+    .drawer-panel{width:min(360px,92vw);height:100%;background:#fff;padding:22px;box-shadow:-18px 0 50px rgba(17,24,39,.16);display:flex;flex-direction:column;gap:12px}
+    .drawer-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}.drawer-top img{width:160px}.drawer-close{width:38px;height:38px;border-radius:50%;border:0;background:var(--primary-red-soft);color:var(--primary-red);font-size:20px;font-weight:900}
+    .drawer-panel a{padding:13px 12px;border-radius:10px;border:1px solid #F1F1F1;font-weight:900}.drawer-panel a.active{background:var(--primary-red-soft);color:var(--primary-red);border-color:var(--border-red-soft)}
+
+    /* Hero */
+    .hero{position:relative;overflow:hidden;min-height:380px;background:linear-gradient(90deg,#fff 0%,#fff 33%,#F9FBFF 72%,#EEF5FF 100%)}
+    .hero-bg{position:absolute;inset:0;z-index:0;pointer-events:none}
+    .hero-bg::before{content:"";position:absolute;right:0;top:0;bottom:0;width:63%;background:linear-gradient(90deg,rgba(255,255,255,.96) 0%,rgba(255,255,255,.48) 21%,rgba(255,255,255,0) 39%),url('assets/ultra-hospital-building.jpg') center right/cover no-repeat}
+    .hero-bg::after{content:"";position:absolute;left:0;top:0;bottom:0;width:58%;background:radial-gradient(circle at 17% 18%,rgba(227,6,19,.08),transparent 42%)}
+    .hero .container{position:relative;z-index:2}
+    .hero-content{width:48%;padding:58px 0 34px}
+    .hero h1{font-size:42px;line-height:1.15;margin:0 0 16px;font-weight:900;letter-spacing:-.055em;color:#22242C}
+    .hero .lead{font-size:15px;line-height:1.65;color:#4B5360;margin:0 0 22px;max-width:465px}
+    .hero-ctas{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:32px}
+    .hero-points{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;width:780px;max-width:90vw}
+    .hero-point{display:flex;align-items:center;gap:10px;min-width:0}
+    .hero-point:not(:last-child){border-right:1px solid #D9DBE1;padding-right:16px}
+    .hero-point b{display:block;font-size:11px;font-weight:900;color:#262B35;white-space:nowrap}
+    .hero-point span{display:block;font-size:10px;line-height:1.45;color:#545B68}
+    .slider-arrow{position:absolute;top:48%;transform:translateY(-50%);width:36px;height:36px;border-radius:50%;border:0;background:rgba(0,0,0,.22);color:#fff;display:grid;place-items:center;z-index:3;font-size:22px}
+    .slider-arrow.left{left:14px}.slider-arrow.right{right:14px}
+    .slider-dots{position:absolute;left:50%;bottom:54px;transform:translateX(-50%);display:flex;gap:7px;z-index:4}
+    .slider-dots span{width:7px;height:7px;border-radius:50%;background:#CFD2D8}.slider-dots span.active{background:var(--primary-red)}
+
+    /* Quick access */
+    .quick-access{position:relative;z-index:10;margin-top:-36px}
+    .quick-panel{width:min(900px,calc(100% - 140px));margin:auto;background:#fff;border:1px solid #E6E7EB;border-radius:8px;box-shadow:var(--shadow);display:grid;grid-template-columns:repeat(4,1fr);overflow:hidden}
+    .quick-card{min-height:88px;padding:22px;display:grid;grid-template-columns:48px 1fr 16px;gap:12px;align-items:center;border-right:1px solid #ECEEF2;transition:.2s;background:#fff}
+    .quick-card:last-child{border-right:0}
+    .quick-card:hover{background:#FFF8F8}
+    .quick-card b{display:block;font-size:13px;font-weight:900;margin-bottom:5px;color:#20242C}
+    .quick-card span{display:block;font-size:11px;line-height:1.45;color:#606875}
+    .arrow{font-size:18px;color:#555B66}
+
+    /* Find care */
+    .find-care{padding:24px 0 26px}
+    .find-care-box{width:min(900px,calc(100% - 140px));margin:auto;background:#F6F6F7;border-radius:7px;display:grid;grid-template-columns:120px 1fr 180px 180px 120px;gap:12px;align-items:center;padding:11px}
+    .find-title{font-size:18px;color:var(--primary-red);font-weight:900;padding-left:2px}
+    .field{height:38px;border:1px solid #DEDFe4;border-radius:5px;background:#fff;display:flex;align-items:center;gap:9px;padding:0 14px;color:#8A9099;font-size:11px;font-weight:700;min-width:0}
+    .field input,.field select{border:0;outline:0;background:transparent;width:100%;font-size:11px;color:#7A808A;font-weight:700;appearance:none}
+    .field.select::after{content:"⌄";font-size:16px;color:#777;margin-left:auto}
+    .find-care-box .btn{height:38px;border-radius:5px}
+
+    /* Home content sections */
+    .content-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;padding:4px 0 18px}
+    .section-title{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ECEEF2;margin-bottom:17px;padding-bottom:9px}
+    .section-title h2{margin:0;font-size:18px;font-weight:900;color:#14161F}.section-title a{font-size:11px;color:var(--primary-red);font-weight:900}
+    .specialty-icons{display:grid;grid-template-columns:repeat(5,1fr);row-gap:25px;column-gap:12px;padding-top:8px}
+    .specialty-item{text-align:center;color:#14161F;min-height:70px}
+    .specialty-item .icon{margin:0 auto 9px;width:31px;height:31px}
+    .specialty-item b{font-size:10.5px;line-height:1.2;display:block;font-weight:800}
+    .doctor-row{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}
+    .doctor-card{border:1px solid #E6E7EB;border-radius:7px;overflow:hidden;background:#fff;box-shadow:0 7px 18px rgba(20,22,31,.04);text-align:left}
+    .doctor-photo{height:113px;background:linear-gradient(180deg,#F1F3F6,#E7E9EE);display:grid;place-items:center;overflow:hidden}
+    .doctor-photo img{width:100%;height:100%;object-fit:cover}
+    .doctor-body{padding:10px 9px 11px}
+    .doctor-body b{display:block;font-size:11px;font-weight:900;color:#22242C}.doctor-body span{display:block;font-size:9px;color:#626A77;margin:3px 0 8px}.doctor-body a{font-size:10px;font-weight:900;color:var(--primary-red)}
+
+    .promo-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:0 0 22px}
+    .promo-card{min-height:190px;background:#fff;border:1px solid #E7E8EB;border-radius:8px;box-shadow:var(--soft-shadow);overflow:hidden;position:relative;padding:22px}.package-card h3{margin:0 0 4px;font-size:17px;font-weight:900}.package-card p{margin:0 0 12px;font-size:11px;color:#2F3540;font-weight:700}
+    .check-list{list-style:none;margin:0 0 16px;padding:0;display:grid;gap:7px}.check-list li{font-size:11px;color:#20242C;font-weight:700;display:flex;gap:8px;align-items:center}.check{width:15px;height:15px;border-radius:50%;background:#fff;border:1px solid var(--primary-red);color:var(--primary-red);font-size:10px;display:grid;place-items:center;font-weight:900;flex:0 0 auto}
+    .phone-mock{position:relative;height:170px;align-self:end}.phone{position:absolute;right:10px;bottom:-35px;width:110px;height:220px;border:8px solid #1F222B;border-radius:24px;background:#FDFDFD;transform:rotate(-13deg);box-shadow:0 14px 35px rgba(0,0,0,.18);overflow:hidden}.phone-top{height:45px;background:var(--primary-red);color:#fff;font-size:7px;padding:12px 8px;font-weight:900}.phone-line{height:18px;margin:8px;border:1px solid #E6E7EB;border-radius:4px;background:#fff}
+    .package-card{background:linear-gradient(90deg,#fff 0,#fff 54%,#F8F8F8 100%)}
+    .package-card::after{content:"";position:absolute;right:18px;top:44px;width:210px;height:130px;background:radial-gradient(circle at 72% 45%,rgba(227,6,19,.82),rgba(227,6,19,.68) 28%,transparent 29%),radial-gradient(circle at 46% 45%,rgba(227,6,19,.76),rgba(227,6,19,.62) 28%,transparent 29%);filter:drop-shadow(0 12px 20px rgba(227,6,19,.24));opacity:.95;border-radius:40px;transform:rotate(-8deg)}
+    .package-list{list-style:none;margin:0 0 18px;padding:0;display:grid;gap:8px;position:relative;z-index:2}.package-list li{font-size:11px;display:flex;gap:8px;align-items:center;color:#2C333E;font-weight:700}.package-list .icon-sm{width:14px;height:14px}
+
+    .insurance-panel{border:1px solid #E7E8EB;border-radius:8px;background:#fff;box-shadow:var(--soft-shadow);padding:15px 20px;margin-bottom:18px}
+    .insurance-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}.insurance-head h3{margin:0;font-size:16px;font-weight:900}.insurance-head a{font-size:11px;color:var(--primary-red);font-weight:900}
+    .insurance-logos{height:58px;display:grid;grid-template-columns:30px repeat(7,1fr) 30px;gap:18px;align-items:center;text-align:center}
+    .insurance-logos .logo-text{font-size:22px;font-weight:900;color:#1E64B7}.insurance-logos .aetna{color:#8C3998}.insurance-logos .axa{background:#173B8F;color:#fff;padding:7px 6px;justify-self:center}.insurance-logos .nas{color:#1C69AA}.insurance-logos .saico{color:#15856D}.insurance-logos .now{color:#263776}.insurance-arrow{color:#777;font-size:20px}
+
+    .lower-grid{display:grid;grid-template-columns:1.2fr .55fr .6fr;gap:18px;padding-bottom:18px}
+    .mini-panel{border:1px solid #E7E8EB;border-radius:8px;background:#fff;box-shadow:var(--soft-shadow);padding:18px}
+    .mini-title{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}.mini-title h3{font-size:17px;margin:0;font-weight:900}.mini-title a{font-size:11px;color:var(--primary-red);font-weight:900}
+    .visitor-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.visitor-item{text-align:left}.visitor-item .icon{width:27px;height:27px;margin-bottom:9px}.visitor-item b{font-size:10.5px;display:block}.visitor-item span{font-size:9.5px;line-height:1.35;color:#606875;display:block;margin-top:3px}
+    .map-box{height:92px;border-radius:7px;background:#EAF1F7;position:relative;overflow:hidden;border:1px solid #DBE5EC;display:block}.map-box::before{content:"";position:absolute;inset:0;background:linear-gradient(35deg,transparent 47%,#CFD7DF 48%,#CFD7DF 51%,transparent 52%),linear-gradient(115deg,transparent 40%,#D8DFE6 41%,#D8DFE6 44%,transparent 45%),linear-gradient(0deg,transparent 65%,#DCE4EC 66%,#DCE4EC 68%,transparent 69%)}.map-pin{position:absolute;left:55%;top:34%;width:18px;height:18px;background:var(--primary-red);border-radius:50% 50% 50% 0;transform:rotate(-45deg)}.map-pin::after{content:"";position:absolute;width:7px;height:7px;border-radius:50%;background:#fff;left:5.5px;top:5.5px}
+    .contact-lines{display:grid;gap:8px;margin-top:6px}.contact-line{display:flex;align-items:flex-start;gap:8px;font-size:11px;color:#4D5561}.contact-line .icon-sm{stroke:var(--primary-red);margin-top:1px;flex:0 0 auto}
+
+    /* Footer */
+    .red-strip{background:linear-gradient(135deg,#CF000B,var(--primary-red));color:#fff;margin-top:0}.strip-inner{height:58px;display:grid;grid-template-columns:repeat(4,1fr);align-items:center;gap:22px}.strip-item{display:flex;align-items:center;gap:12px}.strip-item .icon{stroke:#fff;width:28px;height:28px}.strip-item b{display:block;font-size:12px;font-weight:900}.strip-item span{display:block;font-size:10px;color:rgba(255,255,255,.84)}
+    .site-footer{background:var(--dark-footer);color:#fff}.footer-inner{height:54px;display:flex;align-items:center;justify-content:space-between;gap:20px}.copyright{font-size:11px;color:#D7D9DE}.footer-links{display:flex;gap:32px;font-size:11px;color:#D7D9DE}.socials{display:flex;gap:13px;align-items:center}.socials a{width:16px;height:16px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:10px;border:1px solid rgba(255,255,255,.35)}
+
+    /* Live chat */
+    .chat-card{position:fixed;right:20px;bottom:74px;width:166px;background:#fff;border:1px solid #ECEEF2;border-radius:9px;box-shadow:var(--shadow);z-index:60;padding:12px 12px 10px;display:grid;grid-template-columns:36px 1fr 12px;gap:9px;align-items:start}.chat-avatar{width:36px;height:36px;border-radius:50%;background:linear-gradient(180deg,#F5D6D6,#D9DCE3);overflow:hidden}.chat-card b{font-size:10.5px;display:block;line-height:1.3}.chat-card span{font-size:9px;color:#555D69;display:block;margin-top:3px}.chat-card .x{font-size:13px;color:#777;text-align:right;border:0;background:transparent}.chat-card .btn{grid-column:1/-1;height:33px;border-radius:18px;font-size:10.5px;margin-top:5px}
+    .chat-fab{position:fixed;right:18px;bottom:20px;width:52px;height:52px;border-radius:50%;border:4px solid #fff;background:var(--primary-red);box-shadow:0 10px 24px rgba(227,6,19,.35);z-index:61;display:grid;place-items:center}.chat-fab .icon{stroke:#fff;width:25px;height:25px}
+    .chat-panel{position:fixed;right:18px;bottom:84px;width:min(360px,calc(100vw - 36px));background:#fff;border:1px solid #ECEEF2;border-radius:14px;box-shadow:var(--shadow);z-index:100;display:none;overflow:hidden}.chat-panel.show{display:block}.chat-head{background:var(--primary-red);color:#fff;padding:14px 16px;display:flex;align-items:center;justify-content:space-between}.chat-head b{font-size:14px}.chat-close{border:0;background:transparent;color:#fff;font-size:20px}.chat-body{padding:14px;display:grid;gap:10px}.message{padding:10px 12px;border-radius:12px;font-size:12px;line-height:1.45}.message.bot{background:#F5F6F8}.chat-actions{display:grid;gap:8px;margin-top:4px}.chat-actions a{border:1px solid #ECEEF2;border-radius:10px;padding:10px 12px;font-size:12px;font-weight:900;color:#22242C}.chat-actions a:hover{background:var(--primary-red-soft);color:var(--primary-red);border-color:var(--border-red-soft)}
+
+
+    /* App install prompt */
+    .app-install-btn{position:relative}
+    .app-download-strip{padding:0 0 26px}
+    .app-download-card{width:min(900px,calc(100% - 140px));margin:auto;background:linear-gradient(135deg,#fff,#fff7f8);border:1px solid var(--border-red-soft);border-radius:12px;box-shadow:var(--soft-shadow);display:grid;grid-template-columns:58px 1fr auto;gap:16px;align-items:center;padding:18px 20px}
+    .app-icon-badge{width:54px;height:54px;border-radius:16px;background:linear-gradient(135deg,var(--primary-red),#f71723);display:grid;place-items:center;box-shadow:0 12px 24px rgba(227,6,19,.18)}
+    .app-icon-badge .icon{stroke:#fff;width:28px;height:28px}
+    .app-download-card h3{font-size:18px;line-height:1.2;margin:0 0 5px;font-weight:900;color:#20242C}
+    .app-download-card p{font-size:12px;line-height:1.55;margin:0;color:#59616E;font-weight:700}
+    .app-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+
+    .install-modal{position:fixed;inset:0;background:rgba(17,24,39,.46);z-index:200;display:none;align-items:center;justify-content:center;padding:22px}
+    .install-modal.show{display:flex}
+    .install-box{width:min(460px,100%);background:#fff;border-radius:18px;box-shadow:0 28px 70px rgba(17,24,39,.22);overflow:hidden;border:1px solid #F0F1F4}
+    .install-head{background:linear-gradient(135deg,var(--primary-red),#f71723);color:#fff;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+    .install-head b{font-size:17px;font-weight:900}
+    .install-close{width:34px;height:34px;border-radius:50%;border:1px solid rgba(255,255,255,.38);background:rgba(255,255,255,.12);color:#fff;font-size:22px;line-height:1}
+    .install-body{padding:22px}
+    .install-logo-row{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+    .install-logo{width:56px;height:56px;border-radius:16px;background:#fff;border:1px solid #ECEEF2;display:grid;place-items:center;box-shadow:var(--soft-shadow);overflow:hidden}
+    .install-logo img{width:48px;height:auto}
+    .install-title{font-size:18px;font-weight:900;margin:0;color:#20242C}
+    .install-subtitle{font-size:12px;color:#626A77;font-weight:700;margin-top:4px}
+    .install-body p{font-size:13px;line-height:1.6;color:#4B5563;font-weight:700;margin:0 0 16px}
+    .install-steps{display:none;background:#FAFAFA;border:1px solid #ECEEF2;border-radius:12px;padding:14px;margin-bottom:16px}
+    .install-steps.show{display:block}
+    .install-steps b{display:block;font-size:13px;margin-bottom:8px}
+    .install-steps ol{margin:0;padding-left:20px;color:#4B5563;font-size:12px;line-height:1.7;font-weight:700}
+    .install-buttons{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .install-small{font-size:11px;color:#7B8190;font-weight:700;margin-top:12px;line-height:1.45}
+
+
+    @media(max-width:1100px){
+      .container{width:min(var(--container),calc(100% - 36px))}.main-nav{display:none}.mobile-menu{display:block}.hero-content{width:58%}.hero-points{grid-template-columns:repeat(2,1fr);width:100%}.hero-point:nth-child(2){border-right:0}.quick-panel,.find-care-box{width:100%}.content-grid,.promo-grid,.lower-grid{grid-template-columns:1fr}.doctor-row{grid-template-columns:repeat(4,1fr)}.strip-inner{height:auto;padding:14px 0;grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:760px){
+      .site-header{height:auto}.header-inner{padding:12px 0;flex-wrap:wrap}.brand img{width:160px}.header-actions{margin-left:0;width:100%;justify-content:space-between;order:3}.whatsapp-link,.header-tools{display:none}.hero-bg::before{width:100%;opacity:.22}.hero-content{width:100%;padding:44px 0 28px}.hero h1{font-size:38px}.hero-points{grid-template-columns:1fr}.hero-point{border-right:0!important}.slider-arrow,.slider-dots{display:none}.quick-panel{grid-template-columns:1fr;border-radius:14px}.quick-card{border-right:0;border-bottom:1px solid #ECEEF2}.find-care-box{grid-template-columns:1fr;border-radius:14px}.specialty-icons{grid-template-columns:repeat(2,1fr)}.doctor-row{grid-template-columns:repeat(2,1fr)}.phone-mock{display:none}.insurance-logos{grid-template-columns:1fr 1fr;gap:10px;height:auto}.insurance-arrow{display:none}.visitor-grid{grid-template-columns:repeat(2,1fr)}.strip-inner{grid-template-columns:1fr}.footer-inner{height:auto;padding:18px 0;display:grid;text-align:center}.footer-links{justify-content:center;gap:16px;flex-wrap:wrap}.socials{justify-content:center}.chat-card{display:none}
+    }
+
+    @media(max-width:760px){
+      .app-download-card{width:100%;grid-template-columns:50px 1fr;align-items:start;padding:16px}
+      .app-actions{grid-column:1/-1;justify-content:stretch}
+      .app-actions .btn{width:100%}
+      .install-buttons{grid-template-columns:1fr}
+    }
+
+  </style>
+  <link rel="stylesheet" href="assets/global-fix.css">
+</head>
+<body>
+  <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+    <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v4M16 2v4M3 10h18M5 5h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/><path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 22c1.5-4 4.2-6 8-6s6.5 2 8 6"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 20c-.7-2.7-2.4-4-5-4s-4.3 1.3-5 4"/><circle cx="11" cy="9" r="4"/><path d="M18 15c1.8.5 3 1.8 3.5 4M17 5.3a3.5 3.5 0 0 1 0 6.4"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></symbol>
+    <symbol id="i-heart-pulse" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/><path d="M3 12h4l2-4 4 8 2-4h6"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M8.5 12.5 7 22l5-3 5 3-1.5-9.5"/><path d="M9.5 8 11 9.5 14.5 6"/></symbol>
+    <symbol id="i-tech" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M19.1 4.9l-2.8 2.8M7.7 16.3l-2.8 2.8"/></symbol>
+    <symbol id="i-hand-heart" viewBox="0 0 24 24"><path d="M7 12.5 10 15l4.8-4.8a2.5 2.5 0 0 0-3.5-3.5L10 8l-1.3-1.3a2.5 2.5 0 0 0-3.5 3.5L7 12.5Z"/><path d="M3 16h4l3 3h5.5a3 3 0 0 0 2.1-.9L21 15"/><path d="M7 16l2.5 2.5"/></symbol>
+    <symbol id="i-face" viewBox="0 0 24 24"><path d="M13 3c-5 1-8 5-8 10a8 8 0 0 0 8 8c4.5 0 7-3.5 7-8.5C20 7 17 2 13 3Z"/><path d="M9 11h.01M15 11h.01M10 16c1.3 1 3 1 4 0"/></symbol>
+    <symbol id="i-bone" viewBox="0 0 24 24"><path d="M7 4a3 3 0 0 0-3 3 3 3 0 0 0 3 3l7 7a3 3 0 1 0 4-4l-7-7a3 3 0 0 0-4-2Z"/><path d="M17 13a3 3 0 0 0-3 3"/></symbol>
+    <symbol id="i-baby" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M9 10h.01M15 10h.01M9.5 15c1.5 1.3 3.5 1.3 5 0"/><path d="M12 4c.8 0 1.5.5 1.5 1.2S12.8 6.5 12 6.5"/></symbol>
+    <symbol id="i-woman" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M12 11v10M8 17h8M8 21h8"/></symbol>
+    <symbol id="i-tooth" viewBox="0 0 24 24"><path d="M12 5c1.5-2 5-2 7 0 3 3 0 13-2.5 15-1.2.9-2-.7-2.7-3-.5-1.7-1-3-1.8-3s-1.3 1.3-1.8 3c-.7 2.3-1.5 3.9-2.7 3C4 18 1 8 4 5c2-2 5.5-2 8 0Z"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-brain" viewBox="0 0 24 24"><path d="M9 4a4 4 0 0 0-4 4c0 .5.1 1 .3 1.4A4 4 0 0 0 5 17a4 4 0 0 0 4 3V4ZM15 4a4 4 0 0 1 4 4c0 .5-.1 1-.3 1.4A4 4 0 0 1 19 17a4 4 0 0 1-4 3V4Z"/><path d="M9 8H7M15 8h2M9 13H6M15 13h3M9 18H7M15 18h2"/></symbol>
+    <symbol id="i-kidney" viewBox="0 0 24 24"><path d="M8 4c-3 0-5 3-5 7s2 8 5 8c2.2 0 3-1.8 3-4V8c0-2.2-1-4-3-4Z"/><path d="M16 4c3 0 5 3 5 7s-2 8-5 8c-2.2 0-3-1.8-3-4V8c0-2.2 1-4 3-4Z"/><path d="M11 12h2"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 6h7l2 2h9v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6Z"/></symbol>
+    <symbol id="i-clipboard" viewBox="0 0 24 24"><path d="M9 4h6l1 2h2a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2l1-2Z"/><path d="M9 4h6v4H9V4ZM8 12h8M8 16h8"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><path d="M9 6V4h6v2M4 7h16v12H4V7Z"/><path d="M4 12h16"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 3 5.2 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.4 2L9 10.5a16 16 0 0 0 4.5 4.5l1.2-1.2a2 2 0 0 1 2-.4c.8.3 1.7.5 2.6.6A2 2 0 0 1 22 16.9Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="m4 7 8 6 8-6"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M12 22s7-5.3 7-12a7 7 0 0 0-14 0c0 6.7 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 9 9 0 0 1-4-.9L3 21l1.9-5.2a8.5 8.5 0 1 1 16.1-4.3Z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ultra Medical Center Home">
+        <img src="assets/logo.png" alt="Ultra Medical Center">
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="specialities.html">Specialities</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="patients-visitors.html">Patients & Visitors</a>
+        <a href="#" onclick="return false;" aria-disabled="true"
+>Health Packages</a>
+        <a href="insurance.html">Insurance</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-tools">
+        <a href="search.html" aria-label="Search"><svg class="icon icon-sm"><use href="#i-search"/></svg></a>
+        <span class="divider"></span>
+        
+      </div>
+      <div class="header-actions">
+        <button class="whatsapp-link" type="button" onclick="openChat()"><span class="whatsapp-dot"></span> WhatsApp / Live Chat</button>
+      
+        <a class="btn btn-red" href="#" onclick="return false;" aria-disabled="true"><svg class="icon icon-sm" style="stroke:#fff"><use href="#i-calendar"/></svg>Book Appointment</a>
+      </div>
+      <button class="mobile-menu" type="button" aria-label="Open menu" onclick="openDrawer()">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-drawer" id="mobileDrawer" onclick="closeDrawer(event)">
+    <div class="drawer-panel" onclick="event.stopPropagation()">
+      <div class="drawer-top"><img src="assets/logo.png" alt="Ultra Medical Center"><button class="drawer-close" onclick="closeDrawer()">×</button></div>
+      <a class="active" href="index.html">Home</a>
+      <a href="specialities.html">Specialities</a>
+      <a href="doctors.html">Doctors</a>
+      <a href="patients-visitors.html">Patients & Visitors</a>
+      <a href="#" onclick="return false;" aria-disabled="true"
+>Health Packages</a>
+      <a href="insurance.html">Insurance</a>
+      <a href="contact.html">Contact</a>
+      
+      <a href="#" onclick="return false;" aria-disabled="true">Book Appointment</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero" aria-label="Home hero">
+      <div class="hero-bg"></div>
+      <button class="slider-arrow left" type="button" aria-label="Previous slide">‹</button>
+      <button class="slider-arrow right" type="button" aria-label="Next slide">›</button>
+      <div class="container">
+        <div class="hero-content">
+          <h1>Advanced Care.<br>Personalized for You.</h1>
+          <p class="lead">Ultra Medical Center delivers world-class healthcare with advanced technology and a patient-first approach.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-red" href="#" onclick="return false;" aria-disabled="true"><svg class="icon icon-sm" style="stroke:#fff"><use href="#i-calendar"/></svg>Book Appointment</a>
+            
+            <button class="btn btn-soft app-install-btn" type="button" onclick="openInstallPrompt()"><svg class="icon icon-sm"><use href="#i-phone"/></svg>Download App</button>
+          </div>
+          <div class="hero-points" aria-label="Key highlights">
+            <div class="hero-point"><svg class="icon"><use href="#i-award"/></svg><div><b>JCI Accredited</b><span>International Standards</span></div></div>
+            <div class="hero-point"><svg class="icon"><use href="#i-users"/></svg><div><b>Expert Specialists</b><span>World-Class Care</span></div></div>
+            <div class="hero-point"><svg class="icon"><use href="#i-tech"/></svg><div><b>Advanced Technology</b><span>Precision. Safety. Comfort.</span></div></div>
+            <div class="hero-point"><svg class="icon"><use href="#i-hand-heart"/></svg><div><b>Patient-Centered</b><span>Compassion in Every Step</span></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-dots" aria-hidden="true"><span class="active"></span><span></span><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="quick-access" aria-label="Quick access">
+      <div class="quick-panel">
+        <a class="quick-card" href="doctors.html"><svg class="icon icon-xl"><use href="#i-user"/></svg><div><b>Find a Doctor</b><span>Search by name, specialty or condition</span></div><span class="arrow">→</span></a>
+        <a class="quick-card" href="#" onclick="return false;" aria-disabled="true"><svg class="icon icon-xl"><use href="#i-calendar"/></svg><div><b>Book Appointment</b><span>Schedule your visit in just a few clicks</span></div><span class="arrow">→</span></a>
+        
+        <a class="quick-card" href="specialities.html"><svg class="icon icon-xl"><use href="#i-heart-pulse"/></svg><div><b>Specialities</b><span>Explore our wide range of services</span></div><span class="arrow">→</span></a>
+      </div>
+    </section>
+
+    <section class="app-download-strip" aria-label="Download web app">
+      <div class="app-download-card">
+        <div class="app-icon-badge"><svg class="icon"><use href="#i-phone"/></svg></div>
+        <div>
+          <h3>Install Ultra Medical Center Web App</h3>
+          <p>Open appointments, , doctors, reports and clinic contact faster from your phone or computer home screen.</p>
+        </div>
+        <div class="app-actions">
+          <button class="btn btn-red" type="button" onclick="openInstallPrompt()">Install Web App</button>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="find-care" aria-label="Find care search">
+      <form class="find-care-box" action="specialities.html" method="get">
+        <div class="find-title">Find Care</div>
+        <label class="field"><svg class="icon icon-sm"><use href="#i-search"/></svg><input name="q" type="search" placeholder="Search by specialty, condition or treatment"></label>
+        <label class="field select"><select name="speciality" aria-label="All Specialities"><option>All Specialities</option><option>Cardiology</option><option>Dermatology</option><option>Orthopedic</option><option>Pediatrics</option><option>Dentistry</option></select></label>
+        <label class="field select"><select name="location" aria-label="All Locations"><option>All Locations</option><option>Al Jimi, Al Ain</option></select></label>
+        <button class="btn btn-red" type="submit"><svg class="icon icon-sm" style="stroke:#fff"><use href="#i-search"/></svg>Search</button>
+      </form>
+    </section>
+
+    <section class="container content-grid" aria-label="Specialities and doctors">
+      <div class="specialities-block">
+        <div class="section-title"><h2>Our Specialities</h2><a href="specialities.html">View all</a></div>
+        <div class="specialty-icons">
+          <a class="specialty-item" href="specialities.html#cardiology"><svg class="icon"><use href="#i-heart-pulse"/></svg><b>Cardiology</b></a>
+          <a class="specialty-item" href="specialities.html#dermatology"><svg class="icon"><use href="#i-face"/></svg><b>Dermatology</b></a>
+          <a class="specialty-item" href="specialities.html#orthopedic"><svg class="icon"><use href="#i-bone"/></svg><b>Orthopedic</b></a>
+          <a class="specialty-item" href="specialities.html#pediatrics"><svg class="icon"><use href="#i-baby"/></svg><b>Pediatrics</b></a>
+          <a class="specialty-item" href="specialities.html#gynecology"><svg class="icon"><use href="#i-woman"/></svg><b>Obstetrics &<br>Gynecology</b></a>
+          <a class="specialty-item" href="specialities.html#dentistry"><svg class="icon"><use href="#i-tooth"/></svg><b>Dentistry</b></a>
+          <a class="specialty-item" href="specialities.html#ophthalmology"><svg class="icon"><use href="#i-eye"/></svg><b>Ophthalmology</b></a>
+          <a class="specialty-item" href="specialities.html#neurology"><svg class="icon"><use href="#i-brain"/></svg><b>Neurology</b></a>
+          <a class="specialty-item" href="specialities.html#urology"><svg class="icon"><use href="#i-kidney"/></svg><b>Urology</b></a>
+          <a class="specialty-item" href="specialities.html"><svg class="icon"><path d="M6 12h.01M12 12h.01M18 12h.01"/></svg><b>More Specialities</b></a>
+        </div>
+      </div>
+
+      <div class="doctors-block">
+        <div class="section-title"><h2>Featured Doctors</h2><a href="doctors.html">View all</a></div>
+        <div class="doctor-row">
+          <article class="doctor-card">
+            <a href="doctors.html#dr-roumaissa-hadji" class="doctor-photo"><img src="assets/doctor-new-25.jpg" alt="Dr. Roumaissa Hadji"></a>
+            <div class="doctor-body"><b>Dr. Roumaissa Hadji</b><span>Speech Therapist</span><a href="doctors.html#dr-roumaissa-hadji">View Profile</a></div>
+          </article>
+          <article class="doctor-card">
+            <a href="doctors.html#dr-raghu-sanaka" class="doctor-photo"><img src="assets/doctor-new-8.jpg" alt="Dr. Raghu Sanaka"></a>
+            <div class="doctor-body"><b>Dr. Raghu Sanaka</b><span>Consultant Family Medicine</span><a href="doctors.html#dr-raghu-sanaka">View Profile</a></div>
+          </article>
+          <article class="doctor-card">
+            <a href="doctors.html#dr-hind-alabbadi" class="doctor-photo"><img src="assets/doctor-new-14.jpg" alt="Dr. Hind Alabbadi"></a>
+            <div class="doctor-body"><b>Dr. Hind Alabbadi</b><span>Specialist Orthodontics</span><a href="doctors.html#dr-hind-alabbadi">View Profile</a></div>
+          </article>
+          <article class="doctor-card">
+            <a href="doctors.html#ms-shaikha-alnasri" class="doctor-photo"><img src="assets/character-shaikha-alnasri.png" alt="Ms. Shaikha Alnasri"></a>
+            <div class="doctor-body"><b>Ms. Shaikha Alnasri</b><span>Nutritionist</span><a href="doctors.html#ms-shaikha-alnasri">View Profile</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="container promo-grid">
+      
+
+      <div class="promo-card package-card">
+        <h3>Health Packages</h3>
+        <p>Comprehensive care for every stage of life.</p>
+        <ul class="package-list">
+          <li><svg class="icon icon-sm"><use href="#i-clipboard"/></svg>Executive Health Check-up</li>
+          <li><svg class="icon icon-sm"><use href="#i-woman"/></svg>Well Woman Package</li>
+          <li><svg class="icon icon-sm"><use href="#i-heart-pulse"/></svg>Cardiac Care Package</li>
+          <li><svg class="icon icon-sm"><use href="#i-heart"/></svg>Diabetes Care Package</li>
+        </ul>
+        <a class="btn btn-soft" href="#" onclick="return false;" aria-disabled="true"
+>View All Packages</a>
+      </div>
+    </section>
+
+    <section class="container insurance-panel" aria-label="Insurance partners">
+      <div class="insurance-head"><h3>Insurance Partners</h3><a href="insurance.html">View all insurers</a></div>
+      <div class="insurance-logos">
+        <span class="insurance-arrow">‹</span>
+        <span class="logo-text">Daman</span>
+        <span class="logo-text aetna">♥aetna</span>
+        <span class="logo-text axa">AXA</span>
+        <span class="logo-text">orient</span>
+        <span class="logo-text nas">NAS</span>
+        <span class="logo-text saico">SAICO</span>
+        <span class="logo-text now">NOW Health</span>
+        <span class="insurance-arrow">›</span>
+      </div>
+    </section>
+
+    <section class="container lower-grid" aria-label="Patients visitors location contact">
+      <div class="mini-panel">
+        <div class="mini-title"><h3>Patients & Visitors</h3><a href="patients-visitors.html">View all</a></div>
+        <div class="visitor-grid">
+          <a class="visitor-item" href="patients-visitors.html#visitor-info"><svg class="icon"><use href="#i-heart"/></svg><b>Visitor Information</b><span>Guidelines and timings</span></a>
+          <a class="visitor-item" href="patients-visitors.html#patient-guide"><svg class="icon"><use href="#i-clipboard"/></svg><b>Patient Guide</b><span>Everything you need to know</span></a>
+          <a class="visitor-item" href="insurance.html#billing"><svg class="icon"><use href="#i-folder"/></svg><b>Pay Your Bill</b><span>Secure and easy payments</span></a>
+          <a class="visitor-item" href="contact.html"><svg class="icon"><use href="#i-briefcase"/></svg><b>Careers</b><span>Join our healthcare team</span></a>
+        </div>
+      </div>
+      <div class="mini-panel">
+        <div class="mini-title"><h3>Our Location</h3></div>
+        <a class="map-box" href="contact.html#map" aria-label="View location"><span class="map-pin"></span></a>
+      </div>
+      <div class="mini-panel">
+        <div class="mini-title"><h3>Contact Us</h3></div>
+        <div class="contact-lines">
+          <a class="contact-line" href="tel:+97138842222"><svg class="icon icon-sm"><use href="#i-phone"/></svg>+971 3 884 2222</a>
+          <a class="contact-line" href="tel:+971504702948"><svg class="icon icon-sm"><use href="#i-phone"/></svg>+971 50 470 2948</a>
+          <a class="contact-line" href="mailto:info@ultramedicalcenter.ae"><svg class="icon icon-sm"><use href="#i-mail"/></svg>info@ultramedicalcenter.ae</a>
+          <a class="contact-line" href="contact.html#map"><svg class="icon icon-sm"><use href="#i-map"/></svg>Al Jimi, Al Ain, Abu Dhabi, UAE</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="red-strip" aria-label="Hospital highlights">
+    <div class="container strip-inner">
+      <div class="strip-item"><svg class="icon"><use href="#i-phone"/></svg><div><b>24/7 Emergency Care</b><span>Always here for you</span></div></div>
+      <div class="strip-item"><svg class="icon"><use href="#i-award"/></svg><div><b>Accredited Medical Center</b><span>Trusted healthcare standards</span></div></div>
+      <div class="strip-item"><svg class="icon"><use href="#i-users"/></svg><div><b>Expert Doctors</b><span>Across multiple specialties</span></div></div>
+      <div class="strip-item"><svg class="icon"><use href="#i-tech"/></svg><div><b>Advanced Medical Technology</b><span>For accurate diagnosis & treatment</span></div></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="copyright">© 2025 Ultra Medical Center. All rights reserved.</div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms & Conditions</a>
+        <a href="sitemap.html">Sitemap</a>
+      </nav>
+      <div class="socials" aria-label="Social media">
+        <a href="https://www.facebook.com/UMCAlAin/" aria-label="Facebook">f</a><a href="https://www.instagram.com/umcalain/" aria-label="Instagram">◎</a><a href="https://www.youtube.com/@ultramedicalcenter" aria-label="YouTube">▶</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <div class="install-modal" id="installModal" aria-label="Install Ultra Medical Center Web App">
+    <div class="install-box" role="dialog" aria-modal="true" aria-labelledby="installTitle">
+      <div class="install-head">
+        <b id="installTitle">Install Ultra Medical Center</b>
+        <button class="install-close" type="button" onclick="closeInstallPrompt()" aria-label="Close install prompt">×</button>
+      </div>
+      <div class="install-body">
+        <div class="install-logo-row">
+          <div class="install-logo"><img src="assets/logo.png" alt="Ultra Medical Center"></div>
+          <div>
+            <div class="install-title">Get quick access</div>
+            <div class="install-subtitle">Appointments •  • Doctors • Reports</div>
+          </div>
+        </div>
+        <p>Install this website as an app on your device for faster access without searching the website every time.</p>
+
+        <div class="install-steps" id="iosInstallSteps">
+          <b>For iPhone / iPad</b>
+          <ol>
+            <li>Tap the Share button in Safari.</li>
+            <li>Choose “Add to Home Screen”.</li>
+            <li>Tap “Add”.</li>
+          </ol>
+        </div>
+
+        <div class="install-steps" id="manualInstallSteps">
+          <b>For Android / Chrome / Edge</b>
+          <ol>
+            <li>Tap the browser menu.</li>
+            <li>Choose “Install app” or “Add to Home screen”.</li>
+            <li>Confirm installation.</li>
+          </ol>
+        </div>
+
+        <div class="install-buttons">
+          <button class="btn btn-red" type="button" id="installNowBtn" onclick="installWebApp()">Install Now</button>
+          <button class="btn btn-soft" type="button" onclick="closeInstallPrompt()">Maybe Later</button>
+        </div>
+        <div class="install-small">Installation availability depends on browser support. Android Chrome and desktop Chrome/Edge may show direct install. iPhone uses Safari “Add to Home Screen”.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chat-card" id="chatCard" aria-label="Care coordinator chat prompt">
+    <div class="chat-avatar"></div>
+    <div><b>Hi! I’m your Care Coordinator.</b><span>How can I help you?</span></div>
+    <button class="x" type="button" onclick="hideChatPrompt()" aria-label="Close chat prompt">×</button>
+    <button class="btn btn-red" type="button" onclick="openChat()">Chat Now</button>
+  </div>
+
+  <button class="chat-fab" type="button" onclick="openChat()" aria-label="Open live chat"><svg class="icon"><use href="#i-chat"/></svg></button>
+
+  <div class="chat-panel" id="chatPanel" aria-label="Live chat panel">
+    <div class="chat-head"><b>Care Coordinator</b><button class="chat-close" type="button" onclick="closeChat()">×</button></div>
+    <div class="chat-body">
+      <div class="message bot">Hello, welcome to Ultra Medical Center. How can I help you today?</div>
+      <div class="chat-actions">
+        <a href="#" onclick="return false;" aria-disabled="true">Book an Appointment</a>
+        
+        <a href="specialities.html">Find a Speciality</a>
+        <a href="https://wa.me/971504702948" target="_blank" rel="noopener">Continue on WhatsApp</a>
+        <a href="tel:+97138842222">Call Clinic</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let deferredInstallPrompt = null;
+
+    function openDrawer(){document.getElementById('mobileDrawer').classList.add('show')}
+    function closeDrawer(event){
+      if(!event || event.target.id === 'mobileDrawer') document.getElementById('mobileDrawer').classList.remove('show')
+    }
+    function openChat(){
+      document.getElementById('chatPanel').classList.add('show')
+      const prompt=document.getElementById('chatCard'); if(prompt) prompt.style.display='none'
+    }
+    function closeChat(){document.getElementById('chatPanel').classList.remove('show')}
+    function hideChatPrompt(){document.getElementById('chatCard').style.display='none'}
+
+    function isIosDevice(){
+      return /iphone|ipad|ipod/i.test(window.navigator.userAgent);
+    }
+
+    function isInStandaloneMode(){
+      return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+    }
+
+    function openInstallPrompt(){
+      const modal = document.getElementById('installModal');
+      const iosSteps = document.getElementById('iosInstallSteps');
+      const manualSteps = document.getElementById('manualInstallSteps');
+      const installBtn = document.getElementById('installNowBtn');
+
+      if(!modal) return;
+
+      iosSteps.classList.remove('show');
+      manualSteps.classList.remove('show');
+
+      if(isIosDevice()){
+        iosSteps.classList.add('show');
+        installBtn.textContent = 'Show iPhone Steps';
+      }else if(!deferredInstallPrompt){
+        manualSteps.classList.add('show');
+        installBtn.textContent = 'Show Install Steps';
+      }else{
+        installBtn.textContent = 'Install Now';
+      }
+
+      modal.classList.add('show');
+      localStorage.setItem('umcInstallPromptSeen', 'yes');
+    }
+
+    function closeInstallPrompt(){
+      const modal = document.getElementById('installModal');
+      if(modal) modal.classList.remove('show');
+    }
+
+    async function installWebApp(){
+      if(isIosDevice()){
+        document.getElementById('iosInstallSteps').classList.add('show');
+        return;
+      }
+
+      if(!deferredInstallPrompt){
+        document.getElementById('manualInstallSteps').classList.add('show');
+        return;
+      }
+
+      deferredInstallPrompt.prompt();
+      await deferredInstallPrompt.userChoice;
+      deferredInstallPrompt = null;
+      closeInstallPrompt();
+    }
+
+    window.addEventListener('beforeinstallprompt', function(event){
+      event.preventDefault();
+      deferredInstallPrompt = event;
+    });
+
+    window.addEventListener('load', function(){
+      if('serviceWorker' in navigator){
+        navigator.serviceWorker.register('sw.js').catch(function(){});
+      }
+
+      const alreadySeen = localStorage.getItem('umcInstallPromptSeen') === 'yes';
+      const isSmallScreen = window.innerWidth <= 820;
+
+      if(!alreadySeen && !isInStandaloneMode() && isSmallScreen){
+        setTimeout(openInstallPrompt, 1500);
+      }
+    });
+  </script>
+  <script src="assets/security.js"></script>
+</body>
+</html>

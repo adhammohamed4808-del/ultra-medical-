@@ -1,0 +1,2057 @@
+Reschedule Request Submitted | Ultra Medical Center	تم تقديم طلب إعادة الجدولة | مركز الترا الطبي
+html	أتش تي أم أل
+Home	بيت
+Specialities	التخصصات
+Doctors	الأطباء
+Patients & Visitors	المرضى والزوار
+Health Packages	الحزم الصحية
+Insurance	تأمين
+Contact	اتصال
+WhatsApp / Live Chat	واتساب/دردشة حية
+	بوابة المريض
+Book Appointment	حجز موعد
+Reschedule	إعادة جدولة
+Submitted	مُقَدَّم
+Reschedule Request Submitted	تم تقديم طلب إعادة الجدولة
+Your appointment reschedule request has been received. Our care coordinator will check doctor availability and contact you to confirm the updated appointment slot.	لقد تم استلام طلب إعادة جدولة موعدك. سيقوم منسق الرعاية لدينا بالتحقق من توفر الطبيب والاتصال بك لتأكيد الموعد المحدث.
+Reschedule Reference	إعادة جدولة المرجع
+UMC-RES-2026-00000	UMC-RES-2026-00000
+Copy Reference	نسخ المرجع
+Check Appointment Status	التحقق من حالة الموعد
+	فتح بوابة المريض
+Print Confirmation	تأكيد الطباعة
+Request Summary	ملخص الطلب
+Please keep this reference number for follow-up.	يرجى الاحتفاظ بهذا الرقم المرجعي للمتابعة.
+Patient	مريض
+PATIENT NAME	اسم المريض
+Request Type	نوع الطلب
+Appointment reschedule request	طلب إعادة جدولة الموعد
+Current Appointment	الموعد الحالي
+Cardiology Follow-up · 12 May · 10:30 AM	متابعة أمراض القلب · 12 مايو · 10:30 صباحًا
+Notification	إشعار
+Care team will contact you after availability check	سيتصل بك فريق الرعاية بعد التحقق من التوفر
+What Happens Next?	ماذا سيحدث بعد ذلك؟
+Reschedule requests are confirmed only after doctor slot availability is checked.	يتم تأكيد طلبات إعادة الجدولة فقط بعد التحقق من توفر فتحة الطبيب.
+Request Received	تم استلام الطلب
+Your reschedule request is registered with a reference number.	تم تسجيل طلب إعادة الجدولة الخاص بك برقم مرجعي.
+Availability Check	التحقق من التوفر
+The care coordinator checks doctor and department schedule availability.	يقوم منسق الرعاية بالتحقق من توفر الجدول الزمني للطبيب والقسم.
+Patient Confirmation	تأكيد المريض
+You will be contacted by phone, SMS or WhatsApp for confirmation.	سيتم التواصل معك عبر الهاتف أو الرسائل النصية القصيرة أو الواتساب للتأكيد.
+Appointment Updated	تم تحديث الموعد
+Your appointment status will be updated after the new slot is confirmed.	سيتم تحديث حالة موعدك بعد تأكيد الموعد الجديد.
+Need urgent support?	هل تحتاج إلى دعم عاجل؟
+Contact our care team and share your reschedule reference number.	اتصل بفريق الرعاية الخاص بنا وشارك الرقم المرجعي لإعادة الجدولة.
+Call Us	اتصل بنا
+WhatsApp	واتساب
+Chat with care coordinator	الدردشة مع منسق الرعاية
+Important Notice	ملاحظة هامة
+Please attend your original appointment unless the new slot is officially confirmed.	يرجى حضور موعدك الأصلي ما لم يتم تأكيد الموعد الجديد رسميًا.
+Doctor availability may change due to emergency care, clinical workflow or appointment demand. Confirmation is required before the reschedule becomes active.	قد يتغير توفر الطبيب بسبب رعاية الطوارئ أو سير العمل السريري أو طلب تحديد موعد. التأكيد مطلوب قبل أن تصبح إعادة الجدولة نشطة.
+Check Status	التحقق من الحالة
+Track appointment confirmation	تتبع تأكيد الموعد
+View appointment history	عرض تاريخ الموعد
+Schedule a new visit	جدولة زيارة جديدة
+Contact Us	اتصل بنا
+Reach our care support team	الوصول إلى فريق دعم الرعاية لدينا
+24/7 Emergency Care	رعاية الطوارئ على مدار الساعة طوال أيام الأسبوع
+Always here for you	دائما هنا من أجلك
+Accredited Medical Center	مركز طبي معتمد
+Trusted healthcare standards	معايير الرعاية الصحية الموثوقة
+Expert Doctors	الأطباء الخبراء
+Across multiple specialties	عبر تخصصات متعددة
+Advanced Medical Technology	التكنولوجيا الطبية المتقدمة
+For accurate diagnosis & treatment	للتشخيص والعلاج الدقيق
+© 2025 Ultra Medical Center. All rights reserved.	© 2025 مركز الترا الطبي. جميع الحقوق محفوظة.
+Privacy Policy	سياسة الخصوصية
+Terms & Conditions	الشروط والأحكام
+Sitemap	خريطة الموقع
+f	و
+in	في
+Hi! I’m your Care Coordinator.	أهلاً! أنا منسق الرعاية الخاص بك.
+How can I help you?	كيف يمكنني مساعدك؟
+Chat Now	الدردشة الآن
+Care Coordinator	منسق الرعاية
+Hello, welcome to Ultra Medical Center. How can I help you today?	أهلا ومرحبا بكم في مركز الترا الطبي. كيف يمكنني مساعدتك اليوم؟
+Book New Appointment	حجز موعد جديد
+Call Clinic	اتصل بالعيادة
+Appointment reschedule request submitted successfully at Ultra Medical Center.	تم تقديم طلب إعادة جدولة الموعد بنجاح في مركز الترا الطبي.
+Ultra Medical Center	مركز الترا الطبي
+Request Appointment Reschedule | Ultra Medical Center	طلب إعادة جدولة المواعيد | مركز الترا الطبي
+Appointment Status	حالة التعيين
+Request Appointment Reschedule	طلب إعادة جدولة الموعد
+Choose a preferred new date and time. Our care coordinator will confirm the updated appointment slot based on doctor availability.	اختر التاريخ والوقت الجديد المفضل. سيقوم منسق الرعاية لدينا بتأكيد الموعد المحدث بناءً على توفر الطبيب.
+Start Reschedule	ابدأ إعادة الجدولة
+Flexible Timing	توقيت مرن
+Choose preferred slots	اختر الفتحات المفضلة
+Doctor Availability	توفر الطبيب
+Care team confirmation	تأكيد فريق الرعاية
+Support	يدعم
+Reschedule assistance	إعادة جدولة المساعدة
+Reschedule Request Form	نموذج طلب إعادة جدولة
+Please review your current appointment and select your preferred new appointment slot.	يرجى مراجعة موعدك الحالي واختيار موعدك الجديد المفضل.
+MAY	يمكن
+Cardiology Follow-up · Dr. Rami K. Youssef · 10:30 AM · Appointment Ref: UMC-APT-2026-0086	متابعة أمراض القلب · د. رامي يوسف · 10:30 صباحًا · مرجع الموعد: UMC-APT-2026-0086
+Confirmed	مؤكد
+Patient Verification	التحقق من المريض
+Confirm appointment and contact information	تأكيد الموعد ومعلومات الاتصال
+Full Name	الاسم الكامل
+Appointment Reference	مرجع التعيين
+Registered Mobile	الجوال المسجل
+Email Address	عنوان البريد الإلكتروني
+Preferred New Slot	فتحة جديدة مفضلة
+Select one preferred slot or enter another date	حدد فتحة واحدة مفضلة أو أدخل تاريخًا آخر
+Wednesday, 14 May	الأربعاء 14 مايو
+10:00 AM – 12:00 PM	10:00 صباحًا – 12:00 ظهرًا
+Available	متاح
+Thursday, 15 May	الخميس 15 مايو
+02:00 PM – 04:00 PM	02:00 مساءً – 04:00 مساءً
+Saturday, 17 May	السبت 17 مايو
+05:00 PM – 07:00 PM	05:00 مساءً – 07:00 مساءً
+Limited slots	فتحات محدودة
+Custom Preferred Date	التاريخ المفضل المخصص
+Custom Preferred Time	الوقت المفضل المخصص
+Morning	صباح
+Afternoon	بعد الظهر
+Evening	مساء
+Reason for Reschedule	سبب إعادة الجدولة
+Unable to attend the current appointment time. Please confirm the next available slot.	غير قادر على الحضور في وقت الموعد الحالي. يرجى تأكيد الفتحة التالية المتاحة.
+I understand this is a reschedule request and the new slot is subject to doctor availability.	أدرك أن هذا طلب إعادة جدولة وأن الموعد الجديد يخضع لتوافر الطبيب.
+I consent to Ultra Medical Center contacting me by phone, SMS, WhatsApp or email to confirm the updated slot.	أوافق على أن يتصل بي مركز Ultra Medical Center عبر الهاتف أو الرسائل النصية القصيرة أو WhatsApp أو البريد الإلكتروني لتأكيد الموعد المحدث.
+Please do not miss your current appointment unless the new appointment is confirmed by the care team.	من فضلك لا تفوت موعدك الحالي ما لم يتم تأكيد الموعد الجديد من قبل فريق الرعاية.
+Back to Status	العودة إلى الحالة
+Submit Reschedule Request	إرسال طلب إعادة الجدولة
+Manage appointments	إدارة المواعيد
+Registered patients can view appointment status and history inside the secure .	يمكن للمرضى المسجلين عرض حالة المواعيد وتاريخها داخل بوابة المرضى الآمنة.
+How Rescheduling Works	كيف تعمل إعادة الجدولة
+Your request is reviewed by the care coordinator.	تتم مراجعة طلبك من قبل منسق الرعاية.
+Submit Request	إرسال الطلب
+Send your preferred new slot.	أرسل الفتحة الجديدة المفضلة لديك.
+Doctor schedule and department availability are verified.	يتم التحقق من جدول الطبيب وتوافر القسم.
+Confirmation	تأكيد
+You receive a confirmation call or message.	تتلقى مكالمة تأكيد أو رسالة.
+Updated Visit	زيارة محدثة
+Your appointment status is updated after approval.	يتم تحديث حالة موعدك بعد الموافقة.
+Need urgent help?	هل تحتاج إلى مساعدة عاجلة؟
+Call or chat with our care team for immediate appointment support.	اتصل أو تحدث مع فريق الرعاية لدينا للحصول على دعم فوري للمواعيد.
+Easy Reschedule	إعادة جدولة سهلة
+Request a new appointment slot online.	اطلب خانة موعد جديدة عبر الإنترنت.
+Fast Confirmation	تأكيد سريع
+Care team checks doctor availability.	يتحقق فريق الرعاية من توفر الطبيب.
+Appointment Tracking	تتبع التعيين
+Check current and updated status.	التحقق من الحالة الحالية والمحدثة.
+Care Support	دعم الرعاية
+Get help by phone or WhatsApp.	احصل على المساعدة عبر الهاتف أو الواتساب.
+Request to reschedule your appointment at Ultra Medical Center.	اطلب إعادة جدولة موعدك في مركز الترا الطبي.
+UMC-APT-2026-0086	UMC-APT-2026-0086
+Appointment Status | Ultra Medical Center	حالة التعيين | مركز الترا الطبي
+Check your appointment confirmation, doctor details, date, time, location and visit instructions using your appointment reference or registered mobile number.	تحقق من تأكيد موعدك وتفاصيل الطبيب والتاريخ والوقت والموقع وتعليمات الزيارة باستخدام مرجع الموعد أو رقم الهاتف المحمول المسجل.
+Live Status	الحالة الحية
+Check confirmation details	تحقق من تفاصيل التأكيد
+Visit Details	تفاصيل الزيارة
+Doctor, time and location	دكتور الزمان والمكان
+Reschedule help available	إعادة جدولة المساعدة المتاحة
+Check Appointment	التحقق من الموعد
+Enter appointment reference, MRN or registered mobile number.	أدخل مرجع الموعد أو MRN أو رقم الهاتف المحمول المسجل.
+Mobile Number	رقم الهاتف المحمول
+MRN	MRN
+Emirates ID	الهوية الإماراتية
+Check	يفحص
+Appointment status loaded. Latest matching appointment details are shown below.	تم تحميل حالة الموعد. أحدث تفاصيل الموعد المطابق موضحة أدناه.
+Cardiology Follow-up	متابعة أمراض القلب
+Appointment Ref: UMC-APT-2026-0086 · Patient: PATIENT NAME	مرجع الموعد: UMC-APT-2026-0086 · المريض: اسم المريض
+Doctor	طبيب
+Dr. Rami K. Youssef	د. رامي يوسف
+Department	قسم
+Cardiology	أمراض القلب
+Time	وقت
+10:30 AM	10:30 صباحا
+Location	موقع
+Ultra Medical Center, Al Jimi	مركز الترا الطبي الجيمي
+Visit Type	نوع الزيارة
+Follow-up Consultation	متابعة التشاور
+Daman · Eligible	ضمان · مؤهل
+Appointment Timeline	الجدول الزمني للتعيين
+Appointment Requested	طلب موعد
+Your appointment request was received by our care team.	لقد تلقى فريق الرعاية لدينا طلب تحديد الموعد الخاص بك.
+Doctor Slot Confirmed	تم تأكيد فتحة الطبيب
+Cardiology appointment slot confirmed for 12 May at 10:30 AM.	تم تأكيد موعد موعد أمراض القلب ليوم 12 مايو الساعة 10:30 صباحًا.
+Visit Check-in	قم بزيارة تسجيل الوصول
+Please arrive 15 minutes early with Emirates ID and insurance card.	يرجى الوصول مبكراً بـ 15 دقيقة ومعك بطاقة الهوية الإماراتية وبطاقة التأمين.
+Request Reschedule	طلب إعادة جدولة
+View Doctor	شاهد دكتور
+Print Details	تفاصيل الطباعة
+Recent Appointment History	تاريخ التعيين الأخير
+Recently completed or upcoming appointments linked with this patient.	المواعيد المكتملة مؤخرًا أو القادمة المرتبطة بهذا المريض.
+Book New	كتاب جديد
+Dr. Rami K. Youssef · Confirmed	د.رامي يوسف يوسف · مؤكد
+Upcoming	القادمة
+APR	أبريل
+Laboratory Review	مراجعة المختبر
+Family Medicine · Reports available	طب الأسرة · التقارير متاحة
+Reports	التقارير
+MAR	مارس
+Dermatology Consultation	استشارات الأمراض الجلدية
+Dr. Sarah Al Blooshi · Completed	د.سارة البلوشي · أنجز
+Completed	مكتمل
+Registered patients can view appointment history, reports and visit summaries inside the secure .	يمكن للمرضى المسجلين عرض سجل المواعيد والتقارير وملخصات الزيارة داخل بوابة المريض الآمنة.
+Before Your Visit	قبل زيارتك
+Please prepare these items for smooth check-in.	يرجى إعداد هذه العناصر لتسجيل الوصول بسلاسة.
+Arrive Early	الوصول مبكرًا
+Reach reception 15 minutes before appointment time.	الوصول إلى الاستقبال قبل 15 دقيقة من موعد الموعد.
+Bring Emirates ID	إحضار الهوية الإماراتية
+Required for registration and verification.	مطلوب للتسجيل والتحقق.
+Insurance Card	بطاقة التأمين
+Bring insurance card if using coverage.	إحضار بطاقة التأمين في حالة استخدام التغطية.
+Previous Reports	التقارير السابقة
+Carry previous reports or medication list if available.	احمل معك التقارير السابقة أو قائمة الأدوية إن وجدت.
+Need Help?	هل تحتاج إلى مساعدة؟
+Our care coordinator can help with status, rescheduling or directions.	يمكن لمنسق الرعاية لدينا المساعدة في تحديد الحالة أو إعادة الجدولة أو التوجيهات.
+Appointment times may be adjusted due to emergency care, doctor availability or clinical workflow. Our team will notify you if changes are required.	قد يتم تعديل أوقات المواعيد بسبب رعاية الطوارئ أو توفر الطبيب أو سير العمل السريري. سيقوم فريقنا بإعلامك إذا كانت التغييرات مطلوبة.
+Schedule new visits quickly.	جدولة زيارات جديدة بسرعة.
+Status Tracking	تتبع الحالة
+Check confirmation and visit timing.	التحقق من التأكيد وتوقيت الزيارة.
+Location Details	تفاصيل الموقع
+Find clinic and parking guidance.	البحث عن العيادة وتوجيهات مواقف السيارات.
+Care Team Help	مساعدة فريق الرعاية
+Get support with changes or reminders.	احصل على الدعم بشأن التغييرات أو التذكيرات.
+Check appointment status at Ultra Medical Center using appointment reference, mobile number or Emirates ID.	تحقق من حالة الموعد في مركز الترا الطبي باستخدام مرجع الموعد أو رقم الهاتف المحمول أو بطاقة الهوية الإماراتية.
+Appointment Ref / MRN / Mobile	مرجع التعيين / MRN / الجوال
+Billing & Payments | Ultra Medical Center	الفواتير والمدفوعات | مركز الترا الطبي
+Billing & Payments	الفواتير والمدفوعات
+Patient Billing Support	دعم فواتير المرضى
+Access billing support for invoices, receipts, co-payments, insurance balances, payment questions and refund or statement requests.	الوصول إلى دعم إعداد الفواتير للفواتير والإيصالات والمدفوعات المشتركة وأرصدة التأمين وأسئلة الدفع وطلبات استرداد الأموال أو كشف الحساب.
+Billing Support	دعم الفواتير
+Payment Support	دعم الدفع
+Co-pay and balances	الدفع المشترك والأرصدة
+Invoices & Receipts	الفواتير والإيصالات
+Request copies	طلب نسخ
+Insurance Billing	فواتير التأمين
+Coverage assistance	مساعدة التغطية
+Billing Overview	نظرة عامة على الفواتير
+Recent patient billing items linked to the registered profile.	عناصر فواتير المريض الحديثة المرتبطة بالملف الشخصي المسجل.
+Portal	منفذ
+Total Paid	إجمالي المبلغ المدفوع
+AED 840	840 درهم
+Insurance Covered	التأمين مغطى
+AED 2,450	2,450 درهم
+Outstanding	متميز
+AED 0	0 درهم
+Cardiology Consultation Invoice	فاتورة استشارة أمراض القلب
+Invoice: UMC-INV-2026-0148 · Date: 22 Apr 2026 · Patient: PATIENT NAME	الفاتورة: UMC-INV-2026-0148 · التاريخ: 22 أبريل 2026 · المريض: اسم المريض
+Paid	مدفوع
+Insurance + Co-pay	التأمين + الدفع المشترك
+Receipt	إيصال
+Laboratory Services	خدمات المختبرات
+Invoice: UMC-INV-2026-0121 · Date: 18 Apr 2026 · CBC and Lipid Profile	الفاتورة: UMC-INV-2026-0121 · التاريخ: 18 أبريل 2026 · CBC وملف الدهون
+Receipt Ready	الاستلام جاهز
+Insurance Claim Review	مراجعة مطالبة التأمين
+Claim: UMC-CLM-2026-0087 · Daman · Cardiology follow-up	المطالبة: UMC-CLM-2026-0087 · ضمان · متابعة أمراض القلب
+Under Review	قيد المراجعة
+Ask Team	اسأل الفريق
+Billing Support Request	طلب دعم الفواتير
+Submit your billing, receipt, refund, invoice or insurance balance enquiry.	أرسل الفاتورة أو الإيصال أو استرداد الأموال أو الفاتورة أو الاستعلام عن رصيد التأمين.
+Patient Details	تفاصيل المريض
+Information needed to identify your billing record	المعلومات اللازمة لتحديد سجل الفواتير الخاصة بك
+MRN / Emirates ID	MRN / بطاقة الهوية الإماراتية
+Select the billing assistance required	حدد مساعدة الفوترة المطلوبة
+Invoice / Receipt Copy	نسخة الفاتورة / الإيصال
+Request a copy of invoice, receipt or payment proof.	اطلب نسخة من الفاتورة أو الإيصال أو إثبات الدفع.
+Insurance Billing Query	الاستعلام عن فاتورة التأمين
+Ask about claim, approval, co-pay or coverage balance.	اسأل عن المطالبة أو الموافقة أو الدفع المشترك أو رصيد التغطية.
+Refund Request	طلب استرداد الأموال
+Submit refund-related enquiry for review.	أرسل استفسارًا متعلقًا باسترداد الأموال للمراجعة.
+Statement of Account	كشف حساب
+Request patient billing summary or SOA.	طلب ملخص فواتير المريض أو SOA.
+Invoice / Claim Reference	الفاتورة / مرجع المطالبة
+Visit Date	تاريخ الزيارة
+Message	رسالة
+Please share the receipt copy for my latest cardiology visit and confirm if insurance balance is closed.	يرجى مشاركة نسخة الإيصال الخاصة بزيارتي الأخيرة لأمراض القلب والتأكد من إغلاق رصيد التأمين.
+Upload optional document	قم بتحميل مستند اختياري
+Upload invoice, receipt, payment proof, insurance card or claim document if available.	قم بتحميل الفاتورة أو الإيصال أو إثبات الدفع أو بطاقة التأمين أو مستند المطالبة إذا كان ذلك متاحًا.
+Choose File	اختر ملف
+Billing and insurance claim responses may depend on payment status, insurer response, approval details and patient verification.	قد تعتمد استجابات الفواتير ومطالبات التأمين على حالة الدفع واستجابة شركة التأمين وتفاصيل الموافقة والتحقق من المريض.
+Back to Insurance	العودة إلى التأمين
+Submit Billing Request	إرسال طلب الفواتير
+View billing online	عرض الفواتير عبر الإنترنت
+Registered patients can access selected invoices, visits and reports through the secure .	يمكن للمرضى المسجلين الوصول إلى الفواتير والزيارات والتقارير المحددة من خلال بوابة المرضى الآمنة.
+Accepted Payment Methods	طرق الدفع المقبولة
+Available payment methods may vary by service and clinic process.	قد تختلف طرق الدفع المتاحة حسب الخدمة وعملية العيادة.
+Card Payment	الدفع بالبطاقة
+Debit and credit card support	دعم بطاقات الخصم والائتمان
+Cash Payment	الدفع النقدي
+Available at clinic cashier	متوفر لدى أمين صندوق العيادة
+Subject to eligibility and approval	تخضع للأهلية والموافقة
+Billing Information	معلومات الفواتير
+Invoices	الفواتير
+On request	عند الطلب
+Receipts	الإيصالات
+Eligibility based	على أساس الأهلية
+Refunds	المبالغ المستردة
+Review required	المراجعة مطلوبة
+Need help?	بحاجة الى مساعدة؟
+Our billing support team can help with payment and invoice enquiries.	يمكن لفريق دعم الفواتير لدينا المساعدة في الاستفسارات عن الدفع والفواتير.
+Invoice Support	دعم الفاتورة
+Request invoice and receipt copies.	طلب نسخ الفاتورة والإيصال.
+Ask about co-pay and claim status.	اسأل عن الدفع المشترك وحالة المطالبة.
+Payment Help	مساعدة في الدفع
+Understand payment options and balances.	فهم خيارات الدفع والأرصدة.
+Care Team Support	دعم فريق الرعاية
+Contact us for billing assistance.	اتصل بنا للحصول على المساعدة في إعداد الفواتير.
+Check Eligibility	التحقق من الأهلية
+Pre-Approval Support	دعم الموافقة المسبقة
+Billing and payment support at Ultra Medical Center including invoices, insurance co-payments, receipts, refunds and payment assistance.	دعم الفواتير والدفع في مركز Ultra الطبي بما في ذلك الفواتير ومدفوعات التأمين المشتركة والإيصالات والمبالغ المستردة والمساعدة في الدفع.
+UMC-2025-001247	UMC-2025-001247
+UMC-INV-2026-0148	UMC-INV-2026-0148
+Contact & Location | Ultra Medical Center	الاتصال والموقع | مركز الترا الطبي
+Contact & Location	الاتصال والموقع
+We’re here to help. Reach out to Ultra Medical Center or visit us in Al Ain – Al Jimi. Our care team is ready to assist you.	نحن هنا للمساعدة. تواصل مع مركز الترا الطبي أو قم بزيارتنا في العين – الجيمي. فريق الرعاية لدينا جاهز لمساعدتك.
+Available 24/7	متاح 24/7
+Chat with our care team	الدردشة مع فريق الرعاية لدينا
+Email Us	راسلنا عبر البريد الإلكتروني
+We reply within 24 hours	نقوم بالرد خلال 24 ساعة
+Opening Hours	ساعات العمل
+08:00 AM – 10:00 PM (Mon – Sat)	08:00 صباحًا – 10:00 مساءً (الإثنين – السبت)
+09:00 AM – 06:00 PM (Sun & Public Holidays)	09:00 صباحًا – 06:00 مساءً (الأحد والعطلات الرسمية)
+Al Jimi, Near Safeer Mall	الجيمي، بالقرب من سفير مول
+Al Ain, Abu Dhabi, UAE	العين، أبوظبي، الإمارات العربية المتحدة
+View on Google Maps	عرض على خرائط جوجل
+Ask for Directions	اسأل عن الاتجاهات
+Speak with our care team now.	تحدث مع فريق الرعاية لدينا الآن.
+Schedule your visit in just a few clicks.	حدد موعد زيارتك ببضع نقرات فقط.
+WhatsApp Care Coordinator	منسق رعاية واتساب
+Chat with our care coordinator on WhatsApp.	تحدث مع منسق الرعاية لدينا على WhatsApp.
+Get Directions	الحصول على الاتجاهات
+Find the fastest route to our center.	ابحث عن أسرع طريق إلى مركزنا.
+Send Us a Message	أرسل لنا رسالة
+Have a question or need assistance? We’ll get back to you shortly.	هل لديك سؤال أو بحاجة إلى المساعدة؟ سوف نعود اليكم قريبا.
+Phone Number	رقم التليفون
+Select Subject	حدد الموضوع
+Appointment Enquiry	الاستعلام عن موعد
+Insurance & Billing	التأمين والفواتير
+Medical Records	السجلات الطبية
+General Enquiry	استفسار عام
+Feedback	تعليق
+Your Message	رسالتك
+Your information is secure and will only be used to respond to your inquiry.	معلوماتك آمنة ولن يتم استخدامها إلا للرد على استفسارك.
+Send Message	أرسل رسالة
+Parking & Location Guidance	مواقف السيارات وإرشادات الموقع
+Plan your visit with easy access and patient-friendly directions.	خطط لزيارتك مع سهولة الوصول والاتجاهات الملائمة للمريض.
+Free Parking	مواقف مجانية للسيارات
+Ample free parking is available on-site for all patients.	تتوفر مواقف مجانية واسعة للسيارات في الموقع لجميع المرضى.
+Easy Access	سهولة الوصول
+Located near Safeer Mall, Al Jimi with easy access from Sheikh Khalifa Bin Zayed Road.	يقع بالقرب من سفير مول، الجيمي مع سهولة الوصول إليه من طريق الشيخ خليفة بن زايد.
+Public Transport	النقل العام
+Bus stops are within walking distance of the center.	تقع محطات الحافلات على مسافة قريبة من المركز.
+Need Help Finding Us?	هل تحتاج إلى مساعدة في العثور علينا؟
+Our care team can guide you with directions.	يمكن لفريق الرعاية لدينا إرشادك بالاتجاهات.
+WhatsApp Us	واتساب لنا
+Insurance Partners	شركاء التأمين
+View all insurers	عرض جميع شركات التأمين
+Daman	ضمان
+♥aetna	♥إيتنا
+AXA	اكسا
+orient	المشرق
+NAS	ناس
+SAICO	سايكو
+NOW Health	الآن الصحة
+Book an Appointment	حجز موعد
+Find a Doctor	ابحث عن طبيب
+Continue on WhatsApp	تواصل على الواتساب
+Contact Ultra Medical Center in Al Jimi, Al Ain. Call, WhatsApp, book appointment, view map, parking guidance and send enquiry.	تواصل مع مركز الترا الطبي في الجيمي، العين. اتصل، واتساب، احجز موعدًا، اعرض الخريطة، إرشادات ركن السيارة وأرسل استفسارًا.
+Ultra Medical Center Home	مركز الترا الطبي الرئيسي
+Main navigation	الملاحة الرئيسية
+Search	يبحث
+Open menu	فتح القائمة
+Contact hero	اتصل بالبطل
+Contact details and map	تفاصيل الاتصال والخريطة
+Ultra Medical Center Google Map	خريطة مركز الترا الطبي على جوجل
+Quick contact actions	إجراءات الاتصال السريعة
+Message form and parking guidance	نموذج الرسالة وتوجيهات وقوف السيارات
+Enter full name	أدخل الاسم الكامل
+Enter email address	أدخل عنوان البريد الإلكتروني
+Write your message here	اكتب رسالتك هنا
+Insurance partners	شركاء التأمين
+Hospital highlights	يسلط الضوء على المستشفى
+Footer navigation	التنقل في التذييل
+Social media	وسائل التواصل الاجتماعي
+Facebook	فيسبوك
+Instagram	انستغرام
+LinkedIn	ينكدين
+YouTube	يوتيوب
+Care coordinator chat prompt	موجه دردشة منسق الرعاية
+Close chat prompt	إغلاق موجه الدردشة
+Open live chat	افتح الدردشة المباشرة
+Live chat panel	لوحة الدردشة الحية
+Cardiology Department | Ultra Medical Center	قسم القلب | مركز الترا الطبي
+Heart & Vascular Care	رعاية القلب والأوعية الدموية
+Cardiology Department	قسم أمراض القلب
+Advanced cardiac care for prevention, diagnosis and treatment.	رعاية القلب المتقدمة للوقاية والتشخيص والعلاج.
+Our cardiology department provides expert consultation, modern diagnostics and personalized treatment plans for heart conditions, hypertension, chest pain, rhythm concerns and long-term heart health.	يقدم قسم أمراض القلب لدينا استشارات الخبراء والتشخيصات الحديثة وخطط العلاج الشخصية لأمراض القلب وارتفاع ضغط الدم وألم الصدر ومخاوف الإيقاع وصحة القلب على المدى الطويل.
+Book Cardiology Appointment	حجز موعد لأمراض القلب
+View Cardiologist	عرض طبيب القلب
+Years specialist experience	سنوات من الخبرة المتخصصة
+Same Day	نفس اليوم
+Appointment support available	دعم التعيين متاح
+Cardiac care pathway	مسار رعاية القلب
+Reserve a cardiology consultation	احجز استشارة لأمراض القلب
+Meet Our Cardiologist	تعرَّف على طبيب القلب لدينا
+View profile and availability	عرض الملف الشخصي والتوافر
+Insurance Eligibility	أهلية التأمين
+Check coverage before your visit	تحقق من التغطية قبل زيارتك
+Ask Care Team	اسأل فريق الرعاية
+Chat for guidance and slots	الدردشة للحصول على التوجيه وفتحات
+Cardiology Services	خدمات أمراض القلب
+Complete care for heart health, diagnostics and follow-up.	رعاية كاملة لصحة القلب والتشخيص والمتابعة.
+Cardiology Consultation	استشارة أمراض القلب
+Evaluation of chest pain, palpitations, blood pressure and heart risk factors.	تقييم آلام الصدر والخفقان وضغط الدم وعوامل الخطر على القلب.
+ECG & Heart Rhythm	تخطيط القلب وإيقاع القلب
+Electrocardiogram and rhythm assessment for fast cardiac screening.	تخطيط القلب الكهربائي وتقييم الإيقاع لفحص القلب السريع.
+Echocardiogram	مخطط صدى القلب
+Ultrasound imaging to assess heart structure and pumping function.	التصوير بالموجات فوق الصوتية لتقييم بنية القلب ووظيفة الضخ.
+Stress Testing	اختبار الإجهاد
+Assessment of heart function during physical stress as advised by doctor.	تقييم وظيفة القلب أثناء الإجهاد البدني حسب نصيحة الطبيب.
+Preventive Cardiology	أمراض القلب الوقائية
+Risk screening, cholesterol care, lifestyle plans and long-term prevention.	فحص المخاطر، ورعاية الكولسترول، وخطط نمط الحياة والوقاية على المدى الطويل.
+Follow-up Care	رعاية المتابعة
+Ongoing review for hypertension, diabetes-related heart risk and medication plans.	مراجعة مستمرة لارتفاع ضغط الدم ومخاطر القلب المرتبطة بالسكري وخطط الأدوية.
+When Should You Visit a Cardiologist?	متى يجب عليك زيارة طبيب القلب؟
+Chest pain or tightness	ألم أو ضيق في الصدر
+Shortness of breath	ضيق في التنفس
+Palpitations or irregular heartbeat	خفقان أو عدم انتظام ضربات القلب
+High blood pressure	ضغط دم مرتفع
+High cholesterol	ارتفاع نسبة الكولسترول
+Family history of heart disease	التاريخ العائلي لأمراض القلب
+Diabetes with cardiac risk	مرض السكري مع خطر القلب
+Dizziness or fainting episodes	نوبات الدوخة أو الإغماء
+Your Cardiac Care Journey	رحلتك للعناية بالقلب
+Initial Assessment	التقييم الأولي
+Our cardiologist reviews your symptoms, medical history, risk factors and current medications.	يقوم طبيب القلب لدينا بمراجعة الأعراض والتاريخ الطبي وعوامل الخطر والأدوية الحالية.
+Diagnostic Testing	الاختبارات التشخيصية
+ECG, echo, blood tests, stress testing or other assessments may be recommended.	قد يوصى باستخدام تخطيط كهربية القلب (ECG)، أو صدى الصوت، أو اختبارات الدم، أو اختبار الإجهاد أو التقييمات الأخرى.
+Treatment Plan	خطة العلاج
+You receive a clear care plan covering medication, lifestyle and follow-up schedule.	تتلقى خطة رعاية واضحة تغطي الأدوية ونمط الحياة وجدول المتابعة.
+Ongoing Follow-up	المتابعة المستمرة
+Your progress is monitored through repeat visits and portal-accessible health records.	تتم مراقبة تقدمك من خلال الزيارات المتكررة والسجلات الصحية التي يمكن الوصول إليها عبر البوابة الإلكترونية.
+Need Cardiac Care?	هل تحتاج إلى رعاية القلب؟
+Book a cardiology appointment or chat with our care coordinator for available slots.	احجز موعدًا لأمراض القلب أو تحدث مع منسق الرعاية لدينا لمعرفة المواعيد المتاحة.
+Chat with Care Team	الدردشة مع فريق الرعاية
+Department Info	معلومات القسم
+Al Jimi, Al Ain	الجيمي، العين
+Timings	التوقيتات
+09:00 AM – 08:00 PM	09:00 صباحًا – 08:00 مساءً
+Emergency	طارئ
+24/7 Support	دعم 24/7
+Consultation	التشاور
+By Appointment	عن طريق التعيين
+Insurance Support	دعم التأمين
+Verify insurance eligibility and pre-approval requirements before your cardiology visit.	تحقق من أهلية التأمين ومتطلبات الموافقة المسبقة قبل زيارة قسم أمراض القلب.
+Check Insurance	التحقق من التأمين
+Cardiology Doctors	أطباء أمراض القلب
+Specialist doctors available for heart care consultation.	الأطباء المتخصصين متاحون لاستشارات رعاية القلب.
+View all doctors	عرض جميع الأطباء
+Consultant Cardiologist	استشاري أمراض القلب
+15+ Years Experience	أكثر من 15 سنة من الخبرة
+English, Arabic	الإنجليزية، العربية
+Profile	حساب تعريفي
+Book	كتاب
+Dr. Omar A. Khalifa	د. عمر عبد الله خليفة
+Cardiac Medicine Specialist	أخصائي طب القلب
+12+ Years Experience	أكثر من 12 سنة من الخبرة
+Dr. Sarah Al Blooshi	د.سارة البلوشي
+Preventive Health Consultant	مستشار الصحة الوقائية
+10+ Years Experience	أكثر من 10 سنوات من الخبرة
+Related Health Packages	الحزم الصحية ذات الصلة
+Preventive packages for cardiac screening and long-term health.	الحزم الوقائية لفحص القلب والصحة على المدى الطويل.
+View packages	عرض الحزم
+Cardiac Screening	فحص القلب
+Cardiology consultation, ECG, stress test and lipid profile.	استشارة أمراض القلب، تخطيط القلب، اختبار الإجهاد وملف الدهون.
+From	من
+AED 1,599	1,599 درهم
+Request Package	طلب الحزمة
+Executive Health Check-up	الفحص الصحي التنفيذي
+Complete health assessment with cardiac risk screening.	تقييم صحي كامل مع فحص المخاطر القلبية.
+AED 1,499	1,499 درهم
+Diabetes Care Package	باقة رعاية مرضى السكري
+Diabetes and heart-risk monitoring with follow-up support.	مراقبة مرض السكري ومخاطر القلب مع دعم المتابعة.
+AED 1,199	1,199 درهم
+Ready to take care of your heart?	على استعداد لرعاية قلبك؟
+Book a cardiology appointment or speak with our care coordinator today.	احجز موعدًا لأمراض القلب أو تحدث مع منسق الرعاية لدينا اليوم.
+Cardiology department at Ultra Medical Center. Heart consultations, ECG, echocardiogram, stress testing, preventive cardiology and cardiac follow-up.	قسم أمراض القلب في مركز الترا الطبي. استشارات القلب، تخطيط القلب، تخطيط صدى القلب، اختبار الإجهاد، أمراض القلب الوقائية ومتابعة القلب.
+Dermatology Department | Ultra Medical Center	قسم الأمراض الجلدية | مركز الترا الطبي
+Dermatology	الأمراض الجلدية
+Skin, Hair & Nail Care	العناية بالبشرة والشعر والأظافر
+Dermatology Department	قسم الأمراض الجلدية
+Advanced dermatology care for skin health, acne, eczema, allergies, pigmentation, mole assessment, hair concerns, nail conditions and personalized treatment planning.	رعاية جلدية متقدمة لصحة الجلد وحب الشباب والأكزيما والحساسية والتصبغ وتقييم الشامات ومخاوف الشعر وحالات الأظافر وتخطيط العلاج الشخصي.
+View Dermatologist	عرض طبيب الأمراض الجلدية
+Skin Health	صحة الجلد
+Medical dermatology	الأمراض الجلدية الطبية
+Clinical Assessment	التقييم السريري
+Clear diagnosis support	دعم التشخيص الواضح
+Safe Care	رعاية آمنة
+Personalized plans	خطط شخصية
+Dermatology Services	خدمات الأمراض الجلدية
+Common dermatology concerns treated with clinical evaluation and guided care.	يتم علاج المشكلات الجلدية الشائعة من خلال التقييم السريري والرعاية الموجهة.
+Acne & Skin Texture	حب الشباب ونسيج الجلد
+Treatment support for acne, blackheads, post-acne marks, scars and oily skin concerns.	دعم علاج حب الشباب والرؤوس السوداء وعلامات ما بعد حب الشباب والندبات ومخاوف البشرة الدهنية.
+Eczema & Skin Allergy	الأكزيما وحساسية الجلد
+Care for eczema, dermatitis, itchy skin, irritation and allergic skin reactions.	العناية بالأكزيما والتهاب الجلد وحكة الجلد والتهيج وتفاعلات الجلد التحسسية.
+Moles & Skin Lesions	الشامات والآفات الجلدية
+Clinical assessment for moles, skin tags, lesions and changes in skin marks.	التقييم السريري للشامات والزوائد الجلدية والآفات والتغيرات في علامات الجلد.
+Pigmentation & Skin Tone	التصبغ ولون البشرة
+Assessment and guidance for melasma, dark spots, uneven tone and sun-related concerns.	التقييم والتوجيه فيما يتعلق بالكلف والبقع الداكنة وتفاوت لون البشرة والمخاوف المتعلقة بالشمس.
+Hair & Scalp Concerns	مخاوف الشعر وفروة الرأس
+Evaluation for hair fall, dandruff, scalp irritation and related skin conditions.	تقييم تساقط الشعر والقشرة وتهيج فروة الرأس والأمراض الجلدية ذات الصلة.
+Nail Conditions	حالات الأظافر
+Care for nail infection, brittle nails, discoloration and nail growth concerns.	العناية بالتهابات الأظافر والأظافر الهشة وتغير اللون ومخاوف نمو الأظافر.
+Patient Journey	رحلة المريض
+A smooth clinical workflow from assessment to follow-up.	سير عمل سريري سلس بدءًا من التقييم وحتى المتابعة.
+Detailed skin history and examination.	تاريخ الجلد التفصيلي والفحص.
+Diagnosis	تشخبص
+Condition assessment and treatment selection.	تقييم الحالة واختيار العلاج.
+Care Plan	خطة الرعاية
+Medication, skincare and lifestyle guidance.	الأدوية والعناية بالبشرة وإرشادات نمط الحياة.
+Follow-up	المتابعة
+Progress review and plan adjustment.	مراجعة التقدم وتعديل الخطة.
+Dermatology Doctor	دكتور جلدية
+Book with our dermatology specialist.	احجز مع أخصائي الأمراض الجلدية لدينا.
+Consultant Dermatologist · Skin, hair and nail care	استشاري الأمراض الجلدية · العناية بالبشرة والشعر والأظافر
+View Profile	عرض الملف الشخصي
+Book Dermatology Visit	حجز زيارة الأمراض الجلدية
+Submit appointment request and our care team will confirm the available slot.	أرسل طلب موعد وسيقوم فريق الرعاية لدينا بتأكيد المكان المتاح.
+Bring previous prescriptions, allergy history, skincare products, photos of flare-ups and lab reports if available.	أحضر معك الوصفات الطبية السابقة وتاريخ الحساسية ومنتجات العناية بالبشرة وصور النوبات وتقارير المختبر إذا كانت متوفرة.
+Ask our care coordinator for appointment or insurance support.	اطلب من منسق الرعاية لدينا تحديد موعد أو دعم تأميني.
+Medical dermatology support.	الدعم الطبي للأمراض الجلدية.
+Diagnosis Support	دعم التشخيص
+Clear clinical assessment.	تقييم سريري واضح.
+Personalized care plans.	خطط الرعاية الشخصية.
+Care Team	فريق الرعاية
+Appointment support available.	دعم التعيين متاح.
+Find Doctor	ابحث عن الطبيب
+Dermatology services at Ultra Medical Center including acne, eczema, pigmentation, skin allergy, mole assessment, hair and nail concerns.	خدمات الأمراض الجلدية في مركز الترا الطبي بما في ذلك حب الشباب والأكزيما والتصبغات وحساسية الجلد وتقييم الشامات ومشكلات الشعر والأظافر.
+Orthopedic Department | Ultra Medical Center	قسم العظام | مركز الترا الطبي
+Orthopedic	العظام
+Bone, Joint & Mobility Care	رعاية العظام والمفاصل والحركة
+Orthopedic Department	قسم جراحة العظام
+Specialized orthopedic care for knee pain, shoulder pain, back and neck pain, sports injuries, fracture follow-up, joint problems and mobility-focused recovery planning.	رعاية العظام المتخصصة لآلام الركبة وآلام الكتف وآلام الظهر والرقبة والإصابات الرياضية ومتابعة الكسور ومشاكل المفاصل والتخطيط للتعافي الذي يركز على الحركة.
+View Orthopedic Doctor	عرض طبيب العظام
+Joint Care	العناية بالمفاصل
+Knee, shoulder and hip	الركبة والكتف والورك
+Injury Assessment	تقييم الإصابة
+Clinical evaluation	التقييم السريري
+Recovery Planning	التخطيط للتعافي
+Mobility focused	تركز على التنقل
+Orthopedic Services	خدمات جراحة العظام
+Assessment and treatment support for common bone, joint and muscle concerns.	التقييم والدعم العلاجي لمشاكل العظام والمفاصل والعضلات الشائعة.
+Knee Pain & Joint Problems	آلام الركبة ومشاكل المفاصل
+Evaluation of knee pain, swelling, stiffness, joint strain and movement limitation.	تقييم آلام الركبة والتورم والتصلب وإجهاد المفاصل وتقييد الحركة.
+Sports Injuries	الإصابات الرياضية
+Care for sprains, strains, ligament injuries, muscle injuries and activity-related pain.	العناية بالالتواءات والشد وإصابات الأربطة وإصابات العضلات والألم المرتبط بالنشاط.
+Back & Neck Pain	آلام الظهر والرقبة
+Assessment of spine-related discomfort, posture issues and movement restriction.	تقييم الانزعاج المرتبط بالعمود الفقري ومشاكل الوضعية وتقييد الحركة.
+Fracture Follow-up	متابعة الكسور
+Recovery monitoring, imaging review and post-injury care planning.	مراقبة التعافي ومراجعة التصوير وتخطيط رعاية ما بعد الإصابة.
+Shoulder & Arm Conditions	حالات الكتف والذراع
+Clinical care for shoulder pain, frozen shoulder, tendon issues and arm injuries.	الرعاية السريرية لآلام الكتف والكتف المتجمد ومشاكل الأوتار وإصابات الذراع.
+Mobility & Recovery Guidance	إرشادات التنقل والتعافي
+Guidance for safe activity, physiotherapy referral and return-to-work or sport planning.	إرشادات للنشاط الآمن وإحالة العلاج الطبيعي والعودة إلى العمل أو التخطيط الرياضي.
+A structured orthopedic workflow from assessment to recovery.	سير عمل منظم لتقويم العظام من التقييم إلى التعافي.
+Assessment	تقدير
+Clinical review of pain, injury and movement.	المراجعة السريرية للألم والإصابة والحركة.
+Imaging Review	مراجعة التصوير
+X-ray, MRI or reports reviewed if needed.	مراجعة الأشعة السينية أو التصوير بالرنين المغناطيسي أو التقارير إذا لزم الأمر.
+Medication, support, therapy or further action.	الدواء أو الدعم أو العلاج أو المزيد من الإجراءات.
+Recovery tracking and plan adjustment.	تتبع الاسترداد وتعديل الخطة.
+Orthopedic Doctor	طبيب العظام
+Book with our orthopedic specialist.	احجز مع أخصائي العظام لدينا.
+Dr. Fadi A. Nassar	د.فادي عبد النصار
+Consultant Orthopedic Surgeon · Bone, joint and injury care	استشاري جراحة العظام · رعاية العظام والمفاصل والإصابات
+Book Orthopedic Visit	حجز زيارة العظام
+Bring previous X-rays, MRI/CT reports, injury details, medication list and insurance card if available.	قم بإحضار صور الأشعة السينية السابقة وتقارير التصوير بالرنين المغناطيسي/التصوير المقطعي المحوسب وتفاصيل الإصابة وقائمة الأدوية وبطاقة التأمين إذا كانت متوفرة.
+Knee, shoulder and mobility care.	العناية بالركبة والكتف والحركة.
+Injury Review	مراجعة الإصابة
+Clinical and imaging evaluation.	التقييم السريري والتصويري.
+Recovery Support	دعم الاسترداد
+Treatment and follow-up planning.	تخطيط العلاج والمتابعة.
+Orthopedic services at Ultra Medical Center including knee pain, shoulder pain, back pain, sports injuries, fracture follow-up and joint care.	خدمات العظام في مركز الترا الطبي تشمل آلام الركبة وآلام الكتف وآلام الظهر والإصابات الرياضية ومتابعة الكسور والعناية بالمفاصل.
+Pediatrics Department | Ultra Medical Center	قسم طب الاطفال | مركز الترا الطبي
+Pediatrics	طب الأطفال
+Child & Family Care	رعاية الطفل والأسرة
+Pediatrics Department	قسم طب الأطفال
+Compassionate pediatric care for newborns, infants, children and adolescents, including routine check-ups, vaccinations, growth monitoring, fever care and child development support.	رعاية الأطفال الرحيمة لحديثي الولادة والرضع والأطفال والمراهقين، بما في ذلك الفحوصات الروتينية والتطعيمات ومراقبة النمو ورعاية الحمى ودعم نمو الطفل.
+View Pediatrician	عرض طبيب الأطفال
+Child Health	صحة الطفل
+Routine pediatric care	الرعاية الروتينية للأطفال
+Vaccination	تلقيح
+Preventive health	الصحة الوقائية
+Family Support	دعم الأسرة
+Parent guidance	توجيه الوالدين
+Pediatrics Services	خدمات طب الأطفال
+Child-centered medical care and family-friendly guidance.	الرعاية الطبية التي تركز على الطفل والتوجيه المناسب للأسرة.
+Newborn & Infant Care	رعاية حديثي الولادة والرضع
+Early check-ups, feeding concerns, jaundice follow-up and parent education.	الفحوصات المبكرة ومخاوف التغذية ومتابعة اليرقان وتثقيف الوالدين.
+Vaccination & Preventive Health	التطعيم والصحة الوقائية
+Routine vaccination planning and preventive pediatric health support.	التخطيط الروتيني للتطعيم والدعم الصحي الوقائي للأطفال.
+Fever & Common Illness	الحمى والأمراض الشائعة
+Evaluation for fever, cough, cold, allergy, stomach pain and infections.	تقييم الحمى والسعال والبرد والحساسية وآلام المعدة والالتهابات.
+Growth Monitoring	مراقبة النمو
+Height, weight, nutrition, milestones and development tracking.	الطول والوزن والتغذية والمعالم وتتبع التطور.
+School Health Concerns	مخاوف الصحة المدرسية
+Assessment for recurring illness, fatigue, nutrition and school readiness support.	تقييم الأمراض المتكررة والتعب والتغذية ودعم الاستعداد للمدرسة.
+Parent Guidance	توجيهات الوالدين
+Clear advice on home care, warning signs, medicines and follow-up timing.	نصيحة واضحة بشأن الرعاية المنزلية والعلامات التحذيرية والأدوية وتوقيت المتابعة.
+A gentle and organized pediatric care workflow.	سير عمل لطيف ومنظم لرعاية الأطفال.
+Check-in	تحقق في
+Child registration and basic information review.	تسجيل الأطفال ومراجعة المعلومات الأساسية.
+Clinical exam and parent discussion.	الامتحان السريري ومناقشة الوالدين.
+Medicine, tests, vaccines or home guidance.	الطب والاختبارات واللقاحات أو التوجيه المنزلي.
+Monitoring and care plan review if required.	مراجعة خطة المراقبة والرعاية إذا لزم الأمر.
+Pediatrics Doctor	دكتور اطفال
+Book with our pediatric specialist.	احجز مع أخصائي طب الأطفال لدينا.
+Dr. Lina H. Rashed	د. لينا حسن راشد
+Consultant Pediatrician · Newborn, child health and vaccination care	استشاري طب الأطفال · رعاية صحة الأطفال حديثي الولادة والتطعيمات
+Book Pediatrics Visit	كتاب زيارة طب الأطفال
+Submit appointment request and our care team will confirm your child’s available slot.	أرسل طلب موعد وسيقوم فريق الرعاية لدينا بتأكيد المكان المتاح لطفلك.
+Bring Emirates ID, vaccination card, previous reports, medication list and insurance card if available.	إحضار الهوية الإماراتية وبطاقة التطعيمات والتقارير السابقة وقائمة الأدوية وبطاقة التأمين إن وجدت.
+General pediatric care.	الرعاية العامة للأطفال.
+Preventive child health.	صحة الطفل الوقائية.
+Family Guidance	الإرشاد الأسري
+Clear parent support.	مسح دعم الوالدين.
+Pediatrics services at Ultra Medical Center including newborn care, child health, vaccination, fever care, growth monitoring and pediatric consultation.	خدمات طب الأطفال في مركز الترا الطبي بما في ذلك رعاية الأطفال حديثي الولادة، وصحة الطفل، والتطعيم، ورعاية الحمى، ومراقبة النمو واستشارات الأطفال.
+Dr. Fadi A. Nassar | Consultant Orthopedic Surgeon | Ultra Medical Center	د. فادي عبد الناصر | استشاري جراحة العظام | مركز الترا الطبي
+Consultant Orthopedic Surgeon	استشاري جراحة العظام
+Orthopedic care for bone, joint and muscle conditions, including knee pain, shoulder pain, back pain, sports injuries, fracture follow-up and mobility-focused treatment plans.	رعاية العظام لحالات العظام والمفاصل والعضلات، بما في ذلك آلام الركبة وآلام الكتف وآلام الظهر والإصابات الرياضية ومتابعة الكسور وخطط العلاج التي تركز على الحركة.
+Languages	اللغات
+Arabic, English	العربية، الانجليزية
+Al Ain	العين
+Booking	الحجز
+Areas of Expertise	مجالات الخبرة
+Comprehensive orthopedic assessment and treatment planning.	تقييم شامل لجراحة العظام وتخطيط العلاج.
+Knee & Shoulder Pain	آلام الركبة والكتف
+Evaluation and care plans for joint pain, stiffness, instability and movement limitations.	خطط التقييم والرعاية لآلام المفاصل والتصلب وعدم الاستقرار وقيود الحركة.
+Sports Injury Care	رعاية الإصابات الرياضية
+Assessment of sprains, strains, ligament injuries and return-to-activity guidance.	تقييم الالتواءات والشد وإصابات الأربطة وتوجيهات العودة إلى النشاط.
+Clinical evaluation for spine-related discomfort, posture issues and functional limitation.	التقييم السريري للانزعاج المرتبط بالعمود الفقري ومشاكل الوضعية والقيود الوظيفية.
+Post-injury evaluation, follow-up imaging review and recovery planning.	تقييم ما بعد الإصابة، ومتابعة مراجعة التصوير، والتخطيط للتعافي.
+Clinical Approach	النهج السريري
+Focused on accurate diagnosis, safe treatment and restored mobility.	التركيز على التشخيص الدقيق والعلاج الآمن واستعادة القدرة على الحركة.
+Detailed Musculoskeletal Assessment	تقييم مفصل للعضلات والعظام
+History, examination and relevant imaging review to identify the source of pain.	التاريخ والفحص ومراجعة التصوير ذات الصلة لتحديد مصدر الألم.
+Clear Recovery Plan	مسح خطة الاسترداد
+Care plan may include medication guidance, physiotherapy referral, imaging or follow-up.	قد تتضمن خطة الرعاية التوجيه الدوائي أو إحالة العلاج الطبيعي أو التصوير أو المتابعة.
+Safe Orthopedic Guidance	إرشادات العظام الآمنة
+Patient education and practical steps to reduce pain and improve movement.	تثقيف المريض وخطوات عملية لتخفيف الألم وتحسين الحركة.
+Available Appointment Sessions	جلسات المواعيد المتاحة
+Preferred sessions are subject to final confirmation by the care team.	تخضع الجلسات المفضلة للتأكيد النهائي من قبل فريق الرعاية.
+Tuesday	يوم الثلاثاء
+09:00 AM – 01:00 PM	09:00 صباحًا – 01:00 ظهرًا
+Thursday	يوم الخميس
+04:00 PM – 08:00 PM	04:00 مساءً – 08:00 مساءً
+Saturday	السبت
+10:00 AM – 02:00 PM	10:00 صباحًا – 02:00 ظهرًا
+Related Doctors	الأطباء ذات الصلة
+Explore other Ultra Medical Center specialists.	اكتشف المتخصصين الآخرين في مركز الترا الطبي.
+Consultant Dermatologist	استشاري الأمراض الجلدية
+Consultant Pediatrician	استشاري طب الأطفال
+Book with Dr. Fadi	احجز مع الدكتور فادي
+Choose orthopedic consultation and our care team will confirm your appointment.	اختر استشارة العظام وسيقوم فريق الرعاية لدينا بتأكيد موعدك.
+Visit Preparation	التحضير للزيارة
+Bring previous X-rays, MRI/CT reports, medication list, injury details and insurance card if available.	قم بإحضار صور الأشعة السينية السابقة وتقارير التصوير بالرنين المغناطيسي / الأشعة المقطعية وقائمة الأدوية وتفاصيل الإصابة وبطاقة التأمين إذا كانت متوفرة.
+Ask our care coordinator for appointment or insurance assistance.	اطلب من منسق الرعاية لدينا تحديد موعد أو مساعدة في التأمين.
+Book an appointment with Dr. Fadi A. Nassar, Consultant Orthopedic Surgeon at Ultra Medical Center. Bone, joint, spine, sports injury and orthopedic care.	احجز موعدًا مع الدكتور فادي نصار، استشاري جراحة العظام في مركز الترا الطبي. رعاية العظام والمفاصل والعمود الفقري والإصابات الرياضية وجراحة العظام.
+Dr. Lina H. Rashed | Consultant Pediatrician | Ultra Medical Center	د. لينا حسين راشد | استشاري طب الاطفال | مركز الترا الطبي
+Compassionate pediatric care for newborns, infants, children and adolescents, including routine check-ups, vaccinations, growth monitoring, fever care and child development guidance.	رعاية الأطفال الرحيمة لحديثي الولادة والرضع والأطفال والمراهقين، بما في ذلك الفحوصات الروتينية والتطعيمات ومراقبة النمو ورعاية الحمى وتوجيه نمو الطفل.
+Family-friendly pediatric care for every stage of childhood.	رعاية أطفال صديقة للأسرة لكل مرحلة من مراحل الطفولة.
+Early life check-ups, feeding guidance, jaundice follow-up and parent support.	فحوصات الحياة المبكرة، وتوجيهات التغذية، ومتابعة اليرقان، ودعم الوالدين.
+Vaccination & Preventive Care	التطعيم والرعاية الوقائية
+Routine vaccination planning, wellness checks and preventive child health guidance.	التخطيط الروتيني للتطعيم والفحوصات الصحية والإرشادات الوقائية لصحة الطفل.
+Assessment of fever, cough, cold, stomach complaints, allergies and childhood infections.	تقييم الحمى والسعال والبرد وشكاوي المعدة والحساسية والتهابات الأطفال.
+Growth & Development	النمو والتنمية
+Monitoring height, weight, milestones, school health concerns and nutrition guidance.	مراقبة الطول والوزن والمعالم ومخاوف الصحة المدرسية وإرشادات التغذية.
+Gentle, parent-focused pediatric care with clear explanations.	رعاية لطيفة للأطفال تركز على الوالدين مع شرح واضح.
+Child-Friendly Consultation	استشارة صديقة للطفل
+Comfortable assessment style designed to reduce stress for children and parents.	أسلوب تقييم مريح مصمم لتقليل التوتر لدى الأطفال وأولياء الأمور.
+Practical Parent Guidance	توجيهات الوالدين العملية
+Clear advice on medication, hydration, feeding, warning signs and follow-up timing.	نصيحة واضحة بشأن الدواء والترطيب والتغذية والعلامات التحذيرية وتوقيت المتابعة.
+Preventive Health Focus	التركيز على الصحة الوقائية
+Strong focus on vaccination, growth monitoring and early identification of concerns.	التركيز القوي على التطعيم ومراقبة النمو والتحديد المبكر للمخاوف.
+Sunday	الأحد
+03:00 PM – 07:00 PM	03:00 مساءً – 07:00 مساءً
+Friday	جمعة
+Book with Dr. Lina	احجز مع الدكتورة لينا
+Choose pediatric consultation and our care team will confirm your child’s appointment.	اختر استشارة طب الأطفال وسيقوم فريق الرعاية لدينا بتأكيد موعد طفلك.
+Bring Emirates ID, vaccination card, previous reports, current medicines and child insurance card if available.	إحضار الهوية الإماراتية وبطاقة التطعيمات والتقارير السابقة والأدوية الحالية وبطاقة تأمين الطفل إن وجدت.
+Book an appointment with Dr. Lina H. Rashed, Consultant Pediatrician at Ultra Medical Center. Child health, newborn care, vaccinations, growth monitoring and pediatric illness care.	احجز موعدًا مع الدكتورة لينا راشد، استشاري طب الأطفال بمركز الترا الطبي. صحة الطفل ورعاية الأطفال حديثي الولادة والتطعيمات ومراقبة النمو ورعاية أمراض الأطفال.
+Dr. Rami K. Youssef | Consultant Cardiologist | Ultra Medical Center	د. رامي يوسف يوسف | استشاري أمراض القلب | مركز الترا الطبي
+Featured Consultant	مستشار مميز
+Specialist in interventional cardiology, preventive cardiology, cardiac imaging and heart failure management. Dr. Rami provides evidence-based cardiac care with a patient-centered approach.	متخصص في أمراض القلب التداخلية وأمراض القلب الوقائية وتصوير القلب وإدارة قصور القلب. يقدم الدكتور رامي رعاية قلبية قائمة على الأدلة من خلال نهج يركز على المريض.
+Speciality	التخصص
+Experience	خبرة
+15+ Years	15+ سنة
+Availability	التوفر
+Available Today	متوفر اليوم
+Book with Dr. Rami	احجز مع دكتور رامي
+Choose an available slot or request a callback from our care coordinator.	اختر وقتًا متاحًا أو اطلب معاودة الاتصال من منسق الرعاية لدينا.
+Today	اليوم
+09:00 AM – 05:00 PM	09:00 صباحًا – 05:00 مساءً
+Tomorrow	غداً
+10:00 AM – 04:00 PM	10:00 صباحًا – 04:00 مساءً
+02:00 PM – 08:00 PM	02:00 ظهرًا – 08:00 مساءً
+View location & directions	عرض الموقع والاتجاهات
+About Dr. Rami	عن الدكتور رامي
+Dr. Rami K. Youssef is a consultant cardiologist with extensive experience in diagnosing and treating heart conditions. His practice focuses on preventive heart care, early detection, patient education, and advanced cardiac procedures when required.	الدكتور رامي يوسف هو استشاري أمراض القلب ويتمتع بخبرة واسعة في تشخيص وعلاج أمراض القلب. تركز ممارسته على الرعاية الوقائية للقلب، والكشف المبكر، وتثقيف المرضى، وإجراءات القلب المتقدمة عند الحاجة.
+He supports patients with hypertension, cholesterol disorders, coronary artery disease, chest pain evaluation, heart rhythm concerns, heart failure management and long-term cardiovascular risk reduction.	وهو يدعم المرضى الذين يعانون من ارتفاع ضغط الدم، واضطرابات الكولسترول، وأمراض الشريان التاجي، وتقييم آلام الصدر، ومخاوف ضربات القلب، وإدارة قصور القلب والحد من مخاطر القلب والأوعية الدموية على المدى الطويل.
+Interventional Cardiology	أمراض القلب التداخلية
+Advanced assessment and treatment for coronary conditions.	التقييم والعلاج المتقدم لحالات الشريان التاجي.
+Risk screening and lifestyle-based prevention plans.	فحص المخاطر وخطط الوقاية القائمة على نمط الحياة.
+Cardiac Imaging	تصوير القلب
+ECG, echo, stress testing and advanced diagnostics.	تخطيط القلب والصدى واختبار الإجهاد والتشخيص المتقدم.
+Heart Failure Management	إدارة فشل القلب
+Long-term care plans and follow-up support.	خطط الرعاية طويلة الأجل ودعم المتابعة.
+Education & Credentials	التعليم وأوراق الاعتماد
+Board-certified cardiology specialist with advanced training in cardiac care.	أخصائي أمراض القلب معتمد من البورد مع تدريب متقدم في رعاية القلب.
+Advanced Cardiac Imaging Training	التدريب المتقدم على تصوير القلب
+Focused training in cardiac diagnostic interpretation and risk assessment.	التدريب المركز على تفسير تشخيص أمراض القلب وتقييم المخاطر.
+Patient-Centered Cardiac Care	رعاية القلب التي تركز على المريض
+Clinical focus on patient communication, prevention and long-term follow-up.	التركيز السريري على التواصل مع المرضى والوقاية والمتابعة طويلة المدى.
+Patient Reviews	مراجعات المرضى
+Clear explanation and very professional consultation.	شرح واضح واستشارة احترافية للغاية.
+Verified Patient	مريض تم التحقق منه
+Appointment was smooth and the care team was helpful.	كان الموعد سلسًا وكان فريق الرعاية مفيدًا.
+Doctor explained the treatment plan in detail.	وقام الطبيب بشرح خطة العلاج بالتفصيل.
+Check your insurance coverage before booking or treatment approval.	تحقق من التغطية التأمينية الخاصة بك قبل الحجز أو الموافقة على العلاج.
+Doctor Information	معلومات الطبيب
+Gender	جنس
+Male	ذكر
+Status	حالة
+View all	عرض الكل
+Find another Doctor	ابحث عن طبيب آخر
+View Dr. Rami K. Youssef profile, expertise, availability, education, languages and book an appointment at Ultra Medical Center.	اطلع على الملف الشخصي للدكتور رامي يوسف، والخبرة، والتوفر، والتعليم، واللغات وحجز موعد في مركز الترا الطبي.
+Dr. Sarah	دكتور سارة
+Dr. Fadi	دكتور فادي
+Dr. Lina	دكتور لينا
+Dr. Sarah Al Blooshi | Consultant Dermatologist | Ultra Medical Center	د. سارة البلوشي | استشاري الامراض الجلدية | مركز الترا الطبي
+Specialized dermatology care for skin, hair and nail concerns, including acne, eczema, pigmentation, mole assessment, skin allergy evaluation and personalized skin health plans.	رعاية جلدية متخصصة للبشرة والشعر والأظافر، بما في ذلك حب الشباب والأكزيما والتصبغ وتقييم الشامات وتقييم حساسية الجلد وخطط صحة الجلد الشخصية.
+Comprehensive dermatology care for common and complex skin conditions.	رعاية جلدية شاملة للأمراض الجلدية الشائعة والمعقدة.
+Acne & Scar Care	العناية بحب الشباب والندبات
+Assessment and personalized treatment plans for acne, post-acne marks and skin texture concerns.	تقييم وخطط علاجية مخصصة لحب الشباب وعلامات ما بعد حب الشباب ومخاوف نسيج الجلد.
+Eczema & Allergic Skin Conditions	الأكزيما وحالات الجلد التحسسية
+Evaluation and treatment support for eczema, dermatitis, irritation and skin sensitivity.	تقييم ودعم علاج الأكزيما والتهاب الجلد والتهيج وحساسية الجلد.
+Mole & Skin Lesion Assessment	تقييم الشامات والآفات الجلدية
+Clinical skin checks and guidance for suspicious moles, lesions and changing skin marks.	فحوصات الجلد السريرية وتوجيهات الشامات والآفات المشبوهة وعلامات الجلد المتغيرة.
+Cosmetic Dermatology Guidance	إرشادات الأمراض الجلدية التجميلية
+Skin rejuvenation planning, pigmentation care and clinically guided aesthetic dermatology advice.	التخطيط لتجديد شباب البشرة، والعناية بالتصبغات، ونصائح الأمراض الجلدية التجميلية الموجهة سريريًا.
+Patient-centered dermatology focused on safe, clear and realistic care plans.	يركز طب الأمراض الجلدية على المريض ويركز على خطط رعاية آمنة وواضحة وواقعية.
+Personalized Skin Assessment	تقييم شخصي للبشرة
+Each visit starts with detailed history, lifestyle review and skin examination.	تبدأ كل زيارة بالتاريخ التفصيلي ومراجعة نمط الحياة وفحص الجلد.
+Clear Treatment Plan	خطة علاجية واضحة
+Patients receive practical guidance for medication, skincare routine and follow-up timing.	يتلقى المرضى إرشادات عملية فيما يتعلق بالأدوية وروتين العناية بالبشرة وتوقيت المتابعة.
+Safe Dermatology Care	رعاية آمنة للأمراض الجلدية
+Treatment plans are selected based on condition severity, skin type and patient safety.	يتم اختيار خطط العلاج بناءً على شدة الحالة ونوع الجلد وسلامة المريض.
+Monday	الاثنين
+Wednesday	الأربعاء
+11:00 AM – 03:00 PM	11:00 صباحًا – 03:00 مساءً
+Book with Dr. Sarah	احجز مع دكتورة سارة
+Choose dermatology consultation and our care team will confirm your appointment.	اختر استشارة الأمراض الجلدية وسيقوم فريق الرعاية لدينا بتأكيد موعدك.
+Bring previous prescriptions, allergy history, photos of flare-ups and current skincare products if relevant.	أحضر معك الوصفات الطبية السابقة وتاريخ الحساسية وصور النوبات ومنتجات العناية بالبشرة الحالية إذا كانت ذات صلة.
+Book an appointment with Dr. Sarah Al Blooshi, Consultant Dermatologist at Ultra Medical Center. Dermatology, skin health, acne, eczema, pigmentation and aesthetic dermatology care.	احجز موعدًا مع الدكتورة سارة البلوشي استشارية الأمراض الجلدية بمركز الترا الطبي. الأمراض الجلدية وصحة الجلد وحب الشباب والأكزيما والتصبغات والعناية بالبشرة الجمالية.
+Doctors | Ultra Medical Center	اطباء | مركز الترا الطبي
+Find a Specialist	ابحث عن متخصص
+Our team of experienced consultants and specialists provide world-class care with compassion.	يقدم فريقنا من الاستشاريين والمتخصصين ذوي الخبرة رعاية عالمية المستوى بكل تعاطف.
+All Specialties	جميع التخصصات
+Orthopedics	جراحة العظام
+All Languages	جميع اللغات
+English	إنجليزي
+Arabic	عربي
+French	فرنسي
+All Genders	جميع الأجناس
+Female	أنثى
+Any Availability	أي توفر
+Available Tomorrow	متاح غدا
+Priority specialist profile with availability and direct appointment action.	الملف الشخصي المتخصص ذو الأولوية مع التوفر وإجراء التعيين المباشر.
+Specialist in interventional cardiology, preventive cardiology and advanced cardiac imaging.	متخصص في أمراض القلب التداخلية وأمراض القلب الوقائية وتصوير القلب المتقدم.
+Hypertension & Lipid Disorders	ارتفاع ضغط الدم واضطرابات الدهون
+9:00 AM - 5:00 PM	9:00 صباحًا - 5:00 مساءً
+Our Doctors	أطباؤنا
+Search and book specialists by availability, specialty and language.	بحث وحجز المتخصصين حسب التوفر والتخصص واللغة.
+56 Results	56 النتائج
+Showing 8 featured specialists	عرض 8 متخصصين مميزين
+Sort by: Availability	فرز حسب: التوفر
+Sort by: Name	الترتيب حسب: الاسم
+Sort by: Specialty	الترتيب حسب: التخصص
+English, Arabic, French	الإنجليزية، العربية، الفرنسية
+Consultant Neurologist	استشاري الأعصاب
+Neurology	علم الأعصاب
+Dr. Nour El Din	د. نور الدين
+Consultant Obstetrician & Gynecologist	استشاري أمراض النساء والتوليد
+Obstetrics & Gynecology	أمراض النساء والتوليد
+Dr. Ahmed Al Mansoori	د.احمد المنصوري
+Consultant Urologist	استشاري المسالك البولية
+Urology	جراحة المسالك البولية
+Dr. Maha Al Ketbi	د. مها الكتبي
+Consultant Ophthalmologist	استشاري طب وجراحة العيون
+Ophthalmology	طب العيون
+Can’t find the right specialist?	لا يمكن العثور على المتخصص المناسب؟
+Our care team is here to help you choose the right doctor and specialty.	فريق الرعاية لدينا موجود لمساعدتك في اختيار الطبيب والتخصص المناسبين.
+Need help booking?	هل تحتاج إلى مساعدة في الحجز؟
+Call us on +971 3 884 2222 or chat with our care team for assistance.	اتصل بنا على +971 3 884 2222 أو قم بالدردشة مع فريق الرعاية لدينا للحصول على المساعدة.
+Chat with Us	الدردشة معنا
+Find a Speciality	ابحث عن تخصص
+Find Ultra Medical Center doctors and specialists by name, specialty, language and availability.	ابحث عن الأطباء والمتخصصين في مركز الترا الطبي بالاسم والتخصص واللغة والتوفر.
+Doctors hero	الأطباء البطل
+Doctor search	بحث دكتور
+Search by name, specialty or condition	البحث بالاسم أو التخصص أو الحالة
+Featured consultant	مستشار مميز
+Our doctors	أطباؤنا
+Sort by	الترتيب حسب
+Doctor assistance	مساعدة الطبيب
+Health Packages | Ultra Medical Center	الحزم الصحية | مركز الترا الطبي
+Comprehensive care. Better health. Complete peace of mind.	رعاية شاملة. صحة أفضل. راحة البال الكاملة.
+Our health packages are designed to help you stay ahead with preventive care, early detection and expert medical support—tailored for every stage of life.	تم تصميم باقاتنا الصحية لمساعدتك على البقاء في المقدمة من خلال الرعاية الوقائية والكشف المبكر والدعم الطبي المتخصص، وهي مصممة خصيصًا لكل مرحلة من مراحل الحياة.
+Trusted Care	رعاية موثوقة
+Accredited healthcare standards	معايير الرعاية الصحية المعتمدة
+Expert Team	فريق الخبراء
+Specialist doctors and advanced technology	أطباء متخصصون وتكنولوجيا متقدمة
+Personalized Approach	نهج شخصي
+Packages tailored to your health goals	حزم مصممة خصيصا لأهدافك الصحية
+Our Health Packages	باقاتنا الصحية
+Choose a preventive health package designed around your lifestyle and needs.	اختر حزمة صحية وقائية مصممة خصيصًا لأسلوب حياتك واحتياجاتك.
+Need help choosing? Talk to our care team.	هل تحتاج إلى مساعدة في الاختيار؟ تحدث إلى فريق الرعاية لدينا.
+Complete health assessment	التقييم الصحي الكامل
+Blood tests & diagnostics	اختبارات الدم والتشخيص
+Doctor consultation	استشارة الطبيب
+Lifestyle & risk evaluation	نمط الحياة وتقييم المخاطر
+Request	طلب
+Learn More	يتعلم أكثر
+Well Woman Package	حزمة حسنا المرأة
+Women’s health screening	فحص صحة المرأة
+Hormonal profile	الملف الهرموني
+Breast & pelvic examination	فحص الثدي والحوض
+AED 1,299	1,299 درهم
+Cardiology consultation	استشارة أمراض القلب
+ECG & stress test	تخطيط القلب واختبار الإجهاد
+Lipid profile & more	ملف الدهون والمزيد
+Blood sugar & HbA1c	نسبة السكر في الدم وHbA1c
+Kidney & liver function tests	اختبارات وظائف الكلى والكبد
+Diet & lifestyle consultation	استشارات النظام الغذائي ونمط الحياة
+Doctor follow-up	متابعة الطبيب
+Pediatric Wellness	صحة الأطفال
+Growth & development check	فحص النمو والتطور
+Immunization review	مراجعة التحصين
+Nutrition & lifestyle guidance	إرشادات التغذية ونمط الحياة
+Pediatric consultation	استشارة طب الأطفال
+AED 999	999 درهم
+Dental Smile Package	باقة ابتسامة الأسنان
+Dental examination	فحص الأسنان
+Scaling & polishing	التحجيم والتلميع
+X-rays if needed	الأشعة السينية إذا لزم الأمر
+Oral hygiene guidance	إرشادات نظافة الفم
+AED 599	599 درهم
+Skin & Laser Consultation	استشارات الجلد والليزر
+Skin analysis	تحليل الجلد
+Consultation with dermatologist	التشاور مع طبيب الأمراض الجلدية
+Laser assessment if needed	التقييم بالليزر إذا لزم الأمر
+Personalized plan	خطة شخصية
+AED 899	899 درهم
+Pre-Employment Medical	الطبية قبل التوظيف
+Medical examination	الفحص الطبي
+Vital signs & basic tests	العلامات الحيوية والاختبارات الأساسية
+Lab tests as required	الفحوصات المخبرية حسب الحاجة
+Certificate & report	شهادة وتقرير
+AED 250	250 درهم
+Most Popular	الأكثر شعبية
+Executive Platinum Package	الباقة البلاتينية التنفيذية
+Our most comprehensive package for leaders who value their health.	مجموعتنا الأكثر شمولاً للقادة الذين يقدرون صحتهم.
+Full body health screening	فحص صحة الجسم بالكامل
+Advanced diagnostics	التشخيص المتقدم
+Cardiac & metabolic assessment	تقييم القلب والتمثيل الغذائي
+Cancer screening age appropriate	عمر فحص السرطان مناسب
+Nutrition & fitness consultation	استشارات التغذية واللياقة البدنية
+Priority appointments & lounge access	المواعيد ذات الأولوية والدخول إلى الصالة
+AED 2,499	2,499 درهم
+Duration	مدة
+2.5 – 3 Hours	2.5 - 3 ساعات
+Note	ملحوظة
+Fasting required	الصيام مطلوب
+Consultation with Specialist	التشاور مع متخصص
+Expert medical review and care guidance	مراجعة طبية متخصصة وإرشادات الرعاية
+Detailed Health Reports	تقارير صحية مفصلة
+Clear summaries for your records	ملخصات واضحة لسجلاتك
+Confidential & Secure	سرية وآمنة
+Your health data is treated with care	يتم التعامل مع بياناتك الصحية بعناية
+Follow-up Guidance	إرشادات المتابعة
+Next steps after your assessment	الخطوات التالية بعد التقييم
+Need Help Choosing the Right Package?	هل تحتاج إلى مساعدة في اختيار الحزمة المناسبة؟
+Our Health Concierge team is here to understand your needs and recommend the best package for you.	فريق الكونسيرج الصحي الخاص بنا موجود هنا لفهم احتياجاتك والتوصية بأفضل الباقة التي تناسبك.
+Chat with us	الدردشة معنا
+Visit Us	قم بزيارتنا
+Speak to Concierge	تحدث إلى الكونسيرج
+Why Choose Ultra Medical Center	لماذا تختار مركز الترا الطبي؟
+Trusted care, advanced technology and patient-centered support.	رعاية موثوقة وتكنولوجيا متقدمة ودعم يركز على المريض.
+Accredited Care	الرعاية المعتمدة
+Advanced Technology	التكنولوجيا المتقدمة
+For accurate diagnosis	من أجل التشخيص الدقيق
+Patient-Centered Care	الرعاية التي تركز على المريض
+Compassion in every step	الرحمة في كل خطوة
+Explore Ultra Medical Center health packages including executive checkups, women’s health, cardiac screening, diabetes care, pediatric wellness and dental packages.	استكشف الباقات الصحية لمركز Ultra Medical Center بما في ذلك الفحوصات التنفيذية، وصحة المرأة، وفحص القلب، ورعاية مرضى السكري، وباقات صحة الأطفال وطب الأسنان.
+Health packages hero	بطل الحزم الصحية
+Our health packages	باقاتنا الصحية
+Skin and Laser Consultation	استشارة الجلد والليزر
+Featured package	الحزمة المميزة
+All packages include	تشمل جميع الباقات
+Package concierge	بواب الحزمة
+Why choose Ultra Medical Center	لماذا تختار مركز الترا الطبي؟
+Ultra Medical Center | Advanced Care. Personalized for You.	مركز الترا الطبي | رعاية متقدمة. مخصصة لك.
+Advanced Care.	رعاية متقدمة.
+Personalized for You.	مخصصة لك.
+Ultra Medical Center delivers world-class healthcare with advanced technology and a patient-first approach.	يقدم مركز الترا الطبي رعاية صحية ذات مستوى عالمي باستخدام التكنولوجيا المتقدمة ونهج المريض أولاً.
+Download App	تحميل التطبيق
+JCI Accredited	معتمدة من قبل اللجنة الدولية المشتركة (JCI).
+International Standards	المعايير الدولية
+Expert Specialists	متخصصون خبراء
+World-Class Care	رعاية عالمية المستوى
+Precision. Safety. Comfort.	دقة. أمان. راحة.
+Patient-Centered	تتمحور حول المريض
+Compassion in Every Step	الرحمة في كل خطوة
+Schedule your visit in just a few clicks	حدد موعد زيارتك ببضع نقرات فقط
+Access your records, reports and more	الوصول إلى السجلات والتقارير الخاصة بك وأكثر من ذلك
+Explore our wide range of services	اكتشف مجموعتنا الواسعة من الخدمات
+Install Ultra Medical Center Web App	قم بتثبيت تطبيق الويب الخاص بمركز Ultra Medical Center
+Open appointments, , doctors, reports and clinic contact faster from your phone or computer home screen.	افتح المواعيد وبوابة المرضى والأطباء والتقارير والاتصال بالعيادة بشكل أسرع من الشاشة الرئيسية للهاتف أو الكمبيوتر.
+Install Web App	تثبيت تطبيق الويب
+Find Care	ابحث عن الرعاية
+All Specialities	جميع التخصصات
+Dentistry	طب الأسنان
+All Locations	جميع المواقع
+Our Specialities	تخصصاتنا
+Obstetrics &	التوليد &
+Gynecology	أمراض النساء
+More Specialities	المزيد من التخصصات
+Featured Doctors	الأطباء المميزون
+Your health information,	معلوماتك الصحية،
+anytime, anywhere.	في أي وقت وفي أي مكان.
+View lab results	عرض نتائج المختبر
+Download reports	تنزيل التقارير
+Update your profile	قم بتحديث ملف التعريف الخاص بك
+Login to Portal	تسجيل الدخول إلى البوابة
+Comprehensive care for every stage of life.	رعاية شاملة لكل مرحلة من مراحل الحياة.
+Cardiac Care Package	باقة العناية بالقلب
+View All Packages	عرض جميع الباقات
+Visitor Information	معلومات الزائر
+Guidelines and timings	المبادئ التوجيهية والتوقيتات
+Patient Guide	دليل المريض
+Everything you need to know	كل ما تحتاج إلى معرفته
+Pay Your Bill	ادفع فاتورتك
+Secure and easy payments	مدفوعات آمنة وسهلة
+Careers	وظائف
+Join our healthcare team	انضم إلى فريق الرعاية الصحية لدينا
+Our Location	موقعنا
+Al Jimi, Al Ain, Abu Dhabi, UAE	الجيمي، العين، أبوظبي، الإمارات العربية المتحدة
+Install Ultra Medical Center	تركيب مركز الترا الطبي
+Get quick access	احصل على وصول سريع
+Appointments •  • Doctors • Reports	المواعيد • بوابة المرضى • الأطباء • التقارير
+Install this website as an app on your device for faster access without searching the website every time.	قم بتثبيت موقع الويب هذا كتطبيق على جهازك للوصول بشكل أسرع دون البحث في موقع الويب في كل مرة.
+For iPhone / iPad	آيفون/آي باد
+Tap the Share button in Safari.	اضغط على زر المشاركة في Safari.
+Choose “Add to Home Screen”.	اختر "إضافة إلى الشاشة الرئيسية".
+Tap “Add”.	اضغط على "إضافة".
+For Android / Chrome / Edge	لنظام أندرويد / كروم / إيدج
+Tap the browser menu.	اضغط على قائمة المتصفح.
+Choose “Install app” or “Add to Home screen”.	اختر "تثبيت التطبيق" أو "إضافة إلى الشاشة الرئيسية".
+Confirm installation.	تأكيد التثبيت.
+Install Now	التثبيت الآن
+Maybe Later	ربما في وقت لاحق
+Installation availability depends on browser support. Android Chrome and desktop Chrome/Edge may show direct install. iPhone uses Safari “Add to Home Screen”.	يعتمد توفر التثبيت على دعم المتصفح. قد يعرض Android Chrome وسطح المكتب Chrome/Edge التثبيت المباشر. يستخدم iPhone Safari "إضافة إلى الشاشة الرئيسية".
+Ultra Medical Center provides advanced healthcare, appointments, doctors,  access and medical services in Al Ain, UAE.	يوفر مركز الترا الطبي الرعاية الصحية المتقدمة والمواعيد والأطباء والوصول إلى بوابة المرضى والخدمات الطبية في العين، الإمارات العربية المتحدة.
+Home hero	بطل المنزل
+Previous slide	الشريحة السابقة
+Next slide	الشريحة التالية
+Key highlights	النقاط الرئيسية
+Quick access	الوصول السريع
+Download web app	تنزيل تطبيق الويب
+Find care search	البحث عن الرعاية البحث
+Search by specialty, condition or treatment	البحث حسب التخصص أو الحالة أو العلاج
+Specialities and doctors	التخصصات والأطباء
+Portal and packages	البوابة والحزم
+Patients visitors location contact	المرضى الزوار موقع الاتصال
+View location	عرض الموقع
+Close install prompt	إغلاق موجه التثبيت
+Insurance & Billing | Ultra Medical Center	التأمين والفواتير | مركز الترا الطبي
+We work with leading insurance providers to make quality healthcare accessible and hassle-free.	نحن نعمل مع كبار مقدمي خدمات التأمين لجعل الرعاية الصحية عالية الجودة متاحة وخالية من المتاعب.
+Wide Network	شبكة واسعة
+Trusted insurance partners	شركاء التأمين الموثوق بهم
+Transparent Process	عملية شفافة
+Clear billing & documentation	مسح الفواتير والوثائق
+Dedicated Support	دعم مخصص
+We’re here to help	نحن هنا للمساعدة
+We accept insurance from leading providers	نحن نقبل التأمين من مقدمي الخدمات الرائدين
+Find Your Insurance	ابحث عن التأمين الخاص بك
+All Plans	جميع الخطط
+Basic	أساسي
+Enhanced	معزز
+Premium	غالي
+All Categories	جميع الفئات
+Clinic	عيادة
+Diagnostics	التشخيص
+Dental	طب الأسنان
+All Networks	جميع الشبكات
+Abu Dhabi	أبو ظبي
+UAE Wide	الإمارات العربية المتحدة على نطاق واسع
+Eligibility Check	التحقق من الأهلية
+Verify your insurance eligibility in minutes.	تحقق من أهليتك للتأمين في دقائق.
+Check Eligibility →	التحقق من الأهلية →
+We help you get approval before your treatment.	نحن نساعدك في الحصول على الموافقة قبل العلاج.
+Learn More →	تعلم المزيد →
+Billing Enquiries	استعلامات الفواتير
+Questions about your bill? We’re happy to help.	أسئلة حول فاتورتك؟ نحن سعداء للمساعدة.
+Contact Billing →	اتصل بالفواتير →
+Self-Pay Option	خيار الدفع الذاتي
+Affordable care with transparent pricing.	رعاية ميسورة التكلفة بأسعار شفافة.
+View Self-Pay Packages →	عرض حزم الدفع الذاتي →
+Coverage Assistance	مساعدة التغطية
+Understand your benefits and coverage.	فهم المزايا والتغطية الخاصة بك.
+Get Assistance →	احصل على المساعدة →
+Check Your Insurance Eligibility	تحقق من أهليتك للتأمين
+Upload your insurance card and we’ll verify your coverage.	قم بتحميل بطاقة التأمين الخاصة بك وسنقوم بالتحقق من التغطية الخاصة بك.
+Upload Card	تحميل البطاقة
+Personal Details	التفاصيل الشخصية
+Results	نتائج
+Upload Front of Insurance Card	تحميل مقدمة بطاقة التأمين
+JPG, PNG or PDF (Max 5MB)	JPG أو PNG أو PDF (بحد أقصى 5 ميجابايت)
+Full Name as on Insurance Card	الاسم الكامل كما هو موجود في بطاقة التأمين
+Date of Birth	تاريخ الميلاد
+Emirates ID Number optional	رقم الهوية الإماراتية اختياري
+Your information is secure and confidential. It will only be used to verify your insurance eligibility.	معلوماتك آمنة وسرية. سيتم استخدامه فقط للتحقق من أهليتك للتأمين.
+We’re Here to Help	نحن هنا للمساعدة
+Our insurance specialists are available to answer your questions and guide you through the process.	متخصصو التأمين لدينا متاحون للإجابة على أسئلتك وإرشادك خلال هذه العملية.
+Verify your insurance eligibility	التحقق من أهليتك التأمينية
+Understand your coverage & benefits	افهم التغطية والمزايا الخاصة بك
+Get help with pre-authorizations	احصل على مساعدة بشأن التفويضات المسبقة
+Clarify co-payments and deductibles	توضيح المدفوعات المشتركة والخصومات
+Support for claim queries	دعم الاستعلامات المطالبة
+Need Assistance?	هل تحتاج إلى المساعدة؟
+Call us or chat with our team for personalized support.	اتصل بنا أو قم بالدردشة مع فريقنا للحصول على الدعم الشخصي.
+Call +971 3 884 2222	اتصل بالرقم +971 3 884 2222
+Most Insurances Accepted	معظم التأمينات مقبولة
+We partner with major providers	نحن شركاء مع مقدمي الخدمات الرئيسيين
+Cashless & Reimbursement	غير النقدي والسداد
+Options available	الخيارات المتاحة
+Fast & Secure Process	عملية سريعة وآمنة
+Your data is protected	بياناتك محمية
+No Hidden Charges	لا توجد رسوم خفية
+Transparent billing always	الفواتير الشفافة دائمًا
+Insurance and billing support at Ultra Medical Center, including eligibility check, pre-approval support, billing enquiries and self-pay options.	دعم التأمين والفواتير في مركز Ultra الطبي، بما في ذلك التحقق من الأهلية ودعم الموافقة المسبقة والاستفسارات عن الفواتير وخيارات الدفع الذاتي.
+Insurance hero	بطل التأمين
+Find your insurance	ابحث عن التأمين الخاص بك
+Search by insurance provider	البحث عن طريق مزود التأمين
+Insurance services	خدمات التأمين
+Eligibility check form	نموذج التحقق من الأهلية
+784-XXXX-XXXXXXX-X	784-XXXX-XXXXXX-X
+Insurance benefits	فوائد التأمين
+Medical Records Request | Ultra Medical Center	طلب السجلات الطبية | مركز الترا الطبي
+Medical Records Request	طلب السجلات الطبية
+Request copies of your medical records securely, including visit summaries, laboratory reports, radiology reports, prescriptions and billing documents.	اطلب نسخًا من سجلاتك الطبية بشكل آمن، بما في ذلك ملخصات الزيارات وتقارير المختبرات وتقارير الأشعة والوصفات الطبية ومستندات الفواتير.
+Start Request	ابدأ الطلب
+Secure Request	طلب آمن
+Verified patient access	التحقق من وصول المريض
+Confidential	مؤتمن
+Privacy-first handling	التعامل مع الخصوصية أولاً
+Trackable	يمكن تتبعها
+Request reference provided	تم توفير مرجع الطلب
+Request Medical Records	طلب السجلات الطبية
+Please complete the form below. Our medical records team will verify your request and contact you if additional authorization is required.	يرجى إكمال النموذج أدناه. سيقوم فريق السجلات الطبية لدينا بالتحقق من طلبك والاتصال بك إذا كان هناك حاجة إلى تصريح إضافي.
+Identity and contact information	الهوية ومعلومات الاتصال
+Emirates ID / Passport Number	الهوية الإماراتية / رقم جواز السفر
+Medical Record Number	رقم السجل الطبي
+Records Required	السجلات المطلوبة
+Select the document types needed	حدد أنواع المستندات المطلوبة
+Visit Summary	ملخص الزيارة
+Consultation notes and doctor summary.	ملاحظات التشاور وملخص الطبيب.
+Lab Reports	تقارير المختبر
+Blood tests and laboratory results.	اختبارات الدم والنتائج المخبرية.
+Radiology Reports	تقارير الأشعة
+X-ray, ultrasound or imaging reports.	تقارير الأشعة السينية أو الموجات فوق الصوتية أو التصوير.
+Prescriptions	الوصفات الطبية
+Current and previous medication records.	سجلات الأدوية الحالية والسابقة.
+Billing Documents	وثائق الفواتير
+Invoices, payment and insurance documents.	الفواتير ووثائق الدفع والتأمين.
+Complete Medical File	ملف طبي كامل
+Full available patient record copy.	نسخة كاملة من سجل المريض.
+Request Details	تفاصيل الطلب
+Purpose and delivery preference	الغرض وتفضيل التسليم
+Purpose of Request	الغرض من الطلب
+Personal Record	السجل الشخصي
+Insurance Claim	مطالبة التأمين
+Second Opinion	الرأي الثاني
+Travel / Visa	السفر / التأشيرة
+Transfer to Another Hospital	نقل إلى مستشفى آخر
+Legal / Official Requirement	المتطلبات القانونية / الرسمية
+Delivery Method	طريقة التسليم
+Secure Email	البريد الإلكتروني الآمن
+Collect from Clinic	اجمع من العيادة
+From Date	من التاريخ
+To Date	حتى الآن
+Additional Notes	ملاحظات إضافية
+Please provide my latest cardiology visit summary and lab reports.	يرجى تقديم ملخص زياراتي الأخيرة لأمراض القلب وتقارير المختبر.
+Upload ID / Authorization Document	تحميل معرف/وثيقة التفويض
+Emirates ID, passport copy or signed authorization if requesting on behalf of another patient.	بطاقة الهوية الإماراتية أو نسخة من جواز السفر أو تفويض موقع في حالة الطلب نيابة عن مريض آخر.
+I confirm that I am the patient or legally authorized representative.	أؤكد أنني المريض أو الممثل القانوني المعتمد.
+I consent to Ultra Medical Center verifying my identity before releasing medical records.	أوافق على قيام Ultra Medical Center بالتحقق من هويتي قبل إصدار السجلات الطبية.
+I understand records will only be released through the selected secure delivery method after verification.	أدرك أنه لن يتم إصدار السجلات إلا من خلال طريقة التسليم الآمن المحددة بعد التحقق.
+Medical records contain confidential health information. Requests are processed only after identity verification and approval by the authorized records team.	تحتوي السجلات الطبية على معلومات صحية سرية. تتم معالجة الطلبات فقط بعد التحقق من الهوية والموافقة عليها من قبل فريق السجلات المعتمد.
+Open Portal Instead	افتح البوابة بدلاً من ذلك
+Already registered?	مسجلة بالفعل؟
+Patients can access available reports and visit history directly through the secure .	يمكن للمرضى الوصول إلى التقارير المتاحة وزيارة التاريخ مباشرة من خلال بوابة المريض الآمنة.
+How It Works	كيف يعمل
+Our records team will process your request securely.	سيقوم فريق السجلات لدينا بمعالجة طلبك بشكل آمن.
+Complete the form and upload ID if needed.	أكمل النموذج وقم بتحميل المعرف إذا لزم الأمر.
+Identity Verification	التحقق من الهوية
+We confirm the patient or authorized requester.	نقوم بتأكيد المريض أو الطالب المعتمد.
+Records Review	مراجعة السجلات
+Requested records are prepared securely.	يتم إعداد السجلات المطلوبة بشكل آمن.
+Secure Release	الإصدار الآمن
+Records are shared using your selected method.	تتم مشاركة السجلات باستخدام الطريقة التي حددتها.
+Contact our care team for assistance with medical records.	اتصل بفريق الرعاية لدينا للحصول على المساعدة فيما يتعلق بالسجلات الطبية.
+Processing time may vary depending on record type, date range, verification status and authorization requirements.	قد يختلف وقت المعالجة حسب نوع السجل ونطاق التاريخ وحالة التحقق ومتطلبات الترخيص.
+Records are released only after patient identity confirmation.	يتم تحرير السجلات فقط بعد تأكيد هوية المريض.
+Multiple Record Types	أنواع السجلات المتعددة
+Request reports, visit summaries, prescriptions and invoices.	طلب التقارير وملخصات الزيارة والوصفات الطبية والفواتير.
+Secure Delivery	التسليم الآمن
+Choose secure email, portal delivery or clinic collection.	اختر بريدًا إلكترونيًا آمنًا أو تسليم البوابة الإلكترونية أو مجموعة العيادة.
+Our team can guide you through the request process.	يمكن لفريقنا إرشادك خلال عملية الطلب.
+Request Records	طلب السجلات
+Report Collection	جمع التقارير
+Request medical records securely from Ultra Medical Center including visit summaries, lab reports, radiology reports, prescriptions and discharge documents.	اطلب السجلات الطبية بشكل آمن من مركز الترا الطبي بما في ذلك ملخصات الزيارة وتقارير المختبر وتقارير الأشعة والوصفات الطبية ووثائق الخروج.
+Mention specific visit date, department, doctor or report if required.	اذكر تاريخ الزيارة أو القسم أو الطبيب أو التقرير المحدد إذا لزم الأمر.
+Medical Records Request Submitted | Ultra Medical Center	تم تقديم طلب السجلات الطبية | مركز الترا الطبي
+Request Submitted Successfully	تم تقديم الطلب بنجاح
+Your medical records request has been received. Our medical records team will verify your identity and prepare the requested documents through the selected secure delivery method.	لقد تم استلام طلب السجلات الطبية الخاص بك. سيقوم فريق السجلات الطبية لدينا بالتحقق من هويتك وإعداد المستندات المطلوبة من خلال طريقة التسليم الآمنة المحددة.
+Request Reference	طلب المرجع
+UMC-MR-2026-00000	UMC-MR-2026-00000
+New Request	طلب جديد
+Please keep this reference number for future communication.	يرجى الاحتفاظ بهذا الرقم المرجعي للاتصالات المستقبلية.
+Record Type	نوع السجل
+Medical records request submitted	تم تقديم طلب السجلات الطبية
+Verification	تَحَقّق
+Identity verification required before release	التحقق من الهوية مطلوب قبل الإصدار
+You will be contacted once records are reviewed	سيتم التواصل معك فور مراجعة السجلات
+Medical records are handled through a secure verification and release workflow.	تتم معالجة السجلات الطبية من خلال التحقق الآمن وسير عمل الإصدار.
+Request Review	طلب مراجعة
+The records team reviews your submitted request and selected document types.	يقوم فريق السجلات بمراجعة طلبك المقدم وأنواع المستندات المحددة.
+Your identity or authorization document is verified before records are released.	يتم التحقق من هويتك أو مستند التفويض الخاص بك قبل إصدار السجلات.
+Records Preparation	إعداد السجلات
+Approved records are prepared, checked and marked for secure delivery.	يتم إعداد السجلات المعتمدة وفحصها ووضع علامة عليها للتسليم الآمن.
+You receive records through your selected delivery method or portal access.	تتلقى السجلات من خلال طريقة التسليم التي حددتها أو الوصول إلى البوابة.
+Need Help With This Request?	هل تحتاج إلى مساعدة في هذا الطلب؟
+Contact our care team and share your request reference number for faster assistance.	اتصل بفريق الرعاية الخاص بنا وشارك الرقم المرجعي لطلبك للحصول على مساعدة أسرع.
+Medical records contain confidential information and are released only after successful verification.	تحتوي السجلات الطبية على معلومات سرية ولا يتم إصدارها إلا بعد التحقق الناجح.
+Processing time may vary depending on record type, requested date range, verification status and authorization requirements.	قد يختلف وقت المعالجة حسب نوع السجل والنطاق الزمني المطلوب وحالة التحقق ومتطلبات الترخيص.
+Access available records securely	الوصول إلى السجلات المتاحة بشكل آمن
+Track report status and readiness	تتبع حالة التقرير والاستعداد
+Schedule a follow-up visit	حدد موعدًا لزيارة المتابعة
+New Records Request	طلب سجلات جديدة
+Medical records request submitted successfully at Ultra Medical Center.	تم تقديم طلب السجلات الطبية بنجاح في مركز الترا الطبي.
+Cardiac Screening Package | Ultra Medical Center	باقة فحص القلب | مركز الترا الطبي
+Preventive Heart Care	رعاية القلب الوقائية
+Cardiac Screening Package	باقة فحص القلب
+Understand your heart health before symptoms become serious.	افهم صحة قلبك قبل أن تصبح الأعراض خطيرة.
+A focused preventive package designed for patients with heart-risk factors, family history, high blood pressure, cholesterol concerns, diabetes risk or lifestyle-related cardiac concerns.	حزمة وقائية مركزة مصممة للمرضى الذين يعانون من عوامل خطر الإصابة بالقلب، أو تاريخ عائلي، أو ارتفاع ضغط الدم، أو مخاوف تتعلق بالكوليسترول، أو خطر الإصابة بالسكري، أو مخاوف قلبية مرتبطة بنمط الحياة.
+Package Price	سعر الحزمة
+2 – 3 Hours	2 - 3 ساعات
+Preparation	تحضير
+Fasting	صيام
+View Cardiology Care	عرض رعاية أمراض القلب
+Submit your preferred date and time	أرسل التاريخ والوقت المفضل لديك
+Consult Cardiologist	استشارة طبيب القلب
+Meet Dr. Rami K. Youssef	تعرف على الدكتور رامي يوسف
+Insurance Check	فحص التأمين
+Verify eligibility before your visit	تحقق من الأهلية قبل زيارتك
+Get help choosing a package	احصل على مساعدة في اختيار الحزمة
+Package Details	تفاصيل الحزمة
+Complete cardiac screening pathway with doctor consultation and diagnostic review.	استكمال مسار فحص القلب مع استشارة الطبيب والمراجعة التشخيصية.
+What’s Included	ما هو مدرج
+Specialist review of history, symptoms and cardiac risk factors.	مراجعة متخصصة للتاريخ والأعراض وعوامل الخطر القلبية.
+ECG	تخطيط كهربية القلب
+Fast heart rhythm and electrical activity screening.	إيقاع القلب السريع وفحص النشاط الكهربائي.
+Heart structure and pumping function ultrasound assessment.	تقييم بنية القلب ووظيفة الضخ بالموجات فوق الصوتية.
+Stress Test	اختبار الإجهاد
+Heart function assessment during exercise or stress protocol.	تقييم وظائف القلب أثناء ممارسة الرياضة أو بروتوكول الإجهاد.
+Blood Tests	اختبارات الدم
+Lipid profile and selected health markers for cardiac risk.	ملف الدهون وعلامات صحية مختارة لمخاطر القلب.
+Personalized Heart Plan	خطة القلب الشخصية
+Doctor guidance for prevention, medication or follow-up care.	توجيهات الطبيب للوقاية أو الدواء أو رعاية المتابعة.
+Screening Tests	اختبارات الفحص
+Blood Pressure Review	مراجعة ضغط الدم
+Lipid Profile	الملف الدهني
+Blood Sugar Screening	فحص نسبة السكر في الدم
+Doctor Report Review	مراجعة تقرير الطبيب
+Who Should Consider This Package?	من يجب أن يفكر في هذه الحزمة؟
+Age 35+	العمر 35+
+Recommended for adults who want a preventive cardiac assessment.	يوصى به للبالغين الذين يرغبون في إجراء تقييم وقائي للقلب.
+High Blood Pressure	ضغط دم مرتفع
+Useful for patients managing hypertension or BP changes.	مفيد للمرضى الذين يعانون من ارتفاع ضغط الدم أو تغيرات ضغط الدم.
+Family History	تاريخ العائلة
+For patients with family history of heart disease or stroke.	للمرضى الذين لديهم تاريخ عائلي للإصابة بأمراض القلب أو السكتة الدماغية.
+Diabetes / Cholesterol Risk	مرض السكري / خطر الكولسترول
+Helpful for people with diabetes, cholesterol concerns or sedentary lifestyle.	مفيد للأشخاص الذين يعانون من مرض السكري أو مخاوف الكوليسترول أو نمط الحياة المستقر.
+Your Visit Journey	رحلة زيارتك
+Registration & Vital Check	التسجيل والفحص الحيوي
+Patient registration, BP, pulse and basic health information review.	تسجيل المرضى وضغط الدم والنبض ومراجعة المعلومات الصحية الأساسية.
+Cardiac Tests	اختبارات القلب
+ECG, blood tests, echo and stress test as per package workflow.	تخطيط القلب، واختبارات الدم، واختبار الصدى والإجهاد وفقًا لسير عمل الحزمة.
+Cardiologist Consultation	استشارة طبيب القلب
+Doctor evaluates results and explains risk, diagnosis and next steps.	يقوم الطبيب بتقييم النتائج ويشرح المخاطر والتشخيص والخطوات التالية.
+Reports & Follow-up	التقارير والمتابعة
+Reports can be accessed through the  when ready.	يمكن الوصول إلى التقارير من خلال بوابة المريض عندما تكون جاهزة.
+Frequently Asked Questions	الأسئلة المتداولة
+Do I need fasting?	هل أحتاج إلى الصيام؟
+Fasting may be required for lipid profile and certain blood tests. Our care coordinator will confirm preparation before your visit.	قد يكون الصيام مطلوبًا لتحليل مستوى الدهون وبعض اختبارات الدم. سيقوم منسق الرعاية لدينا بتأكيد الاستعدادات قبل زيارتك.
+Can insurance cover this package?	هل يمكن للتأمين تغطية هذه الحزمة؟
+Coverage depends on your insurance policy and network. You can check eligibility before booking through the insurance page.	تعتمد التغطية على بوليصة التأمين الخاصة بك والشبكة. يمكنك التحقق من الأهلية قبل الحجز من خلال صفحة التأمين.
+How long does the screening take?	كم من الوقت يستغرق الفحص؟
+Most patients complete the package in approximately 2 to 3 hours, depending on waiting time and test flow.	يكمل معظم المرضى الحزمة في حوالي 2 إلى 3 ساعات، اعتمادًا على وقت الانتظار وتدفق الاختبار.
+Book Cardiac Screening	كتاب فحص القلب
+Preventive cardiac check-up with cardiology consultation and diagnostic review.	فحص القلب الوقائي مع استشارة أمراض القلب والمراجعة التشخيصية.
+Package Info	معلومات الحزمة
+May be required	قد يكون مطلوبا
+Portal access	الوصول إلى البوابة
+Consulting Doctor	طبيب استشاري
+Please bring Emirates ID, insurance card if applicable, current medications and previous cardiac reports if available.	يرجى إحضار بطاقة الهوية الإماراتية وبطاقة التأمين إن وجدت والأدوية الحالية وتقارير القلب السابقة إن وجدت.
+Related Packages	الحزم ذات الصلة
+Other preventive health packages you may consider.	حزم صحية وقائية أخرى قد تفكر فيها.
+View all packages	عرض جميع الحزم
+Complete preventive health assessment with labs and doctor consultation.	استكمال التقييم الصحي الوقائي مع المختبرات واستشارة الطبيب.
+Comprehensive VIP health screening and priority appointments.	الفحص الصحي الشامل لكبار الشخصيات والمواعيد ذات الأولوية.
+Ready to schedule your cardiac screening?	هل أنت مستعد لتحديد موعد فحص القلب الخاص بك؟
+Request your package or chat with our care team to confirm preparation and availability.	اطلب الحزمة الخاصة بك أو قم بالدردشة مع فريق الرعاية لدينا لتأكيد الإعداد والتوافر.
+Request Cardiac Screening	طلب فحص القلب
+Cardiac Screening Package at Ultra Medical Center with cardiology consultation, ECG, stress test, echocardiogram and lipid profile.	باقة فحص القلب في مركز الترا الطبي مع استشارة أمراض القلب، تخطيط القلب، اختبار الإجهاد، مخطط صدى القلب وملف الدهون.
+Diabetes Care Package | Ultra Medical Center	باقة رعاية مرضى السكري | مركز الترا الطبي
+Diabetes Screening & Follow-up	فحص ومتابعة مرض السكري
+A focused screening and care-support package for diabetes risk awareness, blood sugar monitoring, kidney health review and doctor-guided lifestyle advice.	حزمة فحص مركزة ودعم الرعاية للتوعية بمخاطر مرض السكري ومراقبة نسبة السكر في الدم ومراجعة صحة الكلى ونصائح حول نمط الحياة بتوجيه من الطبيب.
+Book Package	حزمة الكتاب
+Ask Package Team	اسأل فريق الحزمة
+HbA1c Review	مراجعة نسبة HbA1c
+Average sugar marker	مؤشر السكر المتوسط
+Doctor Guidance	ارشادات الطبيب
+Care planning	تخطيط الرعاية
+Risk Awareness	التوعية بالمخاطر
+Preventive support	الدعم الوقائي
+Package Includes	تتضمن الحزمة
+Focused screening and doctor guidance for diabetes prevention and monitoring.	الفحص المركز وتوجيهات الطبيب للوقاية من مرض السكري ومراقبته.
+Doctor Consultation	استشارة الطبيب
+Clinical review of symptoms, lifestyle, family history and diabetes risk factors.	المراجعة السريرية للأعراض ونمط الحياة والتاريخ العائلي وعوامل خطر الإصابة بمرض السكري.
+Key sugar markers to support risk review and follow-up planning.	علامات السكر الرئيسية لدعم مراجعة المخاطر وتخطيط المتابعة.
+Kidney Health Check	فحص صحة الكلى
+Basic kidney function screening important for diabetes-related monitoring.	فحص وظائف الكلى الأساسي مهم لرصد مرض السكري.
+Lifestyle & Diet Guidance	إرشادات حول أسلوب الحياة والنظام الغذائي
+Personalized advice on follow-up, diet, activity and specialist referral if required.	نصيحة شخصية بشأن المتابعة والنظام الغذائي والنشاط والإحالة المتخصصة إذا لزم الأمر.
+Key Screening Tests	اختبارات الفحص الرئيسية
+Final test list may vary based on doctor recommendation and package availability.	قد تختلف قائمة الاختبارات النهائية بناءً على توصية الطبيب وتوافر الحزمة.
+Fasting Blood Sugar	سكر الدم الصائم
+HbA1c	نسبة HbA1c
+Random Blood Sugar	سكر الدم العشوائي
+Kidney Function Test	اختبار وظائف الكلى
+Urine Routine	روتين البول
+Blood Pressure Check	فحص ضغط الدم
+Doctor Review	مراجعة الطبيب
+Fasting may be required for selected tests. The care team will confirm preparation instructions during booking.	قد يكون الصيام مطلوبًا لإجراء اختبارات مختارة. سيقوم فريق الرعاية بتأكيد تعليمات التحضير أثناء الحجز.
+Visit Flow	زيارة التدفق
+A clear diabetes screening journey from booking to care guidance.	رحلة واضحة لفحص مرض السكري بدءًا من الحجز وحتى إرشادات الرعاية.
+Submit request and confirm appointment.	تقديم الطلب وتأكيد الموعد.
+Screening	الفحص
+Complete blood and urine tests.	اختبارات الدم والبول الكاملة.
+Discuss results and risk status.	مناقشة النتائج وحالة المخاطر.
+Receive follow-up and lifestyle guidance.	تلقي المتابعة والتوجيه نمط الحياة.
+Explore other preventive health screening options.	استكشف خيارات الفحص الصحي الوقائي الأخرى.
+Heart-focused screening and cardiac risk review.	الفحص الذي يركز على القلب ومراجعة المخاطر القلبية.
+View Package	عرض الحزمة
+Comprehensive preventive screening for adults.	الفحص الوقائي الشامل للبالغين.
+Preventive screening focused on women’s health needs.	يركز الفحص الوقائي على الاحتياجات الصحية للمرأة.
+On Request	عند الطلب
+Final price and availability can be confirmed by the care team.	يمكن تأكيد السعر النهائي والتوافر من قبل فريق الرعاية.
+Approx. 1–2 hours	تقريبا. 1-2 ساعات
+Usually required	مطلوب عادة
+After processing	بعد المعالجة
+Please carry Emirates ID, insurance card, previous sugar reports, current medication list and glucometer readings if available.	يرجى حمل بطاقة الهوية الإماراتية وبطاقة التأمين وتقارير السكر السابقة وقائمة الأدوية الحالية وقراءات جهاز قياس السكر إذا كانت متوفرة.
+Ask our care coordinator for package availability and booking support.	اسأل منسق الرعاية لدينا عن توفر الحزمة ودعم الحجز.
+Diabetes Care Package at Ultra Medical Center with blood sugar screening, HbA1c, kidney health review, doctor consultation and diabetes risk guidance.	باقة رعاية مرضى السكري في مركز Ultra الطبي مع فحص نسبة السكر في الدم، ونسبة HbA1c، ومراجعة صحة الكلى، واستشارة الطبيب، وتوجيهات بشأن مخاطر مرض السكري.
+Executive Health Check-up Package | Ultra Medical Center	باقة الفحص الصحي التنفيذي | مركز الترا الطبي
+Preventive Health Screening	فحص الصحة الوقائية
+Executive Health Check-up Package	باقة الفحص الصحي التنفيذي
+A structured preventive screening package designed for busy professionals and adults who want a complete review of key health indicators, lifestyle risks and wellness priorities.	حزمة فحص وقائية منظمة مصممة للمهنيين المشغولين والبالغين الذين يريدون مراجعة كاملة للمؤشرات الصحية الرئيسية ومخاطر نمط الحياة وأولويات الصحة.
+Lab Screening	فحص المختبر
+Key health markers	العلامات الصحية الرئيسية
+Clinical consultation	الاستشارة السريرية
+Risk Guidance	إرشادات المخاطر
+Preventive care plan	خطة الرعاية الوقائية
+Designed for preventive screening and early risk awareness.	مصممة للفحص الوقائي والتوعية المبكرة بالمخاطر.
+General Physician Consultation	استشارة الطبيب العام
+Medical history review, lifestyle discussion and physical examination.	مراجعة التاريخ الطبي ومناقشة نمط الحياة والفحص البدني.
+Comprehensive Lab Panel	لوحة المختبر الشاملة
+Core blood and urine tests to assess common health indicators.	اختبارات الدم والبول الأساسية لتقييم المؤشرات الصحية الشائعة.
+Cardiac Risk Review	مراجعة مخاطر القلب
+Basic cardiovascular risk discussion based on symptoms, history and screening results.	مناقشة مخاطر القلب والأوعية الدموية الأساسية بناءً على الأعراض والتاريخ ونتائج الفحص.
+Preventive Health Advice	نصائح صحية وقائية
+Personalized guidance for follow-up, lifestyle and specialist referral if needed.	إرشادات شخصية للمتابعة وأسلوب الحياة والإحالة المتخصصة إذا لزم الأمر.
+Complete Blood Count	تعداد الدم الكامل
+Liver Function Test	اختبار وظائف الكبد
+Thyroid Screening	فحص الغدة الدرقية
+Vitamin D Screening	فحص فيتامين د
+A smooth package journey from booking to results review.	رحلة سلسة للحزمة من الحجز إلى مراجعة النتائج.
+Sample Collection	جمع العينات
+Complete required lab screening.	استكمال الفحوصات المخبرية المطلوبة.
+Consultation and result interpretation.	التشاور وتفسير النتائج.
+Follow-up advice and next steps.	نصائح المتابعة والخطوات التالية.
+Screening and follow-up support for diabetes risk.	دعم الفحص والمتابعة لمخاطر مرض السكري.
+Executive Package	الحزمة التنفيذية
+Approx. 2–3 hours	تقريبا. 2-3 ساعات
+After lab processing	بعد المعالجة المخبرية
+Please carry Emirates ID, insurance card, previous reports and current medication list. Fasting may be required for some tests.	يرجى حمل الهوية الإماراتية وبطاقة التأمين والتقارير السابقة وقائمة الأدوية الحالية. قد يكون الصيام مطلوبًا لإجراء بعض الاختبارات.
+Executive Health Check-up Package at Ultra Medical Center with doctor consultation, lab screening, cardiac risk review and preventive health assessment.	باقة الفحص الصحي التنفيذي في مركز الترا الطبي مع استشارة الطبيب والفحص المعملي ومراجعة المخاطر القلبية والتقييم الصحي الوقائي.
+Well Woman Package | Ultra Medical Center	باقة المرأة الطيبة | مركز الترا الطبي
+Women’s Preventive Health	الصحة الوقائية للمرأة
+A preventive health package designed to support women’s wellness through consultation, essential screening, lifestyle guidance and early awareness of common health risks.	حزمة صحية وقائية مصممة لدعم صحة المرأة من خلال الاستشارة والفحص الأساسي وتوجيه نمط الحياة والتوعية المبكرة بالمخاطر الصحية الشائعة.
+Women’s Health	صحة المرأة
+Consultation support	دعم التشاور
+Preventive Advice	نصائح وقائية
+Personalized guidance	التوجيه الشخصي
+Focused on preventive screening and women’s wellness support.	التركيز على الفحص الوقائي ودعم صحة المرأة.
+Health history review, symptoms discussion and personalized guidance.	مراجعة التاريخ الصحي ومناقشة الأعراض والتوجيه الشخصي.
+Essential Lab Screening	الفحص المعملي الأساسي
+Core blood and urine tests to assess important health markers.	اختبارات الدم والبول الأساسية لتقييم العلامات الصحية الهامة.
+Women’s Wellness Review	مراجعة صحة المرأة
+Discussion of lifestyle, cycle-related concerns, fatigue, nutrition and general wellness.	مناقشة نمط الحياة والمخاوف المتعلقة بالدورة والتعب والتغذية والصحة العامة.
+Preventive Care Plan	خطة الرعاية الوقائية
+Follow-up guidance and referral advice when specialist review is required.	إرشادات المتابعة ونصائح الإحالة عندما تكون المراجعة المتخصصة مطلوبة.
+Iron Profile	الملف الحديدي
+A smooth package journey from booking to health guidance.	رحلة سلسة من الحجز إلى التوجيه الصحي.
+Complete required sample collection.	استكمال جمع العينات المطلوبة.
+Doctor reviews concerns and results.	يقوم الطبيب بمراجعة المخاوف والنتائج.
+Guidance	إرشاد
+Receive follow-up and lifestyle advice.	احصل على المتابعة والنصائح المتعلقة بنمط الحياة.
+Well Woman Package at Ultra Medical Center with preventive screening, women’s health consultation, lab tests and personalized care guidance.	باقة Well Woman في مركز Ultra الطبي مع الفحص الوقائي والاستشارات الصحية للمرأة والفحوصات المخبرية وتوجيهات الرعاية الشخصية.
+ | Ultra Medical Center	بوابة المريض | مركز الترا الطبي
+Secure 	بوابة المريض الآمنة
+Access your appointments, visit history, reports, prescriptions, billing information and personal health records through a secure login experience.	يمكنك الوصول إلى مواعيدك وسجل الزيارات والتقارير والوصفات الطبية ومعلومات الفواتير والسجلات الصحية الشخصية من خلال تجربة تسجيل دخول آمنة.
+Your health information is protected	معلوماتك الصحية محمية
+Designed for privacy, security and verified patient access.	مصمم للخصوصية والأمان والوصول المؤكد للمريض.
+Mobile number verification	التحقق من رقم الجوال
+OTP based access	الوصول القائم على OTP
+Encrypted session handling	التعامل مع الجلسة المشفرة
+Medical data confidentiality	سرية البيانات الطبية
+New Patient Registration	تسجيل مريض جديد
+Patient Login	تسجيل دخول المريض
+Enter your registered mobile number and OTP to continue.	أدخل رقم هاتفك المحمول المسجل وكلمة مرور OTP للمتابعة.
+Mobile OTP	مكتب المدعي العام المحمول
+UAE PASS	بطاقة المرور الإماراتية
+Registered Mobile Number	رقم الجوال المسجل
+One-Time Password	كلمة المرور لمرة واحدة
+Send OTP	أرسل كلمة مرور لمرة واحدة
+Login Securely	تسجيل الدخول بشكل آمن
+Verified test access enabled for registered patient	تم تمكين الوصول إلى الاختبار الذي تم التحقق منه للمريض المسجل
+Resend OTP	إعادة إرسال كلمة المرور لمرة واحدة
+Contact Support	اتصل بالدعم
+For production use, patient records must be connected through the clinic’s approved HIS/EMR system using secure APIs and UAE-compliant hosting and security controls.	لاستخدام الإنتاج، يجب ربط سجلات المرضى من خلال نظام HIS/EMR المعتمد في العيادة باستخدام واجهات برمجة التطبيقات الآمنة وضوابط الاستضافة والأمن المتوافقة مع دولة الإمارات العربية المتحدة.
+What You Can Access	ما يمكنك الوصول إليه
+Everything you need for a connected healthcare journey.	كل ما تحتاجه لرحلة رعاية صحية متصلة.
+Appointments	المواعيد
+View upcoming and previous appointments	عرض المواعيد القادمة والسابقة
+Medical Reports	التقارير الطبية
+Access lab reports and radiology summaries	الوصول إلى تقارير المختبر وملخصات الأشعة
+Visit History	زيارة التاريخ
+Review past visits and doctor summaries	مراجعة الزيارات السابقة وملخصات الطبيب
+Billing & Insurance	الفواتير والتأمين
+Track invoices, payments and insurance details	تتبع الفواتير والمدفوعات وتفاصيل التأمين
+Need help accessing your portal?	هل تحتاج إلى مساعدة في الوصول إلى بوابتك الإلكترونية؟
+Our care coordinator can help you verify your mobile number or guide you through registration.	يمكن لمنسق الرعاية لدينا مساعدتك في التحقق من رقم هاتفك المحمول أو إرشادك خلال عملية التسجيل.
+Email	بريد إلكتروني
+Secure  access for Ultra Medical Center patients to view appointments, reports, visit history and personal health information.	الوصول الآمن إلى بوابة المريض لمرضى مركز Ultra Medical Center لعرض المواعيد والتقارير وسجل الزيارة والمعلومات الصحية الشخصية.
+ secure login	بوابة المريض تسجيل الدخول الآمن
+Patient login form	نموذج تسجيل دخول المريض
+Enter OTP	أدخل كلمة المرور لمرة واحدة
+ features	مميزات بوابة المريض
+ help	مساعدة بوابة المريض
+Patient Record | Ultra Medical Center	سجل المريض | مركز الترا الطبي
+PN	ب.ن
+Logout	تسجيل الخروج
+MRN: UMC-2025-001247	إم آر إن: UMC-2025-001247
+Mobile: 0501235798	جوال: 0501235798
+✓ Verified Patient	✓ مريض تم التحقق منه
+Summary	ملخص
+Recent Visits	الزيارات الأخيرة
+Reports & Radiology	التقارير والأشعة
+Medications	الأدوية
+Profile & Settings	الملف الشخصي والإعدادات
+Need assistance?	هل تحتاج إلى المساعدة؟
+Our care coordinator can help with reports, appointments or insurance queries.	يمكن لمنسق الرعاية لدينا المساعدة في التقارير أو المواعيد أو استفسارات التأمين.
+Patient Record	سجل المريض
+Welcome,	مرحباً،
+View your appointments, recent visits, reports, medications, billing and profile information in one secure place.	اعرض مواعيدك وزياراتك الأخيرة والتقارير والأدوية والفواتير ومعلومات الملف الشخصي في مكان واحد آمن.
+Last portal access: Just now	آخر وصول إلى البوابة: الآن
+Appointment scheduled	تمت جدولة الموعد
+History	تاريخ
+Recent visits available	الزيارات الأخيرة المتاحة
+Reports ready to view	التقارير جاهزة للعرض
+Medication	دواء
+Current medicines	الأدوية الحالية
+Upcoming Appointment	الموعد القادم
+Dr. Rami K. Youssef · 10:30 AM · Ultra Medical Center, Al Jimi	د. رامي يوسف · 10:30 صباحًا · مركز الترا الطبي، الجيمي
+View	منظر
+Care Summary	ملخص الرعاية
+Daman · Enhanced Network · Eligible	ضمان · الشبكة المحسنة · مؤهلة
+Last Vital Reading	آخر قراءة حيوية
+BP 120/80 · Pulse 76 · BMI 24.8	ضغط الدم 120/80 · النبض 76 · مؤشر كتلة الجسم 24.8
+Primary Care	الرعاية الأولية
+Family Medicine · Follow-up recommended after 6 months	طب الأسرة · يوصى بالمتابعة بعد 6 أشهر
+Recent 10 Visits	آخر 10 زيارات
+View All	عرض الكل
+Date	تاريخ
+Diagnosis / Notes	التشخيص / الملاحظات
+Recent 10 Visit History	آخر 10 زيارات للتاريخ
+Appointment No.	رقم الموعد
+Request Report	طلب تقرير
+Ready	مستعد
+Collected on 22 Apr 2026 · Laboratory	تم جمعه في 22 أبريل 2026 · المختبر
+Download PDF	تحميل قوات الدفاع الشعبي
+Radiology	الأشعة
+Chest X-Ray Summary	ملخص الأشعة السينية للصدر
+Completed on 15 Mar 2026 · Radiology	اكتمل في 15 مارس 2026 · قسم الأشعة
+Collected on 10 Feb 2026 · Laboratory	تم جمعه في 10 فبراير 2026 · المختبر
+ECG Report	تقرير تخطيط القلب
+Completed on 05 Jan 2026 · Cardiology	اكتمل في 05 يناير 2026 · أمراض القلب
+Current Medications & Prescriptions	الأدوية والوصفات الطبية الحالية
+Pharmacy	صيدلية
+Amlodipine 5mg	أملوديبين 5 ملغ
+Once daily · Morning · Prescribed by Dr. Rami K. Youssef	مرة واحدة يوميًا · صباحًا · وصفه الدكتور رامي يوسف
+Active	نشيط
+Vitamin D3 5000 IU	فيتامين د3 5000 وحدة دولية
+Once weekly · After meal · Prescribed by Family Medicine	مرة واحدة أسبوعيًا · بعد الوجبة · موصوف من قبل طب الأسرة
+Atorvastatin 10mg	أتورفاستاتين 10 ملغ
+Once daily · Night · Review after 3 months	مرة واحدة يوميًا · ليلاً · المراجعة بعد 3 أشهر
+Family Medicine · Completed · Lab results available	طب الأسرة · مكتمل · نتائج المختبر متاحة
+Insurance Help	مساعدة التأمين
+Insurance Information	معلومات التأمين
+Daman · Enhanced Network	ضمان · تعزيز الشبكة
+Member No: DMN-123456789	رقم العضو: DMN-123456789
+Status: Eligible	الحالة: مؤهل
+Recent Invoice	الفاتورة الأخيرة
+Invoice: UMC-INV-2026-0148	الفاتورة: UMC-INV-2026-0148
+Amount: AED 125.00	المبلغ: 125.00 درهماً إماراتياً
+Status: Paid	الحالة: مدفوعة
+Download Invoice	تحميل الفاتورة
+Request Update	طلب التحديث
+Mobile	متحرك
+10 May 1988	10 مايو 1988
+Address	عنوان
+Preferred Language	اللغة المفضلة
+Emergency Contact	الاتصال في حالات الطوارئ
+Not updated	لم يتم تحديثه
+Portal Security	أمن البوابة
+Mobile OTP enabled	تمكين OTP المحمول
+Request Reports	طلب التقارير
+Secure patient record portal for Ultra Medical Center patients.	بوابة سجل المرضى الآمنة لمرضى مركز الترا الطبي.
+Patients & Visitors | Ultra Medical Center	المرضى والزوار | مركز الترا الطبي
+Compassionate care. Seamless experience.	رعاية رحيمة. تجربة سلسة.
+We’re here to make your visit as smooth and stress-free as possible. Find everything you need to know before, during, and after your visit to Ultra Medical Center.	نحن هنا لنجعل زيارتك سلسة وخالية من التوتر قدر الإمكان. ابحث عن كل ما تحتاج إلى معرفته قبل وأثناء وبعد زيارتك لمركز الترا الطبي.
+Locations & Hours	المواقع وساعات العمل
+View locations, timings & map	عرض المواقع والتوقيت والخريطة
+We accept a wide range of insurers	نحن نقبل مجموعة واسعة من شركات التأمين
+Call, WhatsApp or visit us	اتصل أو واتساب أو قم بزيارتنا
+Patient Guidance	إرشاد المريض
+Everything you need before, during and after your visit.	كل ما تحتاجه قبل وأثناء وبعد زيارتك.
+Plan ahead for a smooth experience.	خطط للمستقبل لتجربة سلسة.
+Appointments & Scheduling	المواعيد والجدولة
+Insurance & Payments	التأمين والمدفوعات
+What to Bring	ما يجب إحضاره
+Directions & Parking	الاتجاهات ومواقف السيارات
+During Your Visit	أثناء زيارتك
+Everything you need while you’re here.	كل ما تحتاجه أثناء وجودك هنا.
+Check-in Process	عملية تسجيل الوصول
+Waiting & Patient Comfort	الانتظار وراحة المريض
+Amenities & Facilities	وسائل الراحة والمرافق
+Interpreter Services	خدمات الترجمة الفورية
+After Your Visit	بعد زيارتك
+We support your recovery.	نحن ندعم تعافيك.
+Follow-up Appointments	مواعيد المتابعة
+Medications & Prescriptions	الأدوية والوصفات الطبية
+Results & Reports	النتائج والتقارير
+Care & Recovery Tips	نصائح الرعاية والتعافي
+Guidelines for a comfortable visit.	إرشادات لزيارة مريحة.
+Visiting Hours	ساعات الزيارة
+Visitor Guidelines	إرشادات الزائر
+Children & Family Visits	زيارات الأطفال والعائلات
+Parking for Visitors	مواقف للزوار
+Your guide to our services.	دليلك لخدماتنا.
+Departments & Services	الإدارات والخدمات
+Care Standards	معايير الرعاية
+Support Services	خدمات الدعم
+Patient Rights & Responsibilities	حقوق ومسؤوليات المريض
+Your rights. Our commitment.	حقوقك. التزامنا.
+Your Rights	حقوقك
+Your Responsibilities	مسؤولياتك
+Privacy & Confidentiality	الخصوصية والسرية
+Feedback & Complaints	ردود الفعل والشكاوى
+Request copies of your medical records securely.	اطلب نسخًا من سجلاتك الطبية بشكل آمن.
+Request Now →	اطلب الآن →
+Collect your lab and radiology reports.	جمع تقارير المختبر والأشعة الخاصة بك.
+Manage bills, payments and insurance claims.	إدارة الفواتير والمدفوعات ومطالبات التأمين.
+View Options →	عرض الخيارات →
+Find answers to common questions and concerns.	ابحث عن إجابات للأسئلة والمخاوف الشائعة.
+View FAQs →	عرض الأسئلة الشائعة →
+Family Access	وصول الأسرة
+Authorize family members to access your information.	السماح لأفراد العائلة بالوصول إلى معلوماتك.
+Our patient support team is here for you.	فريق دعم المرضى لدينا موجود من أجلك.
+Quick Links	روابط سريعة
+Popular Services	الخدمات الشعبية
+Our Locations	مواقعنا
+View All Locations	عرض جميع المواقع
+Connect With Us	تواصل معنا
+Subscribe to Newsletter	اشترك في النشرة الإخبارية
+Join	ينضم
+Patient and visitor information for Ultra Medical Center, including appointments, insurance, medical records, reports, billing and support.	معلومات المرضى والزوار لمركز الترا الطبي، بما في ذلك المواعيد والتأمين والسجلات الطبية والتقارير والفواتير والدعم.
+Patients and visitors hero	المرضى والزوار البطل
+Quick links	روابط سريعة
+Patient guidance	توجيه المريض
+Patient services	خدمات المرضى
+Need help	بحاجة الى مساعدة
+More information	مزيد من المعلومات
+Email address	عنوان البريد الإلكتروني
+Insurance Pre-Approval Support | Ultra Medical Center	دعم الموافقة المسبقة للتأمين | مركز الترا الطبي
+Insurance Pre-Approval Support	دعم الموافقة المسبقة للتأمين
+Submit pre-approval support requests for procedures, diagnostics, treatments or specialist services. Our insurance team will review your details and guide you through the approval process.	إرسال طلبات دعم الموافقة المسبقة للإجراءات أو التشخيص أو العلاج أو الخدمات المتخصصة. سيقوم فريق التأمين لدينا بمراجعة التفاصيل الخاصة بك وإرشادك خلال عملية الموافقة.
+Insurance Review	مراجعة التأمين
+Coverage support	دعم التغطية
+Document Check	فحص الوثيقة
+Required approvals	الموافقات المطلوبة
+Coordinator Help	مساعدة المنسق
+Status follow-up	متابعة الحالة
+Pre-Approval Request Form	نموذج طلب الموافقة المسبقة
+Complete the form below. Our insurance coordination team will review the request and contact you if additional documents are required.	أكمل النموذج أدناه. سيقوم فريق تنسيق التأمين لدينا بمراجعة الطلب والاتصال بك إذا كانت هناك حاجة إلى مستندات إضافية.
+Patient identity and contact information	هوية المريض ومعلومات الاتصال
+Emirates ID / Passport	الهوية الإماراتية / جواز السفر
+Insurance Details	تفاصيل التأمين
+Policy and network information	معلومات السياسة والشبكة
+Insurance Provider	مزود التأمين
+Thiqa	ثقة
+ADNIC	شركة أبوظبي الوطنية للتأمين
+Oman Insurance / Sukoon	عمان للتأمين / سكون
+Orient Insurance	اورينت للتأمين
+MetLife	ميتلايف
+Other	آخر
+Policy / Card Number	رقم السياسة / البطاقة
+Network	شبكة
+Policy Expiry	انتهاء صلاحية السياسة
+Service Requiring Pre-Approval	الخدمة تتطلب موافقة مسبقة
+Select the requested service type	اختر نوع الخدمة المطلوبة
+Diagnostic Imaging	التصوير التشخيصي
+MRI, CT, ultrasound, advanced radiology.	التصوير بالرنين المغناطيسي، والأشعة المقطعية، والموجات فوق الصوتية، والأشعة المتقدمة.
+Procedure / Treatment	الإجراء / العلاج
+Minor procedure, therapy or treatment request.	إجراء بسيط أو علاج أو طلب علاج.
+Specialist Consultation	استشارة متخصصة
+Approval for specialist doctor visit.	الموافقة على زيارة الطبيب المختص.
+Laboratory / Package	مختبر / حزمة
+Lab panel, screening or package approval support.	دعم لوحة المختبر أو الفحص أو الموافقة على الحزمة.
+Family Medicine	طب الأسرة
+Preferred Doctor	الطبيب المفضل
+Requested Service / Clinical Notes	الخدمة المطلوبة / الملاحظات السريرية
+Pre-approval request for cardiology-related diagnostic review and recommended investigation.	طلب موافقة مسبقة للمراجعة التشخيصية المتعلقة بأمراض القلب والفحوصات الموصى بها.
+Upload Insurance Card / Referral / Previous Reports	تحميل بطاقة التأمين / الإحالة / التقارير السابقة
+Upload insurance card, Emirates ID, referral letter, previous reports or doctor request form if available.	قم بتحميل بطاقة التأمين أو الهوية الإماراتية أو خطاب الإحالة أو التقارير السابقة أو نموذج طلب الطبيب إن وجد.
+I authorize Ultra Medical Center to use the provided information for insurance eligibility and pre-approval support.	أسمح لمركز Ultra Medical Center باستخدام المعلومات المقدمة لأهلية التأمين ودعم الموافقة المسبقة.
+I understand that insurance eligibility and pre-approval do not guarantee final claim payment or full coverage.	أدرك أن أهلية التأمين والموافقة المسبقة لا تضمن سداد المطالبة النهائية أو التغطية الكاملة.
+Approval time depends on insurance provider, policy coverage, medical necessity review and document completeness.	يعتمد وقت الموافقة على مزود التأمين وتغطية البوليصة ومراجعة الضرورة الطبية واكتمال المستندات.
+Submit Pre-Approval Request	تقديم طلب الموافقة المسبقة
+Check insurance first	تحقق من التأمين أولا
+Verify your insurance eligibility before requesting pre-approval support.	تحقق من أهليتك للتأمين قبل طلب دعم الموافقة المسبقة.
+Pre-Approval Process	عملية الموافقة المسبقة
+Our insurance team coordinates with your insurer.	يقوم فريق التأمين لدينا بالتنسيق مع شركة التأمين الخاصة بك.
+Send patient, insurance and service details.	إرسال تفاصيل المريض والتأمين والخدمة.
+Document Review	مراجعة الوثيقة
+Insurance team checks required documents.	يقوم فريق التأمين بفحص المستندات المطلوبة.
+Insurer Submission	تقديم شركة التأمين
+Request is submitted to insurer if eligible.	يتم تقديم الطلب إلى شركة التأمين إذا كانت مؤهلة.
+Status Update	تحديث الحالة
+You are notified once a response is received.	يتم إعلامك بمجرد تلقي الرد.
+Required Documents	المستندات المطلوبة
+Required	مطلوب
+Doctor Request	طلب دكتور
+If available	إذا كان متاحا
+If relevant	إذا كانت ذات صلة
+Our care coordinator can support your insurance request.	يمكن لمنسق الرعاية لدينا دعم طلب التأمين الخاص بك.
+Eligibility Support	دعم الأهلية
+Check basic insurance network and coverage.	التحقق من شبكة التأمين الأساسية والتغطية.
+Know what documents are required.	تعرف على المستندات المطلوبة.
+Status Follow-up	متابعة الحالة
+Care team updates you after insurer response.	يقوم فريق الرعاية بتحديثك بعد استجابة شركة التأمين.
+Get assistance by phone or live chat.	احصل على المساعدة عبر الهاتف أو الدردشة المباشرة.
+Insurance pre-approval support at Ultra Medical Center for procedures, diagnostics, approvals, required documents and request tracking.	دعم الموافقة المسبقة للتأمين في مركز Ultra الطبي للإجراءات والتشخيصات والموافقات والمستندات المطلوبة وتتبع الطلب.
+INS-784-001245	INS-784-001245
+Example: Enhanced, Basic, Silver, Gold	مثال: محسّن، أساسي، فضي، ذهبي
+Privacy Policy | Ultra Medical Center	سياسة الخصوصية | مركز الترا الطبي
+Patient Privacy & Data Protection	خصوصية المريض وحماية البيانات
+Ultra Medical Center respects patient confidentiality and handles personal information, appointment details, medical records and website interactions with privacy, security and responsible care.	يحترم مركز الترا الطبي سرية المريض ويتعامل مع المعلومات الشخصية وتفاصيل المواعيد والسجلات الطبية وتفاعلات الموقع مع الخصوصية والأمان والرعاية المسؤولة.
+Last updated: 2026	آخر تحديث: 2026
+Patient confidentiality	سرية المريض
+Secure data handling	التعامل الآمن مع البيانات
+Policy Sections	أقسام السياسة
+Overview	ملخص
+Information We Collect	المعلومات التي نجمعها
+How We Use Data	كيف نستخدم البيانات
+Data Sharing	مشاركة البيانات
+Cookies	ملفات تعريف الارتباط
+Privacy questions?	أسئلة الخصوصية؟
+Contact our care team for support regarding privacy or patient information.	اتصل بفريق الرعاية لدينا للحصول على الدعم فيما يتعلق بالخصوصية أو معلومات المريض.
+Contact Care Team	اتصل بفريق الرعاية
+1. Overview	1. نظرة عامة
+This Privacy Policy explains how Ultra Medical Center collects, uses, stores and protects personal information when you use our website, , appointment services, report request services, live chat, contact forms or related digital services.	تشرح سياسة الخصوصية هذه كيف يقوم Ultra Medical Center بجمع المعلومات الشخصية واستخدامها وتخزينها وحمايتها عند استخدام موقعنا الإلكتروني أو بوابة المرضى أو خدمات المواعيد أو خدمات طلب التقارير أو الدردشة المباشرة أو نماذج الاتصال أو الخدمات الرقمية ذات الصلة.
+We treat patient information as confidential and use it only for healthcare service delivery, administrative support, patient communication, safety, compliance and service improvement.	نحن نتعامل مع معلومات المرضى على أنها سرية ونستخدمها فقط لتقديم خدمات الرعاية الصحية والدعم الإداري والتواصل مع المرضى والسلامة والامتثال وتحسين الخدمة.
+This website supports patient service requests and general healthcare information. It is not a replacement for emergency medical care. In an emergency, please contact emergency services or visit the nearest emergency department.	يدعم هذا الموقع طلبات خدمة المرضى ومعلومات الرعاية الصحية العامة. إنه ليس بديلاً عن الرعاية الطبية الطارئة. في حالة الطوارئ، يرجى الاتصال بخدمات الطوارئ أو زيارة أقرب قسم للطوارئ.
+2. Information We Collect	2. المعلومات التي نجمعها
+Depending on the service you use, we may collect the following information:	اعتمادًا على الخدمة التي تستخدمها، قد نقوم بجمع المعلومات التالية:
+Personal identification details such as name, date of birth, nationality, Emirates ID, passport details or medical record number.	تفاصيل الهوية الشخصية مثل الاسم أو تاريخ الميلاد أو الجنسية أو الهوية الإماراتية أو تفاصيل جواز السفر أو رقم السجل الطبي.
+Contact details such as mobile number, email address and UAE address.	تفاصيل الاتصال مثل رقم الهاتف المحمول وعنوان البريد الإلكتروني وعنوان دولة الإمارات العربية المتحدة.
+Appointment details such as department, doctor, preferred date, visit type and reason for visit.	تفاصيل الموعد مثل القسم والطبيب والتاريخ المفضل ونوع الزيارة وسبب الزيارة.
+Insurance details such as provider, policy number, network, expiry date and eligibility information.	تفاصيل التأمين مثل المزود ورقم البوليصة والشبكة وتاريخ انتهاء الصلاحية ومعلومات الأهلية.
+Medical service request information such as report type, medical records request, uploaded authorization documents or request notes.	معلومات طلب الخدمة الطبية مثل نوع التقرير أو طلب السجلات الطبية أو وثائق التفويض التي تم تحميلها أو ملاحظات الطلب.
+Website interaction information such as pages visited, forms submitted, chat requests and device/browser details.	معلومات التفاعل مع موقع الويب مثل الصفحات التي تمت زيارتها والنماذج المقدمة وطلبات الدردشة وتفاصيل الجهاز/المتصفح.
+3. How We Use Information	3. كيف نستخدم المعلومات
+We use collected information for legitimate healthcare, operational and patient support purposes, including:	نحن نستخدم المعلومات التي تم جمعها لأغراض الرعاية الصحية المشروعة والأغراض التشغيلية ودعم المرضى، بما في ذلك:
+Scheduling, confirming, rescheduling and managing patient appointments.	جدولة وتأكيد وإعادة جدولة وإدارة مواعيد المرضى.
+Creating or updating patient registration information.	إنشاء أو تحديث معلومات تسجيل المريض.
+Verifying patient identity before releasing reports or medical records.	التحقق من هوية المريض قبل إصدار التقارير أو السجلات الطبية.
+Responding to enquiries submitted through contact forms, live chat, WhatsApp or telephone.	الرد على الاستفسارات المقدمة من خلال نماذج الاتصال أو الدردشة المباشرة أو الواتساب أو الهاتف.
+Processing insurance eligibility checks, pre-approval support and billing-related requests.	معالجة فحوصات أهلية التأمين ودعم الموافقة المسبقة والطلبات المتعلقة بالفواتير.
+Providing  access, visit history, report status, medication information and appointment details.	توفير الوصول إلى بوابة المريض وسجل الزيارة وحالة التقرير ومعلومات الدواء وتفاصيل الموعد.
+Improving website usability, patient service quality and digital healthcare workflows.	تحسين سهولة استخدام الموقع الإلكتروني وجودة خدمة المرضى وسير عمل الرعاية الصحية الرقمية.
+4. Medical Records and Reports	4. السجلات والتقارير الطبية
+Medical records, lab reports, radiology reports, prescriptions, visit summaries and related clinical documents are handled as sensitive health information.	يتم التعامل مع السجلات الطبية وتقارير المختبر وتقارير الأشعة والوصفات الطبية وملخصات الزيارات والوثائق السريرية ذات الصلة باعتبارها معلومات صحية حساسة.
+Records are released only after appropriate identity or authorization verification.	يتم تحرير السجلات فقط بعد التحقق من الهوية أو الترخيص المناسب.
+Medical records requests may require Emirates ID, passport copy, signed authorization or additional verification.	قد تتطلب طلبات السجلات الطبية هوية الإمارات أو نسخة من جواز السفر أو تفويض موقع أو تحقق إضافي.
+Some reports may require doctor review before release.	قد تتطلب بعض التقارير مراجعة الطبيب قبل الإصدار.
+Records may be shared through secure email,  access or controlled clinic collection based on request type and verification status.	يمكن مشاركة السجلات من خلال البريد الإلكتروني الآمن أو الوصول إلى بوابة المريض أو مجموعة العيادات الخاضعة للرقابة بناءً على نوع الطلب وحالة التحقق.
+5.  and OTP Access	5. بوابة المريض والوصول إلى OTP
+The  provides access to selected appointment information, reports, visit history, billing information and profile details.	توفر بوابة المريض إمكانية الوصول إلى معلومات المواعيد المحددة والتقارير وسجل الزيارة ومعلومات الفواتير وتفاصيل الملف الشخصي.
+Portal access may require mobile verification, OTP confirmation or other authentication steps.	قد يتطلب الوصول إلى البوابة التحقق من الهاتف المحمول أو تأكيد OTP أو خطوات مصادقة أخرى.
+Patients are responsible for keeping their mobile device, email and login information secure.	يتحمل المرضى مسؤولية الحفاظ على أمان أجهزتهم المحمولة والبريد الإلكتروني ومعلومات تسجيل الدخول.
+Do not share OTPs, portal access or personal health information with unauthorized persons.	لا تشارك OTPs أو الوصول إلى البوابة أو المعلومات الصحية الشخصية مع أشخاص غير مصرح لهم.
+If you suspect unauthorized access, contact Ultra Medical Center immediately.	إذا كنت تشك في الوصول غير المصرح به، فاتصل بمركز Ultra الطبي على الفور.
+Authentication	المصادقة
+OTP and identity checks help protect patient access.	يساعد التحقق من الهوية والتحقق من الهوية على حماية وصول المريض.
+Confidentiality	السرية
+Patient information is handled through secure workflows.	يتم التعامل مع معلومات المريض من خلال سير العمل الآمن.
+Controlled Release	الإصدار المتحكم فيه
+Reports and records are shared after verification.	تتم مشاركة التقارير والسجلات بعد التحقق منها.
+6. Sharing of Information	6. تبادل المعلومات
+We do not sell patient information. Information may be shared only where necessary for healthcare service delivery, patient support, insurance processing, billing, legal obligations or authorized patient requests.	نحن لا نبيع معلومات المرضى. لا يجوز مشاركة المعلومات إلا عند الضرورة لتقديم خدمات الرعاية الصحية أو دعم المرضى أو معالجة التأمين أو إعداد الفواتير أو الالتزامات القانونية أو طلبات المرضى المصرح بها.
+Doctors, nurses and authorized care team members involved in patient care.	الأطباء والممرضات وأعضاء فريق الرعاية المعتمدون المشاركون في رعاية المرضى.
+Insurance providers or third-party administrators for eligibility, approval and claims support.	مقدمو خدمات التأمين أو المسؤولون الخارجيون للحصول على الأهلية والموافقة ودعم المطالبات.
+Laboratory, radiology or medical service partners involved in diagnostic or treatment services.	شركاء المختبر أو الأشعة أو الخدمات الطبية المشاركون في خدمات التشخيص أو العلاج.
+Regulatory or legal authorities when required by applicable law or official request.	السلطات التنظيمية أو القانونية عندما يتطلب ذلك القانون المعمول به أو الطلب الرسمي.
+Authorized representatives when valid consent or legal authorization is provided.	الممثلون المعتمدون عند تقديم موافقة صالحة أو تفويض قانوني.
+7. Cookies and Website Analytics	7. ملفات تعريف الارتباط وتحليلات موقع الويب
+Our website may use cookies or similar technologies to support website functionality, improve user experience, remember preferences and understand how visitors use our pages.	قد يستخدم موقعنا ملفات تعريف الارتباط أو تقنيات مشابهة لدعم وظائف الموقع وتحسين تجربة المستخدم وتذكر التفضيلات وفهم كيفية استخدام الزوار لصفحاتنا.
+Essential cookies may be needed for website and portal functionality.	قد تكون هناك حاجة إلى ملفات تعريف الارتباط الأساسية لوظائف موقع الويب والبوابة.
+Analytics information may help us improve page design, navigation and patient services.	قد تساعدنا معلومات التحليلات في تحسين تصميم الصفحة والتنقل وخدمات المرضى.
+You may manage cookies through your browser settings, but some features may not work properly if cookies are disabled.	يمكنك إدارة ملفات تعريف الارتباط من خلال إعدادات المتصفح الخاص بك، ولكن قد لا تعمل بعض الميزات بشكل صحيح إذا تم تعطيل ملفات تعريف الارتباط.
+8. Your Rights and Choices	8. حقوقك وخياراتك
+You may contact Ultra Medical Center to request support regarding your personal information, patient record access, correction of registration details, report collection, medical records release or privacy-related concerns.	يمكنك الاتصال بمركز Ultra Medical Center لطلب الدعم فيما يتعلق بمعلوماتك الشخصية أو الوصول إلى سجلات المرضى أو تصحيح تفاصيل التسجيل أو جمع التقارير أو إصدار السجلات الطبية أو المخاوف المتعلقة بالخصوصية.
+Request access to available personal or medical information subject to verification.	طلب الوصول إلى المعلومات الشخصية أو الطبية المتاحة الخاضعة للتحقق.
+Request correction of inaccurate contact or registration information.	طلب تصحيح معلومات الاتصال أو التسجيل غير الدقيقة.
+Ask questions about how your information is used in patient services.	اطرح أسئلة حول كيفية استخدام معلوماتك في خدمات المرضى.
+Withdraw optional communication preferences where applicable.	قم بسحب تفضيلات الاتصال الاختيارية حيثما أمكن ذلك.
+Report suspected unauthorized access or privacy concerns.	قم بالإبلاغ عن الوصول غير المصرح به أو المخاوف المتعلقة بالخصوصية.
+9. Data Retention and Security	9. الاحتفاظ بالبيانات والأمن
+We retain patient and service information as required for healthcare delivery, administrative records, legal obligations and continuity of care. Retention periods may vary depending on the information type, medical record requirements and applicable regulations.	نحن نحتفظ بمعلومات المريض والخدمة كما هو مطلوب لتقديم الرعاية الصحية والسجلات الإدارية والالتزامات القانونية واستمرارية الرعاية. قد تختلف فترات الاحتفاظ اعتمادًا على نوع المعلومات ومتطلبات السجل الطبي واللوائح المعمول بها.
+We use administrative, technical and organizational measures to protect information from unauthorized access, misuse, alteration or disclosure. No digital system is completely risk-free, but we take reasonable steps to protect patient information.	نحن نستخدم التدابير الإدارية والفنية والتنظيمية لحماية المعلومات من الوصول غير المصرح به أو سوء الاستخدام أو التغيير أو الكشف. لا يوجد نظام رقمي خالٍ تمامًا من المخاطر، ولكننا نتخذ خطوات معقولة لحماية معلومات المرضى.
+Contact Ultra Medical Center	تواصل مع مركز الترا الطبي
+For privacy questions, patient information support or medical records assistance, please contact our care team.	لطرح أسئلة تتعلق بالخصوصية أو دعم معلومات المريض أو المساعدة في السجلات الطبية، يرجى الاتصال بفريق الرعاية لدينا.
+Live Chat	الدردشة الحية
+Privacy Policy for Ultra Medical Center, including patient privacy, website data use, appointment requests, , reports and medical records handling.	سياسة الخصوصية لمركز الترا الطبي، بما في ذلك خصوصية المريض واستخدام بيانات الموقع وطلبات المواعيد وبوابة المرضى والتعامل مع التقارير والسجلات الطبية.
+New Patient Registration | Ultra Medical Center	تسجيل مريض جديد | مركز الترا الطبي
+Registration	تسجيل
+Register securely, verify your mobile number, add insurance information and request your appointment with Ultra Medical Center.	سجل بشكل آمن، وتحقق من رقم هاتفك المحمول، وأضف معلومات التأمين واطلب موعدك مع مركز الترا الطبي.
+Patient Registration	تسجيل المرضى
+Complete the steps below to register and request your appointment.	أكمل الخطوات أدناه للتسجيل وطلب موعدك.
+Step 1 of 4	الخطوة 1 من 4
+Identity & contact	الهوية والاتصال
+Coverage info	معلومات التغطية
+Appointment Details	تفاصيل الموعد
+Doctor & timing	الطبيب والتوقيت
+Consent	موافقة
+Review & submit	مراجعة وتقديم
+Please enter your UAE patient registration details as accurately as possible.	يرجى إدخال تفاصيل تسجيل المريض في دولة الإمارات العربية المتحدة بأكبر قدر ممكن من الدقة.
+First Name	الاسم الأول
+Last Name	اسم العائلة
+Emirates ID Number	رقم الهوية الإماراتية
+Nationality	جنسية
+United Arab Emirates	الإمارات العربية المتحدة
+India	الهند
+Pakistan	باكستان
+Egypt	مصر
+Jordan	الأردن
+Philippines	فيلبيني
+Hindi / Urdu	الهندية / الأردية
+Malayalam	المالايالامية
+Tagalog	التاغالوغية
+Residential Address in UAE	عنوان السكن في دولة الإمارات العربية المتحدة
+Al Ain, Abu Dhabi, United Arab Emirates	العين، أبوظبي، الإمارات العربية المتحدة
+Mobile OTP Verification	التحقق من OTP عبر الهاتف المحمول
+Use OTP 4356 to verify the registered mobile number.	استخدم OTP 4356 للتحقق من رقم الهاتف المحمول المسجل.
+OTP ready for verification. Enter 4356 and continue.	OTP جاهز للتحقق. أدخل 4356 واستمر.
+Add your insurance information or continue as a self-pay patient.	أضف معلومات التأمين الخاصة بك أو استمر كمريض يدفع تكاليفه بنفسه.
+Using Insurance	استخدام التأمين
+Submit insurance details for eligibility checking.	إرسال تفاصيل التأمين للتحقق من الأهلية.
+Self-Pay	الدفع الذاتي
+Proceed with direct payment or health package pricing.	تابع الدفع المباشر أو تسعير الحزمة الصحية.
+Aetna	إيتنا
+Orient	المشرق
+Policy / Member Number	السياسة / رقم العضو
+Network / Plan	الشبكة / الخطة
+Card Expiry Date	تاريخ انتهاء البطاقة
+Insurance Notes	ملاحظات التأمين
+Please verify eligibility before appointment confirmation.	يرجى التحقق من الأهلية قبل تأكيد الموعد.
+Upload Insurance Card	تحميل بطاقة التأمين
+JPG, PNG or PDF up to 5MB	JPG أو PNG أو PDF بحجم يصل إلى 5 ميجابايت
+Select the department, doctor and preferred appointment timing.	اختيار القسم والطبيب وتوقيت الموعد المفضل.
+New Consultation	استشارة جديدة
+Follow-up Visit	زيارة المتابعة
+Health Package	الحزمة الصحية
+Lab / Report Review	مراجعة المختبر/التقرير
+Any Available Doctor	أي طبيب متاح
+Preferred Date	التاريخ المفضل
+Preferred Time	الوقت المفضل
+09:00 AM - 11:00 AM	09:00 صباحًا - 11:00 صباحًا
+11:00 AM - 01:00 PM	11:00 صباحًا - 01:00 ظهرًا
+02:00 PM - 04:00 PM	02:00 مساءً - 04:00 مساءً
+04:00 PM - 06:00 PM	04:00 مساءً - 06:00 مساءً
+06:00 PM - 08:00 PM	06:00 مساءً - 08:00 مساءً
+Urgency	إلحاح
+Normal	طبيعي
+Priority	أولوية
+Same Day Request	طلب في نفس اليوم
+Symptoms / Reason for Visit	الأعراض / سبب الزيارة
+General consultation and follow-up care request.	طلب الاستشارة العامة ومتابعة الرعاية.
+Review & Consent	المراجعة والموافقة
+Review the registration request and confirm consent to submit.	مراجعة طلب التسجيل وتأكيد الموافقة على التقديم.
+Registration Summary	ملخص التسجيل
+Appointment	ميعاد
+Preferred slot selected	تم تحديد الفتحة المفضلة
+I confirm that the information provided is accurate and complete.	أؤكد أن المعلومات المقدمة دقيقة وكاملة.
+I consent to Ultra Medical Center contacting me by phone, SMS, WhatsApp or email regarding my appointment and registration.	أوافق على أن يتصل بي مركز Ultra Medical Center عبر الهاتف أو الرسائل النصية القصيرة أو الواتساب أو البريد الإلكتروني بخصوص موعدي وتسجيلي.
+I understand that medical and insurance eligibility information will be verified according to applicable privacy and healthcare requirements.	أدرك أنه سيتم التحقق من معلومات الأهلية الطبية والتأمينية وفقًا لمتطلبات الخصوصية والرعاية الصحية المعمول بها.
+Previous	سابق
+Already Registered?	مسجل بالفعل؟
+Continue	يكمل
+Submit Registration	إرسال التسجيل
+Your Patient Journey	رحلة المريض الخاص بك
+A smooth registration and appointment flow designed around your convenience.	عملية تسجيل ومواعيد سلسة مصممة خصيصًا لراحتك.
+Register Details	تفاصيل التسجيل
+Submit identity, contact and Emirates ID details.	قم بإرسال بيانات الهوية وبيانات الاتصال وبطاقة الهوية الإماراتية.
+Verify Insurance	التحقق من التأمين
+Insurance team checks eligibility and approval requirements.	يتحقق فريق التأمين من متطلبات الأهلية والموافقة.
+Confirm Appointment	تأكيد الموعد
+Care coordinator confirms your preferred appointment slot.	يؤكد منسق الرعاية موعدك المفضل.
+Visit Ultra	قم بزيارة الترا
+Arrive with Emirates ID and insurance card if applicable.	الوصول ببطاقة الهوية الإماراتية وبطاقة التأمين إن وجدت.
+Your information is treated confidentially and used only for registration, appointment and insurance verification purposes.	يتم التعامل مع معلوماتك بسرية وتستخدم فقط لأغراض التسجيل والتعيين والتحقق من التأمين.
+Our care coordinator can help you complete the registration.	يمكن لمنسق الرعاية لدينا مساعدتك في إكمال التسجيل.
+Register as a new patient or book an appointment at Ultra Medical Center with UAE-based patient registration, OTP verification and appointment details.	قم بالتسجيل كمريض جديد أو حجز موعد في مركز الترا الطبي مع تسجيل المريض في دولة الإمارات العربية المتحدة والتحقق من OTP وتفاصيل الموعد.
+Registration hero	بطل التسجيل
+Registration form	استمارة التسجيل
+PATIENT	مريض
+NAME	اسم
+DMN-123456789	DMN-123456789
+Enhanced Network	الشبكة المحسنة
+Report Request Submitted | Ultra Medical Center	تم تقديم طلب التقرير | مركز الترا الطبي
+Report Request Submitted	تم إرسال طلب التقرير
+Your report collection request has been received. Our care team will verify your details and notify you when the requested report is ready for secure download or collection.	لقد تم استلام طلب جمع التقرير الخاص بك. سيقوم فريق الرعاية لدينا بالتحقق من التفاصيل الخاصة بك وإعلامك عندما يكون التقرير المطلوب جاهزًا للتنزيل أو التجميع الآمن.
+Report Request Reference	مرجع طلب التقرير
+UMC-RPT-2026-00000	UMC-RPT-2026-00000
+Track Reports	تقارير المسار
+Report collection support	دعم جمع التقارير
+Release Status	حالة الإصدار
+Subject to identity and report readiness verification	تخضع للتحقق من الهوية والجاهزية للتقرير
+You will be contacted once report is ready	سيتم التواصل معك عندما يصبح التقرير جاهزاً
+Report requests are processed through secure verification and clinical release.	تتم معالجة طلبات التقرير من خلال التحقق الآمن والإصدار السريري.
+Your collection request is logged with a unique report reference.	يتم تسجيل طلب التحصيل الخاص بك باستخدام مرجع تقرير فريد.
+Status Verification	التحقق من الحالة
+The report team checks readiness, identity and release requirements.	يقوم فريق التقرير بالتحقق من متطلبات الاستعداد والهوية والإصدار.
+Clinical Release	الإصدار السريري
+Some reports may require doctor review before release to the patient.	قد تتطلب بعض التقارير مراجعة الطبيب قبل إطلاقها للمريض.
+Secure Access	الوصول الآمن
+Ready reports can be collected or accessed through the .	يمكن جمع التقارير الجاهزة أو الوصول إليها من خلال بوابة المريض.
+Need Help With Report Status?	هل تحتاج إلى مساعدة بشأن حالة التقرير؟
+Contact our care team and share your report request reference.	اتصل بفريق الرعاية الخاص بنا وشارك مرجع طلب التقرير الخاص بك.
+Reports are released only after completion, verification and approval.	ولا يتم إصدار التقارير إلا بعد استكمالها والتحقق منها والموافقة عليها.
+Please bring Emirates ID if collecting in person. Some reports may be available only through secure portal login.	يرجى إحضار بطاقة الهوية الإماراتية في حالة الاستلام شخصيًا. قد تكون بعض التقارير متاحة فقط من خلال تسجيل الدخول الآمن للبوابة.
+Access available reports securely	الوصول إلى التقارير المتاحة بشكل آمن
+Search report readiness status	حالة جاهزية تقرير البحث
+Book Follow-up	متابعة الكتاب
+Review reports with a doctor	مراجعة التقارير مع الطبيب
+Report collection request submitted successfully at Ultra Medical Center.	تم تقديم طلب تحصيل التقرير بنجاح في مركز الترا الطبي.
+Report Collection | Ultra Medical Center	جمع التقارير | مركز الترا الطبي
+Track, collect and request your laboratory reports, radiology reports, medical certificates and visit summaries through our secure patient services.	تتبع وجمع وطلب التقارير المخبرية وتقارير الأشعة والشهادات الطبية وملخصات الزيارة من خلال خدمات المرضى الآمنة لدينا.
+Track Report	تقرير المسار
+Lab & Radiology	المختبر والأشعة
+View report status	عرض حالة التقرير
+Verified patient only	مريض تم التحقق منه فقط
+Download Ready	تحميل جاهز
+Portal reports available	تقارير البوابة متاحة
+Track Your Report	تتبع تقريرك
+Enter report reference, MRN or mobile number to check current status.	أدخل مرجع التقرير أو MRN أو رقم الهاتف المحمول للتحقق من الحالة الحالية.
+Report Reference	مرجع التقرير
+Track	مسار
+Latest available reports are shown below. Use the  for secure download.	أحدث التقارير المتاحة موضحة أدناه. استخدم بوابة المريض للتنزيل الآمن.
+Request Report Collection	طلب جمع التقارير
+Submit a request if your report is not listed or you need collection support.	أرسل طلبًا إذا لم يكن تقريرك مدرجًا أو كنت بحاجة إلى دعم التحصيل.
+Report Type	نوع التقرير
+Laboratory Report	تقرير المختبر
+Radiology Report	تقرير الأشعة
+Medical Certificate	شهادة طبية
+Insurance Document	وثيقة التأمين
+Please notify me when my latest report is ready for collection.	الرجاء إعلامي عندما يكون تقريري الأخير جاهزًا للتحصيل.
+Upload Reference Slip optional	تحميل قسيمة مرجعية اختياري
+Upload payment receipt, lab slip or request form if available.	قم بتحميل إيصال الدفع أو قسيمة المختبر أو نموذج الطلب إذا كان ذلك متاحًا.
+Submit Collection Request	تقديم طلب التحصيل
+Use 	استخدم بوابة المريض
+Registered patients can securely access ready reports, visit history and doctor summaries.	يمكن للمرضى المسجلين الوصول بشكل آمن إلى التقارير الجاهزة وتاريخ الزيارة وملخصات الطبيب.
+Report Process	عملية التقرير
+How report collection works at Ultra Medical Center.	كيف تتم عملية جمع التقارير في مركز الترا الطبي.
+Sample / Scan Completed	العينة / اكتمل المسح
+Your test or radiology scan is registered.	تم تسجيل الاختبار أو الفحص الإشعاعي الخاص بك.
+Medical Review	المراجعة الطبية
+Report is reviewed and released after verification.	تتم مراجعة التقرير وإصداره بعد التحقق منه.
+Ready Notification	إعلام جاهز
+You receive status update or portal availability.	تتلقى تحديث الحالة أو توفر البوابة.
+Secure Collection	مجموعة آمنة
+Download from portal or collect from clinic.	قم بالتنزيل من البوابة أو الاستلام من العيادة.
+Our care team can check your report status.	يمكن لفريق الرعاية لدينا التحقق من حالة بلاغك.
+Reports are released only after identity verification and clinical approval. Some reports may require doctor consultation before release.	يتم إصدار التقارير فقط بعد التحقق من الهوية والموافقة السريرية. قد تتطلب بعض التقارير استشارة الطبيب قبل الإفراج.
+Secure Download	تحميل آمن
+Use portal login for protected report access.	استخدم تسجيل دخول البوابة للوصول المحمي للتقرير.
+Multiple Reports	تقارير متعددة
+Lab, radiology, visit summaries and certificates.	المختبر والأشعة وملخصات الزيارة والشهادات.
+Follow-up Booking	حجز المتابعة
+Book doctor review after report release.	احجز مراجعة الطبيب بعد إصدار التقرير.
+Get help with status, collection or portal access.	احصل على مساعدة بشأن الحالة أو المجموعة أو الوصول إلى البوابة الإلكترونية.
+Collect and track reports at Ultra Medical Center including lab reports, radiology reports, medical certificates and secure  access.	جمع وتتبع التقارير في مركز الترا الطبي بما في ذلك التقارير المخبرية وتقارير الأشعة والشهادات الطبية والوصول الآمن إلى بوابة المريض.
+Report Ref / MRN / Mobile	مرجع التقرير / MRN / الجوال
+UMC-LAB-2026-0148	UMC-LAB-2026-0148
+Search | Ultra Medical Center	بحث | مركز الترا الطبي
+Search Ultra Medical Center	إبحث فى مركز الترا الطبى
+Find doctors, specialities, health packages, insurance support, patient services and contact information quickly.	ابحث بسرعة عن الأطباء والتخصصات والحزم الصحية ودعم التأمين وخدمات المرضى ومعلومات الاتصال.
+Packages	الحزم
+Patient Services	خدمات المرضى
+Filter Results	نتائج التصفية
+All	الجميع
+Need help finding care?	هل تحتاج إلى مساعدة في العثور على الرعاية؟
+Our care coordinator can guide you to the right doctor or service.	يمكن لمنسق الرعاية لدينا أن يرشدك إلى الطبيب أو الخدمة المناسبة.
+Search Results	نتائج البحث
+Showing all available results	عرض كافة النتائج المتاحة
+Sort by: Relevance	فرز حسب: الصلة
+Sort by: A–Z	الترتيب حسب: أ–ي
+Popular Searches	عمليات البحث الشعبية
+Location & Directions	الموقع والاتجاهات
+Search Ultra Medical Center doctors, specialities, health packages, patient services, insurance and contact information.	ابحث عن أطباء مركز الترا الطبي والتخصصات والعروض الصحية وخدمات المرضى والتأمين ومعلومات الاتصال.
+Search by doctor, specialty, condition, package or service	ابحث حسب الطبيب أو التخصص أو الحالة أو الحزمة أو الخدمة
+all	الجميع
+doctor	طبيب
+speciality	التخصص
+package	طَرد
+patient	مريض
+insurance	تأمين
+Sitemap | Ultra Medical Center	خريطة الموقع | مركز الترا الطبي
+Website Navigation	التنقل في الموقع
+Browse all main areas of Ultra Medical Center’s digital services, including doctors, departments, patient services, , report collection, health packages and policy pages.	تصفح جميع المجالات الرئيسية للخدمات الرقمية لمركز الترا الطبي، بما في ذلك الأطباء والأقسام وخدمات المرضى وبوابة المرضى وجمع التقارير والحزم الصحية وصفحات السياسات.
+Schedule a visit online	جدولة الزيارة عبر الإنترنت
+Access records and visits	الوصول إلى السجلات والزيارات
+View specialist profiles	عرض الملفات الشخصية المتخصصة
+Contact Clinic	اتصل بالعيادة
+Location and support	الموقع والدعم
+Main Website	الموقع الرئيسي
+Core navigation pages	صفحات التنقل الأساسية
+Main	رئيسي
+Find	يجد
+Current	حاضِر
+Departments and care areas	الأقسام ومجالات الرعاية
+List	قائمة
+Care	رعاية
+Doctor directory and profiles	دليل الطبيب والملفات الشخصية
+All Doctors	جميع الأطباء
+Directory	دليل
+Patient services and requests	خدمات وطلبات المرضى
+Guide	مرشد
+New Patient Registration / Appointment	تسجيل / موعد مريض جديد
+Form	استمارة
+ Login	تسجيل دخول بوابة المريض
+Secure	يؤمن
+Patient Record Portal	بوابة سجل المرضى
+Appointment Reschedule	إعادة جدولة الموعد
+Records	السجلات
+Preventive health screening	الفحص الصحي الوقائي
+All Health Packages	جميع الباقات الصحية
+Heart	قلب
+Package	طَرد
+Coverage and payment services	خدمات التغطية والدفع
+Coverage	التغطية
+Finance	تمويل
+Policies	السياسات
+Legal and privacy pages	الصفحات القانونية والخصوصية
+Privacy	خصوصية
+Terms	شروط
+Index	فِهرِس
+Complete Page Index	استكمال فهرس الصفحة
+Page	صفحة
+Category	فئة
+Description	وصف
+Link	وصلة
+Landing page before patient login.	الصفحة المقصودة قبل تسجيل دخول المريض.
+Open	يفتح
+Mobile and OTP login for registered patients.	تسجيل الدخول عبر الهاتف المحمول وOTP للمرضى المسجلين.
+Patient profile, visits, reports and appointments.	ملف المريض والزيارات والتقارير والمواعيد.
+Patients	مرضى
+UAE patient registration and appointment booking.	تسجيل المرضى وحجز المواعيد في دولة الإمارات العربية المتحدة.
+Doctor directory and specialist search.	دليل الطبيب والبحث المتخصص.
+Consultant Cardiologist profile and booking.	ملف استشاري أمراض القلب والحجز.
+Heart and vascular care department page.	صفحة قسم رعاية القلب والأوعية الدموية.
+Preventive cardiac screening package.	حزمة الفحص الوقائي للقلب.
+Track and request report collection.	تتبع وطلب جمع التقارير.
+Secure request for records and reports.	تأمين طلب السجلات والتقارير.
+Track appointment confirmation and details.	تتبع تأكيد الموعد والتفاصيل.
+Request reschedule of confirmed appointment.	طلب إعادة جدولة الموعد المؤكد.
+Insurance eligibility and pre-approval support.	أهلية التأمين ودعم الموافقة المسبقة.
+Clinic contact details, map and support.	تفاصيل الاتصال بالعيادة والخريطة والدعم.
+Policy	سياسة
+Patient privacy and data protection policy.	سياسة خصوصية المريض وحماية البيانات.
+Website and digital service terms.	شروط الموقع الإلكتروني والخدمات الرقمية.
+Need help finding the right service?	هل تحتاج إلى مساعدة في العثور على الخدمة المناسبة؟
+Use search, chat with our care coordinator, or contact Ultra Medical Center directly.	استخدم البحث أو الدردشة مع منسق الرعاية لدينا أو اتصل بمركز Ultra الطبي مباشرة.
+Search Website	بحث في الموقع
+Ultra Medical Center sitemap with links to main pages, doctors, departments, patient services, packages, portal and policy pages.	خريطة موقع مركز الترا الطبي مع روابط للصفحات الرئيسية والأطباء والأقسام وخدمات المرضى والباقات والبوابة وصفحات السياسات.
+Search sitemap pages, services or departments	ابحث في صفحات خريطة الموقع أو الخدمات أو الأقسام
+Specialities | Ultra Medical Center	التخصصات | مركز الترا الطبي
+Centres of Care &	مراكز الرعاية و
+Comprehensive healthcare across a wide range of specialties. Expert care, advanced technology, and patient-first approach.	رعاية صحية شاملة في مجموعة واسعة من التخصصات. رعاية الخبراء والتكنولوجيا المتقدمة ونهج المريض أولاً.
+Medical	طبي
+Surgical	الجراحية
+Diagnostic	التشخيص
+Supportive Care	الرعاية الداعمة
+Explore specialist care pathways and book your appointment directly.	استكشف مسارات الرعاية المتخصصة واحجز موعدك مباشرة.
+Advanced care for heart conditions with precision diagnostics and treatment.	رعاية متقدمة لأمراض القلب من خلال التشخيص والعلاج الدقيق.
+Explore Care →	اكتشف الرعاية →
+Healthy skin, hair & nails with medical, surgical & cosmetic skin treatments.	بشرة صحية وشعر وأظافر مع علاجات جلدية طبية وجراحية وتجميلية.
+Expert care for bones, joints, muscles and spine for all ages.	رعاية متخصصة للعظام والمفاصل والعضلات والعمود الفقري لجميع الأعمار.
+Compassionate care for infants, children & adolescents at every stage.	رعاية رحيمة للرضع والأطفال والمراهقين في كل مرحلة.
+Complete women’s health care from adolescence to motherhood and beyond.	الرعاية الصحية الكاملة للمرأة من مرحلة المراهقة إلى الأمومة وما بعدها.
+Comprehensive dental care for a healthy smile and confident you.	رعاية شاملة للأسنان من أجل ابتسامة صحية وواثقة منك.
+Complete eye care for vision correction, diseases & surgical treatments.	رعاية كاملة للعيون لتصحيح الرؤية والأمراض والعلاجات الجراحية.
+Diagnosis and treatment of brain, spine and nervous system disorders.	تشخيص وعلاج اضطرابات الدماغ والعمود الفقري والجهاز العصبي.
+Expert care for urinary tract and male reproductive health.	رعاية متخصصة للمسالك البولية والصحة الإنجابية للذكور.
+Comprehensive primary care for you and your entire family.	رعاية أولية شاملة لك ولعائلتك بأكملها.
+Advanced imaging technology for accurate diagnosis and care.	تكنولوجيا التصوير المتقدمة للتشخيص والرعاية الدقيقة.
+Physiotherapy	العلاج الطبيعي
+Rehabilitation and pain management to restore mobility and strength.	إعادة التأهيل وإدارة الألم لاستعادة القدرة على الحركة والقوة.
+Speech Therapy	علاج النطق
+Helping children & adults improve speech, language & communication.	مساعدة الأطفال والكبار على تحسين الكلام واللغة والتواصل.
+Nutrition	تَغذِيَة
+Personalized nutrition plans for a healthier and better you.	خطط تغذية شخصية من أجل صحة أفضل وأفضل.
+Trusted pharmacy services with quality medicines and care guidance.	خدمات صيدلية موثوقة مع أدوية عالية الجودة وإرشادات رعاية.
+Home Care	الرعاية المنزلية
+Compassionate medical care in the comfort of your home.	رعاية طبية رحيمة في راحة منزلك.
+Featured Departments	الأقسام المميزة
+High-demand care centres with doctors, reports and direct appointment booking.	مراكز رعاية عالية الطلب مع الأطباء والتقارير وحجز المواعيد المباشرة.
+Find doctors	البحث عن الأطباء
+Comprehensive heart care with advanced technology and expert cardiologists.	رعاية شاملة للقلب باستخدام التكنولوجيا المتقدمة وأطباء القلب الخبراء.
++ 6 More	+ 6 المزيد
+View Department	عرض القسم
+Orthopedic & Spine Center	مركز العظام والعمود الفقري
+Advanced care for bone, joint and spine conditions with minimally invasive options.	رعاية متقدمة لحالات العظام والمفاصل والعمود الفقري مع خيارات طفيفة التوغل.
++ 5 More	+ 5 أكثر
+Women’s Health Center	مركز صحة المرأة
+Complete women’s healthcare with compassionate and expert specialists.	رعاية صحية كاملة للنساء مع متخصصين متعاطفين وخبراء.
++ 4 More	+ 4 أكثر
+Pediatrics & Child Care	طب الأطفال ورعاية الطفل
+Trusted care for children with a focus on health, growth and happiness.	رعاية موثوقة للأطفال مع التركيز على الصحة والنمو والسعادة.
+Need help choosing the right speciality?	هل تحتاج إلى مساعدة في اختيار التخصص المناسب؟
+Our care coordinator can guide you to the right department and available doctor.	يمكن لمنسق الرعاية لدينا أن يرشدك إلى القسم المناسب والطبيب المتاح.
+Explore Ultra Medical Center specialities, departments and centres of care in Al Ain, UAE.	اكتشف تخصصات مركز الترا الطبي، الأقسام ومراكز الرعاية في العين، الإمارات العربية المتحدة.
+Specialities hero	التخصصات البطل
+Search by symptom or speciality	البحث حسب الأعراض أو التخصص
+Speciality filters	المرشحات المتخصصة
+Featured departments	الأقسام المميزة
+Orthopedic and Spine Center	مركز العظام والعمود الفقري
+Pediatrics and Child Care	طب الأطفال ورعاية الطفل
+Need help choosing care	بحاجة إلى مساعدة في اختيار الرعاية
+Terms & Conditions | Ultra Medical Center	الشروط والأحكام | مركز الترا الطبي
+Website & Digital Patient Services	الموقع الإلكتروني وخدمات المرضى الرقمية
+These Terms & Conditions govern the use of Ultra Medical Center’s website, , appointment booking, report collection, medical records request and related digital patient services.	تحكم هذه الشروط والأحكام استخدام الموقع الإلكتروني لمركز Ultra Medical Center، وبوابة المرضى، وحجز المواعيد، وجمع التقارير، وطلب السجلات الطبية وخدمات المرضى الرقمية ذات الصلة.
+Patient service terms	شروط خدمة المرضى
+Responsible use	الاستخدام المسؤول
+Terms Sections	أقسام المصطلحات
+Acceptance	قبول
+Digital Services	الخدمات الرقمية
+Medical Information	المعلومات الطبية
+Reports & Records	التقارير والسجلات
+Payments	المدفوعات
+Liability	مسئولية قانونية
+Our care team can help with appointment, portal or report related questions.	يمكن لفريق الرعاية لدينا المساعدة في تحديد الموعد أو البوابة أو الإبلاغ عن الأسئلة ذات الصلة.
+1. Acceptance of Terms	1. قبول الشروط
+By accessing or using the Ultra Medical Center website, , online appointment booking, report request, medical records request, live chat or any related digital service, you agree to follow these Terms & Conditions.	من خلال الوصول إلى أو استخدام الموقع الإلكتروني لمركز Ultra Medical Center، أو بوابة المريض، أو حجز المواعيد عبر الإنترنت، أو طلب التقرير، أو طلب السجلات الطبية، أو الدردشة المباشرة أو أي خدمة رقمية ذات صلة، فإنك توافق على اتباع هذه الشروط والأحكام.
+If you do not agree with these terms, please do not use the website or digital services. You may contact Ultra Medical Center directly by phone or by visiting the clinic for assistance.	إذا كنت لا توافق على هذه الشروط، فيرجى عدم استخدام الموقع أو الخدمات الرقمية. يمكنكم التواصل مع مركز الترا الطبي مباشرة عبر الهاتف أو من خلال زيارة العيادة للحصول على المساعدة.
+2. Digital Services Covered	2. الخدمات الرقمية المغطاة
+These terms apply to digital services provided through the website and related patient service pages, including:	تنطبق هذه الشروط على الخدمات الرقمية المقدمة من خلال الموقع وصفحات خدمة المرضى ذات الصلة، بما في ذلك:
+Booking, status checks and reschedule requests.	الحجز والتحقق من الحالة وطلبات إعادة الجدولة.
+Patient access to selected records and services.	وصول المريض إلى السجلات والخدمات المختارة.
+Report collection and medical records request support.	طلب جمع التقارير والسجلات الطبية الدعم.
+Doctor and speciality information pages.	صفحات معلومات الأطباء والتخصصات.
+Health package enquiry and request forms.	الاستعلام عن الحزمة الصحية ونماذج الطلب.
+Insurance eligibility and pre-approval support pages.	صفحات دعم أهلية التأمين والموافقة المسبقة.
+Contact forms, live chat, WhatsApp support and care team communication.	نماذج الاتصال والدردشة المباشرة ودعم WhatsApp وتواصل فريق الرعاية.
+3. Medical Information Disclaimer	3. إخلاء المسؤولية عن المعلومات الطبية
+Website content is provided for general information and patient service support. It should not be treated as personal medical advice, diagnosis, treatment instruction or emergency guidance.	يتم توفير محتوى الموقع للحصول على معلومات عامة ودعم خدمة المرضى. ولا ينبغي التعامل معها على أنها نصيحة طبية شخصية أو تشخيص أو تعليمات علاجية أو إرشادات طارئة.
+Only qualified healthcare professionals can provide medical advice after consultation and assessment.	يمكن لمتخصصي الرعاية الصحية المؤهلين فقط تقديم المشورة الطبية بعد الاستشارة والتقييم.
+Information on departments, doctors, packages and services may be updated from time to time.	قد يتم تحديث المعلومات الخاصة بالأقسام والأطباء والحزم والخدمات من وقت لآخر.
+For urgent or emergency symptoms, call emergency services or visit the nearest emergency department immediately.	بالنسبة للأعراض العاجلة أو الطارئة، اتصل بخدمات الطوارئ أو قم بزيارة أقرب قسم طوارئ على الفور.
+Do not delay seeking professional medical care because of information found on the website.	لا تتأخر في طلب الرعاية الطبية المتخصصة بسبب المعلومات الموجودة على الموقع.
+Online forms, chat and website pages are not emergency communication channels.	النماذج عبر الإنترنت وصفحات الدردشة والمواقع الإلكترونية ليست قنوات اتصال في حالات الطوارئ.
+4. Appointments and Rescheduling	4. التعيينات وإعادة الجدولة
+Appointment bookings, preferred slots and reschedule requests submitted through the website are subject to confirmation by Ultra Medical Center.	تخضع حجوزات المواعيد والمواعيد المفضلة وطلبات إعادة الجدولة المقدمة عبر الموقع الإلكتروني للتأكيد من قبل مركز Ultra الطبي.
+Submitting a booking form does not guarantee an appointment until confirmed by the clinic.	إن تقديم نموذج الحجز لا يضمن تحديد موعد حتى يتم تأكيده من قبل العيادة.
+Doctor availability, department timing and emergency care needs may affect appointment schedules.	قد يؤثر توفر الطبيب وتوقيت القسم واحتياجات رعاية الطوارئ على جداول المواعيد.
+Patients should arrive before the appointment time and bring Emirates ID, insurance card and relevant medical documents.	يجب على المرضى الوصول قبل الموعد المحدد وإحضار بطاقة الهوية الإماراتية وبطاقة التأمين والمستندات الطبية ذات الصلة.
+Reschedule requests are subject to doctor and department availability.	تخضع طلبات إعادة الجدولة لتوافر الطبيب والقسم.
+Ultra Medical Center may contact patients by phone, SMS, email or WhatsApp to confirm or update appointment details.	يمكن لمركز الترا الطبي الاتصال بالمرضى عبر الهاتف أو الرسائل النصية القصيرة أو البريد الإلكتروني أو الواتساب لتأكيد أو تحديث تفاصيل الموعد.
+5.  Use	5. استخدام بوابة المريض
+The  is intended for authorized patients or approved representatives. Access may require mobile OTP, identity verification or other authentication steps.	بوابة المريض مخصصة للمرضى المعتمدين أو الممثلين المعتمدين. قد يتطلب الوصول OTP عبر الهاتف المحمول أو التحقق من الهوية أو خطوات مصادقة أخرى.
+You are responsible for keeping OTPs, login information and devices secure.	أنت مسؤول عن الحفاظ على أمان كلمات المرور لمرة واحدة ومعلومات تسجيل الدخول والأجهزة.
+You must not share portal access with unauthorized persons.	يجب عدم مشاركة الوصول إلى البوابة مع أشخاص غير مصرح لهم.
+Portal information may not include every clinical note, report or administrative record.	قد لا تتضمن معلومات البوابة كل ملاحظة سريرية أو تقرير أو سجل إداري.
+Portal availability may be interrupted for maintenance, technical issues or security updates.	قد ينقطع توفر البوابة بسبب الصيانة أو المشكلات الفنية أو التحديثات الأمنية.
+6. Reports and Medical Records Requests	6. طلبات التقارير والسجلات الطبية
+Medical reports and records contain confidential health information and are released only after verification and approval.	تحتوي التقارير والسجلات الطبية على معلومات صحية سرية ولا يتم نشرها إلا بعد التحقق منها والموافقة عليها.
+Ultra Medical Center may refuse or delay release where identity, authorization or legal requirements are not satisfied.	قد يرفض مركز Ultra Medical Center أو يؤخر الإفراج في حالة عدم استيفاء الهوية أو التفويض أو المتطلبات القانونية.
+Patients are responsible for ensuring that contact details and selected delivery methods are accurate.	يتحمل المرضى مسؤولية التأكد من دقة تفاصيل الاتصال وطرق التسليم المحددة.
+7. Fees, Insurance and Payments	7. الرسوم والتأمين والمدفوعات
+Service fees, consultation charges, package prices, insurance coverage and payment responsibilities may vary based on service type, doctor, department, insurance eligibility and approval status.	قد تختلف رسوم الخدمة ورسوم الاستشارة وأسعار الباقات والتغطية التأمينية ومسؤوليات الدفع بناءً على نوع الخدمة والطبيب والقسم وأهلية التأمين وحالة الموافقة.
+Online package or service pricing, if shown, may be subject to update or availability.	قد تخضع أسعار الحزمة أو الخدمة عبر الإنترنت، إذا تم عرضها، للتحديث أو التوفر.
+Insurance eligibility does not guarantee final claim approval or full coverage.	لا تضمن أهلية التأمين الموافقة على المطالبة النهائية أو التغطية الكاملة.
+Patients may be responsible for deductibles, co-payments, exclusions or non-covered services.	قد يكون المرضى مسؤولين عن الخصومات أو المدفوعات المشتركة أو الاستثناءات أو الخدمات غير المغطاة.
+Pre-approval may be required for certain procedures, diagnostics or treatments.	قد تكون هناك حاجة إلى موافقة مسبقة لبعض الإجراءات أو التشخيص أو العلاج.
+Billing documents and invoices are issued according to the clinic’s financial and insurance process.	يتم إصدار وثائق الفواتير والفواتير وفقًا للعملية المالية والتأمينية للعيادة.
+8. Communication Consent	8. الموافقة على التواصل
+By submitting forms or requesting services, you agree that Ultra Medical Center may contact you regarding your request using the contact details you provide.	من خلال تقديم النماذج أو طلب الخدمات، فإنك توافق على أنه يجوز لمركز Ultra الطبي الاتصال بك بخصوص طلبك باستخدام تفاصيل الاتصال التي تقدمها.
+Communication may include appointment confirmation, reminders, report status, insurance support, records request updates or general service follow-up.	قد تشمل الاتصالات تأكيد الموعد أو التذكير أو حالة التقرير أو دعم التأمين أو تحديثات طلب السجلات أو متابعة الخدمة العامة.
+Messages may be sent by phone, SMS, email, WhatsApp or other available communication channels.	يمكن إرسال الرسائل عبر الهاتف أو الرسائل القصيرة أو البريد الإلكتروني أو WhatsApp أو قنوات الاتصال الأخرى المتاحة.
+You should ensure that your contact information is correct and up to date.	يجب عليك التأكد من أن معلومات الاتصال الخاصة بك صحيحة وحديثة.
+9. Limitation of Liability	9. حدود المسؤولية
+Ultra Medical Center aims to provide accurate and reliable website information and digital services. However, the website may contain errors, interruptions, outdated information or technical issues.	يهدف مركز الترا الطبي إلى توفير معلومات دقيقة وموثوقة عن الموقع والخدمات الرقمية. ومع ذلك، قد يحتوي الموقع على أخطاء أو انقطاعات أو معلومات قديمة أو مشكلات فنية.
+We do not guarantee that the website will always be available without interruption.	نحن لا نضمن أن الموقع سيكون متاحًا دائمًا دون انقطاع.
+We are not responsible for losses caused by incorrect information submitted by the user.	نحن لسنا مسؤولين عن الخسائر الناجمة عن المعلومات غير الصحيحة المقدمة من قبل المستخدم.
+We are not responsible for unauthorized access caused by user device compromise, shared OTPs or shared login details.	نحن لسنا مسؤولين عن الوصول غير المصرح به الناتج عن اختراق جهاز المستخدم أو كلمات المرور لمرة واحدة (OTP) المشتركة أو تفاصيل تسجيل الدخول المشتركة.
+Website content should not be used as a substitute for professional medical consultation.	لا ينبغي استخدام محتوى الموقع كبديل للاستشارة الطبية المتخصصة.
+10. Changes to These Terms	10. التغييرات على هذه الشروط
+Ultra Medical Center may update these Terms & Conditions from time to time to reflect changes in services, technology, operational workflows or legal requirements.	قد يقوم Ultra Medical Center بتحديث هذه الشروط والأحكام من وقت لآخر لتعكس التغييرات في الخدمات أو التكنولوجيا أو سير العمل التشغيلي أو المتطلبات القانونية.
+Continued use of the website after updates means you accept the revised terms. Please review this page periodically.	استمرار استخدام الموقع بعد التحديثات يعني قبولك للشروط المعدلة. يرجى مراجعة هذه الصفحة بشكل دوري.
+For questions about these terms, appointment services, portal access or report requests, please contact our care team.	للأسئلة حول هذه الشروط أو خدمات المواعيد أو الوصول إلى البوابة أو طلبات التقارير، يرجى الاتصال بفريق الرعاية لدينا.
+Terms and Conditions for using Ultra Medical Center website, , appointment booking, report requests and digital patient services.	شروط وأحكام استخدام موقع مركز الترا الطبي وبوابة المرضى وحجز المواعيد وطلبات التقارير وخدمات المرضى الرقمية.

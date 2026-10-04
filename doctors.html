@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doctors | Ultra Medical Center</title>
+  <meta name="description" content="Find Ultra Medical Center doctors and specialists by name, specialty, language and availability." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --primary-red:#E30613;
+      --primary-red-dark:#B4000B;
+      --primary-red-soft:#FFF2F3;
+      --white:#FFFFFF;
+      --page-bg:#FFFFFF;
+      --soft-bg:#FAFAFA;
+      --border-light:#EDEDED;
+      --border-red-soft:#F2D6D8;
+      --text-main:#111827;
+      --text-secondary:#4B5563;
+      --text-muted:#6B7280;
+      --dark-footer:#1F2933;
+      --success-green:#22C55E;
+      --success-soft:#ECFDF3;
+      --warning:#B54708;
+      --warning-soft:#FFF8E6;
+      --whatsapp-green:#25D366;
+      --shadow:0 16px 42px rgba(17,24,39,.09);
+      --soft-shadow:0 10px 28px rgba(17,24,39,.07);
+      --container:1160px;
+      --radius:12px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--page-bg);font-family:Manrope,Inter,Arial,sans-serif;color:var(--text-main);letter-spacing:-.01em}
+    a{text-decoration:none;color:inherit}
+    button,input,select,textarea{font-family:inherit}
+    button{cursor:pointer}
+    img{max-width:100%;display:block}
+    .container{width:min(var(--container),calc(100% - 64px));margin:auto}
+
+    .btn{height:42px;border-radius:6px;border:0;display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:0 22px;font-size:13px;font-weight:900;transition:.22s ease;white-space:nowrap}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-red{background:linear-gradient(135deg,var(--primary-red),#f71723);color:#fff;box-shadow:0 12px 24px rgba(227,6,19,.22)}
+    .btn-outline{background:#fff;color:var(--primary-red);border:1px solid var(--primary-red)}
+    .btn-soft{background:var(--primary-red-soft);color:var(--primary-red);border:1px solid var(--border-red-soft)}
+    .btn-dark{background:var(--dark-footer);color:#fff}
+
+    .icon{width:28px;height:28px;stroke:var(--primary-red);stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round;flex:0 0 auto}
+    .icon-sm{width:17px;height:17px}.icon-md{width:34px;height:34px}.icon-lg{width:45px;height:45px}.icon-xl{width:54px;height:54px}
+
+    /* Header */
+    .site-header{height:81px;background:#fff;border-bottom:1px solid #ECEEF2;position:sticky;top:0;z-index:90;box-shadow:0 2px 10px rgba(16,24,40,.03)}
+    .header-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:22px}
+    .brand{display:flex;align-items:center;min-width:214px}
+    .brand img{width:190px;height:auto}
+    .main-nav{height:100%;display:flex;align-items:center;gap:25px;margin-left:auto}
+    .main-nav a{height:100%;position:relative;display:flex;align-items:center;text-transform:uppercase;font-size:12px;font-weight:900;color:#1D2430;letter-spacing:-.02em}
+    .main-nav a.active{color:var(--primary-red)}
+    .main-nav a.active::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--primary-red);border-radius:6px 6px 0 0}
+    .header-tools{display:flex;align-items:center;gap:17px;margin-left:8px;font-size:13px;font-weight:900;color:#252B36}
+    .divider{width:1px;height:18px;background:#E3E4E8}
+    .header-actions{display:flex;align-items:center;gap:12px;margin-left:12px}
+    .whatsapp-link{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:900;color:#232834;white-space:nowrap;border:0;background:transparent;padding:0}
+    .whatsapp-dot{width:8px;height:8px;background:var(--whatsapp-green);border-radius:50%;display:inline-block}
+    .mobile-menu{display:none;border:0;background:#fff;color:var(--primary-red);font-size:24px;font-weight:900}
+
+    /* Mobile drawer */
+    .mobile-drawer{position:fixed;inset:0;background:rgba(17,24,39,.45);z-index:120;display:none;align-items:flex-start;justify-content:flex-end}
+    .mobile-drawer.show{display:flex}
+    .drawer-panel{width:min(360px,92vw);height:100%;background:#fff;padding:22px;box-shadow:-18px 0 50px rgba(17,24,39,.16);display:flex;flex-direction:column;gap:12px}
+    .drawer-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}.drawer-top img{width:160px}.drawer-close{width:38px;height:38px;border-radius:50%;border:0;background:var(--primary-red-soft);color:var(--primary-red);font-size:20px;font-weight:900}
+    .drawer-panel a{padding:13px 12px;border-radius:10px;border:1px solid #F1F1F1;font-weight:900}.drawer-panel a.active{background:var(--primary-red-soft);color:var(--primary-red);border-color:var(--border-red-soft)}
+
+    /* Hero */
+    .hero{position:relative;overflow:hidden;min-height:312px;background:linear-gradient(90deg,#fff 0%,#fff 39%,#F8FBFF 74%,#EEF5FF 100%);border-bottom:1px solid #F0F1F4}
+    .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 16% 15%,rgba(227,6,19,.08),transparent 42%);pointer-events:none}
+    .hero::after{content:"";position:absolute;right:0;top:0;bottom:0;width:54%;background:linear-gradient(90deg,rgba(255,255,255,.96),rgba(255,255,255,.42) 27%,rgba(255,255,255,0) 50%),url('assets/department-orthopedic.jpg') center right/cover no-repeat;pointer-events:none}
+    .hero-content{position:relative;z-index:2;width:54%;padding:54px 0 42px}
+    .breadcrumb{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:800;color:#7D8390;margin-bottom:18px}.breadcrumb a{color:var(--primary-red)}
+    .hero-content h1{font-size:48px;line-height:1.08;margin:0 0 15px;font-weight:900;letter-spacing:-.055em;color:#20242C}
+    .hero-content p{font-size:15px;line-height:1.7;color:#4D5561;max-width:560px;margin:0 0 22px}
+
+    /* Search filter bar */
+    .doctor-search-wrap{margin-top:-34px;position:relative;z-index:4}
+    .doctor-search{background:#fff;border:1px solid #E6E7EB;border-radius:9px;box-shadow:var(--shadow);padding:12px;display:grid;grid-template-columns:1.45fr repeat(4,1fr) 115px;gap:10px}
+    .filter-field{height:42px;border:1px solid #DEDFe4;border-radius:6px;background:#fff;display:flex;align-items:center;gap:9px;padding:0 13px;color:#8A9099;font-size:11px;font-weight:700;min-width:0}
+    .filter-field input,.filter-field select{border:0;outline:0;background:transparent;width:100%;font-size:11px;color:#686F7B;font-weight:700;appearance:none;cursor:pointer}.filter-field.select::after{content:"⌄";font-size:16px;color:#777;margin-left:auto;pointer-events:none}
+
+    /* Sections */
+    .section{padding:42px 0 0}.section-title{display:flex;align-items:end;justify-content:space-between;border-bottom:1px solid #ECEEF2;padding-bottom:12px;margin-bottom:22px}.section-title h2{font-size:22px;margin:0;font-weight:900;letter-spacing:-.04em}.section-title p{margin:5px 0 0;font-size:12px;color:var(--text-muted);font-weight:700}.section-title span,.section-title a{font-size:12px;color:var(--primary-red);font-weight:900}
+
+    /* Featured consultant */
+    .featured-card{display:grid;grid-template-columns:260px 1fr 320px;gap:24px;align-items:stretch;background:#fff;border:1px solid #E7E8EB;border-radius:10px;box-shadow:var(--soft-shadow);overflow:hidden;margin-bottom:38px}
+    .featured-photo{min-height:310px;background:linear-gradient(180deg,#EEF1F6,#DDE1EA);position:relative;overflow:hidden}.featured-photo img{width:100%;height:100%;object-fit:cover}
+    .featured-main{padding:26px 0;display:flex;flex-direction:column;justify-content:center}.badge{display:inline-flex;align-items:center;justify-content:center;height:25px;border-radius:999px;padding:0 11px;font-size:10px;font-weight:900}.badge-red{background:var(--primary-red-soft);color:var(--primary-red)}.badge-green{background:var(--success-soft);color:#067647}.badge-amber{background:var(--warning-soft);color:var(--warning)}
+    .featured-main h2{font-size:25px;margin:15px 0 5px;font-weight:900;letter-spacing:-.04em}.featured-main h3{font-size:14px;margin:0 0 14px;color:var(--primary-red);font-weight:900}.doctor-meta{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:16px}.doctor-meta span{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:800;color:#59616E}.featured-main p{font-size:12px;line-height:1.65;color:#5F6671;margin:0;max-width:530px}
+    .featured-side{padding:26px 22px;background:#FBFBFC;border-left:1px solid #ECEEF2}.expertise-title{font-size:12px;font-weight:900;margin:0 0 12px;color:#20242C}.expertise-list{list-style:none;margin:0 0 18px;padding:0;display:grid;gap:8px}.expertise-list li{font-size:11px;color:#535B68;font-weight:700;display:flex;gap:8px;align-items:center}.expertise-list li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--primary-red);flex:0 0 auto}.availability-box{background:#fff;border:1px solid #E7E8EB;border-radius:8px;padding:13px;margin-bottom:14px}.availability-box b{font-size:12px;display:block;color:#20242C}.availability-box span{font-size:11px;color:#5D6571;display:block;margin-top:3px}.featured-actions{display:grid;grid-template-columns:1fr;gap:9px}.featured-actions .btn{width:100%;height:39px;font-size:11px}
+
+    /* Doctors grid */
+    .doctors-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px}.result-count{font-size:12px;color:#6B7280;font-weight:800}.sort-box{height:36px;border:1px solid #E1E3E8;border-radius:6px;padding:0 12px;font-size:11px;font-weight:800;color:#555D69;background:#fff}
+    .doctors-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:17px;padding-bottom:42px}.specialty-heading{grid-column:1/-1;display:flex;align-items:center;gap:12px;margin:18px 0 1px;padding:13px 16px;background:var(--primary-red-soft);border-left:4px solid var(--primary-red);border-radius:7px;color:#20242C}.specialty-heading:first-child{margin-top:0}.specialty-heading h3{margin:0;font-size:17px;font-weight:900}.specialty-heading span{margin-left:auto;color:var(--primary-red);font-size:11px;font-weight:900}.doctors-empty{grid-column:1/-1;padding:32px;text-align:center;border:1px dashed #D7D9DE;border-radius:9px;color:#6B7280;font-size:13px;font-weight:800}.doctor-card{background:#fff;border:1px solid #E7E8EB;border-radius:9px;box-shadow:var(--soft-shadow);overflow:hidden;transition:.22s}.doctor-card:hover{transform:translateY(-3px);border-color:var(--border-red-soft);box-shadow:0 18px 40px rgba(227,6,19,.10)}.card-top{position:relative;height:178px;background:#fff;overflow:hidden}.card-top img{width:100%;height:100%;object-fit:contain;background:#fff}.doctor-body{padding:16px}.doctor-body h3{font-size:15px;line-height:1.25;font-weight:900;margin:0 0 4px;color:#20242C}.doctor-title{font-size:11px;color:var(--primary-red);font-weight:900;margin:0 0 10px}.doctor-info{display:grid;gap:6px;margin-bottom:13px}.doctor-info span{font-size:10.5px;color:#626A77;font-weight:700;display:flex;align-items:center;gap:7px}.card-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}.card-actions .btn{height:36px;font-size:10.5px;padding:0 10px}
+
+    /* Help strip */
+    .help-section{background:var(--soft-bg);border-top:1px solid #F0F1F4;padding:38px 0}.help-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.help-card{background:#fff;border:1px solid #E7E8EB;border-radius:9px;box-shadow:var(--soft-shadow);padding:24px;display:grid;grid-template-columns:54px 1fr auto;gap:16px;align-items:center}.help-card h3{font-size:17px;margin:0 0 4px;font-weight:900}.help-card p{margin:0;color:#626A77;font-size:12px;line-height:1.55}.help-card .btn{height:38px;font-size:11px}
+
+    /* Footer */
+    .red-strip{background:linear-gradient(135deg,#CF000B,var(--primary-red));color:#fff}.strip-inner{height:58px;display:grid;grid-template-columns:repeat(4,1fr);align-items:center;gap:22px}.strip-item{display:flex;align-items:center;gap:12px}.strip-item .icon{stroke:#fff;width:28px;height:28px}.strip-item b{display:block;font-size:12px;font-weight:900}.strip-item span{display:block;font-size:10px;color:rgba(255,255,255,.84)}
+    .site-footer{background:var(--dark-footer);color:#fff}.footer-inner{height:54px;display:flex;align-items:center;justify-content:space-between;gap:20px}.copyright{font-size:11px;color:#D7D9DE}.footer-links{display:flex;gap:32px;font-size:11px;color:#D7D9DE}.socials{display:flex;gap:13px;align-items:center}.socials a{width:16px;height:16px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:10px;border:1px solid rgba(255,255,255,.35)}
+
+    /* Live chat */
+    .chat-card{position:fixed;right:20px;bottom:74px;width:166px;background:#fff;border:1px solid #ECEEF2;border-radius:9px;box-shadow:var(--shadow);z-index:60;padding:12px 12px 10px;display:grid;grid-template-columns:36px 1fr 12px;gap:9px;align-items:start}.chat-avatar{width:36px;height:36px;border-radius:50%;background:linear-gradient(180deg,#F5D6D6,#D9DCE3);overflow:hidden}.chat-card b{font-size:10.5px;display:block;line-height:1.3}.chat-card span{font-size:9px;color:#555D69;display:block;margin-top:3px}.chat-card .x{font-size:13px;color:#777;text-align:right;border:0;background:transparent}.chat-card .btn{grid-column:1/-1;height:33px;border-radius:18px;font-size:10.5px;margin-top:5px}
+    .chat-fab{position:fixed;right:18px;bottom:20px;width:52px;height:52px;border-radius:50%;border:4px solid #fff;background:var(--primary-red);box-shadow:0 10px 24px rgba(227,6,19,.35);z-index:61;display:grid;place-items:center}.chat-fab .icon{stroke:#fff;width:25px;height:25px}
+    .chat-panel{position:fixed;right:18px;bottom:84px;width:min(360px,calc(100vw - 36px));background:#fff;border:1px solid #ECEEF2;border-radius:14px;box-shadow:var(--shadow);z-index:100;display:none;overflow:hidden}.chat-panel.show{display:block}.chat-head{background:var(--primary-red);color:#fff;padding:14px 16px;display:flex;align-items:center;justify-content:space-between}.chat-head b{font-size:14px}.chat-close{border:0;background:transparent;color:#fff;font-size:20px}.chat-body{padding:14px;display:grid;gap:10px}.message{padding:10px 12px;border-radius:12px;font-size:12px;line-height:1.45}.message.bot{background:#F5F6F8}.chat-actions{display:grid;gap:8px;margin-top:4px}.chat-actions a{border:1px solid #ECEEF2;border-radius:10px;padding:10px 12px;font-size:12px;font-weight:900;color:#22242C}.chat-actions a:hover{background:var(--primary-red-soft);color:var(--primary-red);border-color:var(--border-red-soft)}
+
+    @media(max-width:1120px){.container{width:min(var(--container),calc(100% - 36px))}.main-nav{display:none}.mobile-menu{display:block}.hero-content{width:66%}.doctor-search{grid-template-columns:1fr 1fr 1fr}.featured-card{grid-template-columns:230px 1fr}.featured-side{grid-column:1/-1;border-left:0;border-top:1px solid #ECEEF2}.doctors-grid{grid-template-columns:repeat(2,1fr)}.help-grid{grid-template-columns:1fr}.strip-inner{height:auto;padding:14px 0;grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:720px){.site-header{height:auto}.header-inner{padding:12px 0;flex-wrap:wrap}.brand img{width:160px}.header-actions{margin-left:0;width:100%;justify-content:space-between;order:3}.whatsapp-link,.header-tools{display:none}.hero::after{width:100%;opacity:.18}.hero-content{width:100%;padding:42px 0}.hero-content h1{font-size:38px}.doctor-search{grid-template-columns:1fr}.featured-card{grid-template-columns:1fr}.featured-photo{min-height:260px}.doctors-grid{grid-template-columns:1fr}.doctors-toolbar{display:block}.sort-box{margin-top:10px;width:100%}.help-card{grid-template-columns:1fr}.strip-inner{grid-template-columns:1fr}.footer-inner{height:auto;padding:18px 0;display:grid;text-align:center}.footer-links{justify-content:center;gap:16px;flex-wrap:wrap}.socials{justify-content:center}.chat-card{display:none}}
+  </style>
+  <link rel="stylesheet" href="assets/global-fix.css">
+</head>
+<body>
+  <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+    <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v4M16 2v4M3 10h18M5 5h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/><path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 22c1.5-4 4.2-6 8-6s6.5 2 8 6"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 20c-.7-2.7-2.4-4-5-4s-4.3 1.3-5 4"/><circle cx="11" cy="9" r="4"/><path d="M18 15c1.8.5 3 1.8 3.5 4M17 5.3a3.5 3.5 0 0 1 0 6.4"/></symbol>
+    <symbol id="i-heart-pulse" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/><path d="M3 12h4l2-4 4 8 2-4h6"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M8.5 12.5 7 22l5-3 5 3-1.5-9.5"/><path d="M9.5 8 11 9.5 14.5 6"/></symbol>
+    <symbol id="i-tech" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M19.1 4.9l-2.8 2.8M7.7 16.3l-2.8 2.8"/></symbol>
+    <symbol id="i-stethoscope" viewBox="0 0 24 24"><path d="M6 3v6a4 4 0 0 0 8 0V3"/><path d="M10 13v3a5 5 0 0 0 10 0v-3"/><circle cx="20" cy="11" r="2"/><path d="M4 3h4M12 3h4"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.5 5.5 3.5 9s-1 6.5-3.5 9M12 3c-2.5 2.5-3.5 5.5-3.5 9s1 6.5 3.5 9"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><path d="M9 6V4h6v2M4 7h16v12H4V7Z"/><path d="M4 12h16"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 3 5.2 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.4 2L9 10.5a16 16 0 0 0 4.5 4.5l1.2-1.2a2 2 0 0 1 2-.4c.8.3 1.7.5 2.6.6A2 2 0 0 1 22 16.9Z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 9 9 0 0 1-4-.9L3 21l1.9-5.2a8.5 8.5 0 1 1 16.1-4.3Z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ultra Medical Center Home"><img src="assets/logo.png" alt="Ultra Medical Center"></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="specialities.html">Specialities</a>
+        <a class="active" href="doctors.html">Doctors</a>
+        <a href="patients-visitors.html">Patients & Visitors</a>
+        <a href="#" onclick="return false;" aria-disabled="true"
+>Health Packages</a>
+        <a href="insurance.html">Insurance</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-tools"><a href="search.html" aria-label="Search"><svg class="icon icon-sm"><use href="#i-search"/></svg></a></div>
+      <div class="header-actions">
+        
+        <a class="btn btn-red" href="#" onclick="return false;" aria-disabled="true"><svg class="icon icon-sm" style="stroke:#fff"><use href="#i-calendar"/></svg>Book Appointment</a>
+      </div>
+      <button class="mobile-menu" type="button" aria-label="Open menu" onclick="openDrawer()">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-drawer" id="mobileDrawer" onclick="closeDrawer(event)">
+    <div class="drawer-panel" onclick="event.stopPropagation()">
+      <div class="drawer-top"><img src="assets/logo.png" alt="Ultra Medical Center"><button class="drawer-close" onclick="closeDrawer()">×</button></div>
+      <a href="index.html">Home</a><a href="specialities.html">Specialities</a><a class="active" href="doctors.html">Doctors</a><a href="patients-visitors.html">Patients & Visitors</a><a href="#" onclick="return false;" aria-disabled="true"
+>Health Packages</a><a href="insurance.html">Insurance</a><a href="contact.html">Contact</a><a href="#" onclick="return false;" aria-disabled="true">Book Appointment</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero" aria-label="Doctors hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Doctors</span></div>
+          <h1>Find a Specialist</h1>
+          <p>Our team of experienced consultants and specialists provide world-class care with compassion.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="doctor-search-wrap" aria-label="Doctor search">
+      <form class="container doctor-search" action="doctors.html" method="get">
+        <label class="filter-field"><svg class="icon icon-sm"><use href="#i-search"/></svg><input type="search" name="q" placeholder="Search by name, specialty or condition"></label>
+        <label class="filter-field select"><select name="specialty"><option>All Specialties</option><option>Cardiology</option><option>Dermatology</option><option>Orthopedics</option><option>Pediatrics</option></select></label>
+        
+        <label class="filter-field select"><select name="gender"><option>All Genders</option><option>Male</option><option>Female</option></select></label>
+        <label class="filter-field select"><select name="availability"><option>Any Availability</option><option>Available Today</option><option>Available Tomorrow</option></select></label>
+        <button class="btn btn-red" type="submit"><svg class="icon icon-sm" style="stroke:#fff"><use href="#i-search"/></svg>Search</button>
+      </form>
+    </section>
+
+
+
+    <section class="container" aria-label="Our doctors">
+      <div class="section-title"><div><h2>Our Doctors</h2><p>Search and book specialists by availability, specialty and language.</p></div><span><span id="resultsCount">35 Results</span></div>
+      <div class="doctors-toolbar"><div class="result-count">Showing <span id="showingCount">35</span> specialists</div><select class="sort-box" aria-label="Sort by"><option>Sort by: Availability</option><option>Sort by: Name</option><option>Sort by: Specialty</option></select></div>
+      <div class="doctors-grid">
+        <article class="doctor-card" id="dr-roumaissa-hadji" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-25.jpg" alt="Dr. Roumaissa Hadji"></div><div class="doctor-body"><h3>Dr. Roumaissa Hadji</h3><div class="doctor-title">Speech Therapist</div><div class="doctor-info"><span class="department-row">Department: Speech Therapy</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Speech Therapist</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-roumaissa-hadji">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-roumaissa-hadji">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-raghu-sanaka" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-8.jpg" alt="Dr. Raghu Sanaka"></div><div class="doctor-body"><h3>Dr. Raghu Sanaka</h3><div class="doctor-title">Consultant Family Medicine</div><div class="doctor-info"><span class="department-row">Department: Family Medicine</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Family Medicine</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-raghu-sanaka">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-raghu-sanaka">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-hind-alabbadi" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-14.jpg" alt="Dr. Hind Alabbadi"></div><div class="doctor-body"><h3>Dr. Hind Alabbadi</h3><div class="doctor-title">Specialist Orthodontics</div><div class="doctor-info"><span class="department-row">Department: Dental</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Orthodontics</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-hind-alabbadi">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-hind-alabbadi">Book</a></div></div></article>
+        <article class="doctor-card" id="ms-shaikha-alnasri" data-availability="Available Today"><div class="card-top"><img src="assets/character-shaikha-alnasri.png" alt="Ms. Shaikha Alnasri"></div><div class="doctor-body"><h3>Ms. Shaikha Alnasri</h3><div class="doctor-title">Nutritionist</div><div class="doctor-info"><span class="department-row">Department: Nutrition</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Nutritionist</span></div><div class="card-actions"><a class="btn btn-soft" href="#ms-shaikha-alnasri">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=ms-shaikha-alnasri">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-ayman-abdelmawgoud" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-5.jpg" alt="Dr. Ayman Abdelmawgoud"></div><div class="doctor-body"><h3>Dr. Ayman Abdelmawgoud</h3><div class="doctor-title">Consultant Cardiology</div><div class="doctor-info"><span class="department-row">Department: Cardiology</span><span><svg class="icon icon-sm"><use href="#i-heart-pulse"/></svg>Cardiology</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-ayman-abdelmawgoud">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-ayman-abdelmawgoud">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-ramy-kamel" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-30.jpeg" alt="Dr. Ramy Kamel"></div><div class="doctor-body"><h3>Dr. Ramy Kamel</h3><div class="doctor-title">General Practitioner</div><div class="doctor-info"><span class="department-row">Department: Medical</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>General Practitioner</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-ramy-kamel">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-ramy-kamel">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-shimaa-zid" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-23.jpg" alt="Dr. Shimaa Zid"></div><div class="doctor-body"><h3>Dr. Shimaa Zid</h3><div class="doctor-title">General Practitioner</div><div class="doctor-info"><span class="department-row">Department: Medical</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>General Practitioner</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-shimaa-zid">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-shimaa-zid">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-alaa-alkhayouti" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-7.jpg" alt="Dr. Alaa Alkhayouti"></div><div class="doctor-body"><h3>Dr. Alaa Alkhayouti</h3><div class="doctor-title">Specialist Internal Medicine</div><div class="doctor-info"><span class="department-row">Department: Internal Medicine</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Internal Medicine</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-alaa-alkhayouti">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-alaa-alkhayouti">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-rasha-elsonkory" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-10.jpg" alt="Dr. Rasha Elsonkory"></div><div class="doctor-body"><h3>Dr. Rasha Elsonkory</h3><div class="doctor-title">Consultant Pulmonology</div><div class="doctor-info"><span class="department-row">Department: Pulmonology</span><span><svg class="icon icon-sm"><use href="#i-heart-pulse"/></svg>Pulmonology</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-rasha-elsonkory">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-rasha-elsonkory">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-wafaa-younis" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-17.jpg" alt="Dr. Wafaa Younis"></div><div class="doctor-body"><h3>Dr. Wafaa Younis</h3><div class="doctor-title">General Dentist</div><div class="doctor-info"><span class="department-row">Department: Dental</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>General Dentist</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-wafaa-younis">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-wafaa-younis">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-charif-jnid" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-12.jpg" alt="Dr. Charif Jnid"></div><div class="doctor-body"><h3>Dr. Charif Jnid</h3><div class="doctor-title">Specialist Prosthodontics</div><div class="doctor-info"><span class="department-row">Department: Dental</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Prosthodontics</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-charif-jnid">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-charif-jnid">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-suha-badr" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-31.jpeg" alt="Dr. Suha Badr"></div><div class="doctor-body"><h3>Dr. Suha Badr</h3><div class="doctor-title">Specialist Dermatology</div><div class="doctor-info"><span class="department-row">Department: Dermatology</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Dermatology</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-suha-badr">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-suha-badr">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-shamma-hilal" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-19.jpg" alt="Dr. Shamma Hilal"></div><div class="doctor-body"><h3>Dr. Shamma Hilal</h3><div class="doctor-title">Specialist Obstetrics & Gynecology</div><div class="doctor-info"><span class="department-row">Department: Gynecology</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Obstetrics & Gynecology</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-shamma-hilal">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-shamma-hilal">Book</a></div></div></article>
+        <article class="doctor-card" id="ms-feriel-khalfaoui" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-26.jpg" alt="Ms. Feriel Khalfaoui"></div><div class="doctor-body"><h3>Ms. Feriel Khalfaoui</h3><div class="doctor-title">Occupational Therapist</div><div class="doctor-info"><span class="department-row">Department: Occupational Therapy</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Occupational Therapist</span></div><div class="card-actions"><a class="btn btn-soft" href="#ms-feriel-khalfaoui">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=ms-feriel-khalfaoui">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-ali-alkhazraji" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-20.jpg" alt="Dr. Ali Alkhazraji"></div><div class="doctor-body"><h3>Dr. Ali Alkhazraji</h3><div class="doctor-title">General Practitioner</div><div class="doctor-info"><span class="department-row">Department: Medical</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>General Practitioner</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-ali-alkhazraji">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-ali-alkhazraji">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-samiha-younes" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-13.jpg" alt="Dr. Samiha Younes"></div><div class="doctor-body"><h3>Dr. Samiha Younes</h3><div class="doctor-title">Specialist Orthodontics</div><div class="doctor-info"><span class="department-row">Department: Dental</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Orthodontics</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-samiha-younes">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-samiha-younes">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-saher-qamar" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-22.jpg" alt="Dr. Saher Qamar"></div><div class="doctor-body"><h3>Dr. Saher Qamar</h3><div class="doctor-title">Specialist Radiology</div><div class="doctor-info"><span class="department-row">Department: Radiology</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Radiology</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-saher-qamar">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-saher-qamar">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-asmaa-refaie" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-21.jpg" alt="Dr. Asmaa Refaie"></div><div class="doctor-body"><h3>Dr. Asmaa Refaie</h3><div class="doctor-title">General Practitioner</div><div class="doctor-info"><span class="department-row">Department: Medical</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>General Practitioner</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-asmaa-refaie">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-asmaa-refaie">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-yasmine-elmitwally" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-9.jpg" alt="Dr. Yasmine Elmitwally"></div><div class="doctor-body"><h3>Dr. Yasmine Elmitwally</h3><div class="doctor-title">Specialist Family Medicine</div><div class="doctor-info"><span class="department-row">Department: Family Medicine</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Family Medicine</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-yasmine-elmitwally">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-yasmine-elmitwally">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-heba-abdelaty" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-15.jpg" alt="Dr. Heba Abdelaty"></div><div class="doctor-body"><h3>Dr. Heba Abdelaty</h3><div class="doctor-title">General Dentist</div><div class="doctor-info"><span class="department-row">Department: Dental</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>General Dentist</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-heba-abdelaty">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-heba-abdelaty">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-mohamed-siddig" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-6.jpg" alt="Dr. Mohamed Siddig"></div><div class="doctor-body"><h3>Dr. Mohamed Siddig</h3><div class="doctor-title">Specialist Endocrinology</div><div class="doctor-info"><span class="department-row">Department: Endocrinology</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Endocrinology</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-mohamed-siddig">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-mohamed-siddig">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-bdour-kalo" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-18.jpg" alt="Dr. Bdour Kalo"></div><div class="doctor-body"><h3>Dr. Bdour Kalo</h3><div class="doctor-title">Specialist Obstetrics & Gynecology</div><div class="doctor-info"><span class="department-row">Department: Gynecology</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Obstetrics & Gynecology</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-bdour-kalo">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-bdour-kalo">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-atef-abdellatif" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-4.jpg" alt="Dr. Atef Abdellatif"></div><div class="doctor-body"><h3>Dr. Atef Abdellatif</h3><div class="doctor-title">Specialist Pediatrics</div><div class="doctor-info"><span class="department-row">Department: Pediatrics</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Pediatrics</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-atef-abdellatif">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-atef-abdellatif">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-ahmed-shaker" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-3.jpg" alt="Dr. Ahmed Shaker"></div><div class="doctor-body"><h3>Dr. Ahmed Shaker</h3><div class="doctor-title">Consultant Otolaryngology</div><div class="doctor-info"><span class="department-row">Department: ENT</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Otolaryngology</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-ahmed-shaker">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-ahmed-shaker">Book</a></div></div></article>
+        <article class="doctor-card" id="ms-reem-altamimi" data-availability="Available Today"><div class="card-top"><img src="assets/character-reem-altamimi.png" alt="Ms. Reem Altamimi"></div><div class="doctor-body"><h3>Ms. Reem Altamimi</h3><div class="doctor-title">Occupational Therapist</div><div class="doctor-info"><span class="department-row">Department: Occupational Therapy</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Occupational Therapist</span></div><div class="card-actions"><a class="btn btn-soft" href="#ms-reem-altamimi">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=ms-reem-altamimi">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-chafia-laaquad" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-24.jpg" alt="Dr. Chafia Laaquad"></div><div class="doctor-body"><h3>Dr. Chafia Laaquad</h3><div class="doctor-title">Speech Therapist</div><div class="doctor-info"><span class="department-row">Department: Speech Therapy</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Speech Therapist</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-chafia-laaquad">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-chafia-laaquad">Book</a></div></div></article>
+        <article class="doctor-card" id="mr-osama-madkour" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-32.jpeg" alt="Mr. Osama Madkour"></div><div class="doctor-body"><h3>Mr. Osama Madkour</h3><div class="doctor-title">Nutritionist</div><div class="doctor-info"><span class="department-row">Department: Nutrition</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Nutritionist</span></div><div class="card-actions"><a class="btn btn-soft" href="#mr-osama-madkour">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=mr-osama-madkour">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-heba-saad" data-availability="Available Today"><div class="card-top"><img src="assets/character-heba-saad.png" alt="Dr. Heba Saad"></div><div class="doctor-body"><h3>Dr. Heba Saad</h3><div class="doctor-title">General Dentist</div><div class="doctor-info"><span class="department-row">Department: Dental</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>General Dentist</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-heba-saad">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-heba-saad">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-karim-khaled" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-16.jpg" alt="Dr. Karim Khaled"></div><div class="doctor-body"><h3>Dr. Karim Khaled</h3><div class="doctor-title">General Dentist</div><div class="doctor-info"><span class="department-row">Department: Dental</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>General Dentist</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-karim-khaled">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-karim-khaled">Book</a></div></div></article>
+        <article class="doctor-card" id="ms-haneen-bakeer" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-27.jpg" alt="Ms. Haneen Bakeer"></div><div class="doctor-body"><h3>Ms. Haneen Bakeer</h3><div class="doctor-title">Occupational Therapist</div><div class="doctor-info"><span class="department-row">Department: Occupational Therapy</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Occupational Therapist</span></div><div class="card-actions"><a class="btn btn-soft" href="#ms-haneen-bakeer">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=ms-haneen-bakeer">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-waleed" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-1.jpeg" alt="Dr. Waleed"></div><div class="doctor-body"><h3>Dr. Waleed</h3><div class="doctor-title">Consultant Ophthalmology</div><div class="doctor-info"><span class="department-row">Department: Ophthalmology</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Ophthalmology</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-waleed">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-waleed">Book</a></div></div></article>
+        <article class="doctor-card" id="ms-neli-ahmed" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-28.jpg" alt="Ms. Neli Ahmed"></div><div class="doctor-body"><h3>Ms. Neli Ahmed</h3><div class="doctor-title">Physiotherapist</div><div class="doctor-info"><span class="department-row">Department: Physiotherapy</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Physiotherapist</span></div><div class="card-actions"><a class="btn btn-soft" href="#ms-neli-ahmed">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=ms-neli-ahmed">Book</a></div></div></article>
+        <article class="doctor-card" id="ms-sreemol-ashokan" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-29.jpeg" alt="Ms. Sreemol Ashokan"></div><div class="doctor-body"><h3>Ms. Sreemol Ashokan</h3><div class="doctor-title">Physiotherapist</div><div class="doctor-info"><span class="department-row">Department: Physiotherapy</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Physiotherapist</span></div><div class="card-actions"><a class="btn btn-soft" href="#ms-sreemol-ashokan">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=ms-sreemol-ashokan">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-muoghir-azzpouz" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-2.jpg" alt="Dr. Muoghir Azzpouz"></div><div class="doctor-body"><h3>Dr. Muoghir Azzpouz</h3><div class="doctor-title">Specialist Orthopedic Surgery</div><div class="doctor-info"><span class="department-row">Department: Orthopedic</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Orthopedic Surgery</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-muoghir-azzpouz">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-muoghir-azzpouz">Book</a></div></div></article>
+        <article class="doctor-card" id="dr-george-khela" data-availability="Available Today"><div class="card-top"><img src="assets/doctor-new-11.jpg" alt="Dr. George Khela"></div><div class="doctor-body"><h3>Dr. George Khela</h3><div class="doctor-title">Specialist Urology</div><div class="doctor-info"><span class="department-row">Department: Urology</span><span><svg class="icon icon-sm"><use href="#i-stethoscope"/></svg>Urology</span></div><div class="card-actions"><a class="btn btn-soft" href="#dr-george-khela">View Doctor</a><a class="btn btn-red" href="registration.html?doctor=dr-george-khela">Book</a></div></div></article>
+
+    </section>
+
+    <section class="help-section" aria-label="Doctor assistance">
+      <div class="container help-grid">
+        <div class="help-card"><svg class="icon icon-xl"><use href="#i-users"/></svg><div><h3>Can’t find the right specialist?</h3><p>Our care team is here to help you choose the right doctor and specialty.</p></div><a class="btn btn-soft" href="contact.html">Contact Us</a></div>
+        <div class="help-card"><svg class="icon icon-xl"><use href="#i-chat"/></svg><div><h3>Need help booking?</h3><p>Call us on +971 3 884 2222 or chat with our care team for assistance.</p></div><button class="btn btn-red" type="button" onclick="openChat()">Chat with Us</button></div>
+      </div>
+    </section>
+  </main>
+
+  <section class="red-strip" aria-label="Hospital highlights">
+    <div class="container strip-inner">
+      <div class="strip-item"><svg class="icon"><use href="#i-phone"/></svg><div><b>24/7 Emergency Care</b><span>Always here for you</span></div></div>
+      <div class="strip-item"><svg class="icon"><use href="#i-award"/></svg><div><b>Accredited Medical Center</b><span>Trusted healthcare standards</span></div></div>
+      <div class="strip-item"><svg class="icon"><use href="#i-users"/></svg><div><b>Expert Doctors</b><span>Across multiple specialties</span></div></div>
+      <div class="strip-item"><svg class="icon"><use href="#i-tech"/></svg><div><b>Advanced Medical Technology</b><span>For accurate diagnosis & treatment</span></div></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="copyright">© 2025 Ultra Medical Center. All rights reserved.</div>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms & Conditions</a><a href="sitemap.html">Sitemap</a></nav>
+      <div class="socials" aria-label="Social media"><a href="https://www.facebook.com/UMCAlAin/" aria-label="Facebook">f</a><a href="https://www.instagram.com/umcalain/" aria-label="Instagram">◎</a><a href="https://www.youtube.com/@ultramedicalcenter" aria-label="YouTube">▶</a></div>
+    </div>
+  </footer>
+
+  <script>
+
+    (function(){
+      const form=document.querySelector('.doctor-search');
+      const grid=document.querySelector('.doctors-grid');
+      if(!form || !grid) return;
+      const searchInput=form.querySelector('input[name="q"]');
+      const specialtySelect=form.querySelector('select[name="specialty"]');
+
+      const genderSelect=form.querySelector('select[name="gender"]');
+      const availabilitySelect=form.querySelector('select[name="availability"]');
+      const sortSelect=document.querySelector('.sort-box');
+      const cards=Array.from(grid.querySelectorAll('.doctor-card'));
+      const genderMap={
+        'dr-roumaissa-hadji':'Female','dr-raghu-sanaka':'Male','dr-hind-alabbadi':'Female','ms-shaikha-alnasri':'Female',
+        'dr-ayman-abdelmawgoud':'Male','dr-ramy-kamel':'Male','dr-shimaa-zid':'Female','dr-alaa-alkhayouti':'Female',
+        'dr-rasha-elsonkory':'Female','dr-wafaa-younis':'Female','dr-charif-jnid':'Male','dr-suha-badr':'Female',
+        'dr-shamma-hilal':'Female','ms-feriel-khalfaoui':'Female','dr-ali-alkhazraji':'Male','dr-samiha-younes':'Female',
+        'dr-saher-qamar':'Female','dr-asmaa-refaie':'Female','dr-yasmine-elmitwally':'Female','dr-heba-abdelaty':'Female',
+        'dr-mohamed-siddig':'Male','dr-bdour-kalo':'Female','dr-atef-abdellatif':'Male','dr-ahmed-shaker':'Male',
+        'ms-reem-altamimi':'Female','dr-chafia-laaquad':'Female','mr-osama-madkour':'Male','dr-heba-saad':'Female',
+        'dr-karim-khaled':'Male','ms-haneen-bakeer':'Female','dr-waleed':'Male','ms-neli-ahmed':'Female',
+        'ms-sreemol-ashokan':'Female','dr-muoghir-azzpouz':'Male','dr-george-khela':'Male'
+      };
+      const clean=s=>String(s||'').replace(/\s+/g,' ').trim();
+      const norm=s=>clean(s).toLowerCase();
+      const textOf=el=>clean(el?.textContent);
+      const uniqueSorted=arr=>Array.from(new Set(arr.map(clean).filter(Boolean))).sort((a,b)=>a.localeCompare(b));
+      const getInfo=card=>{
+        const info=Array.from(card.querySelectorAll('.doctor-info span:not(.department-row)')).map(textOf);
+        return {
+          name:textOf(card.querySelector('h3')),
+          title:textOf(card.querySelector('.doctor-title')),
+          department:textOf(card.querySelector('.department-row')).replace(/^Department:\s*/i,''),
+          specialty:info[0]||'',
+          gender:genderMap[card.id]||'',
+          availability:clean(card.dataset.availability||'Available Today'),
+          allText:norm(card.textContent)
+        };
+      };
+      const data=cards.map(card=>({card,...getInfo(card)}));
+
+      function fillSelect(select,values,allLabel){
+        const current=select.value;
+        select.innerHTML='';
+        const all=document.createElement('option');
+        all.textContent=allLabel; all.value=allLabel; select.appendChild(all);
+        values.forEach(v=>{
+          const o=document.createElement('option');
+          o.textContent=v; o.value=v; select.appendChild(o);
+        });
+        if(Array.from(select.options).some(o=>o.value===current)) select.value=current;
+      }
+
+      // Keep the existing filter design, but populate it from the actual doctors.
+      fillSelect(specialtySelect,uniqueSorted(data.map(d=>d.specialty)),'All Specialties');
+
+      fillSelect(genderSelect,['Male','Female'],'All Genders');
+      fillSelect(availabilitySelect,uniqueSorted(data.map(d=>d.availability)),'Any Availability');
+
+      function applyFilters(){
+        const q=norm(searchInput.value);
+        const sp=norm(specialtySelect.value);
+        const gender=norm(genderSelect.value), avail=norm(availabilitySelect.value);
+
+        let visible=data.filter(d=>{
+          return (!q || d.allText.includes(q)) &&
+                 (sp==='all specialties' || norm(d.specialty)===sp) &&
+                 (gender==='all genders' || norm(d.gender)===gender) &&
+                 (avail==='any availability' || norm(d.availability)===avail);
+        });
+
+        if(sortSelect){
+          const mode=sortSelect.value;
+          visible.sort((a,b)=>
+            mode.includes('Name') ? a.name.localeCompare(b.name) :
+            mode.includes('Specialty') ? a.specialty.localeCompare(b.specialty) :
+            a.availability.localeCompare(b.availability)
+          );
+        }
+
+        grid.innerHTML='';
+        const groups=new Map();
+        visible.forEach(d=>{
+          const group=d.department||'Other Specialties';
+          if(!groups.has(group)) groups.set(group,[]);
+          groups.get(group).push(d);
+        });
+        Array.from(groups.keys()).sort((a,b)=>a.localeCompare(b)).forEach(group=>{
+          const members=groups.get(group);
+          const heading=document.createElement('div');
+          heading.className='specialty-heading';
+          const title=document.createElement('h3');
+          title.textContent=group;
+          const total=document.createElement('span');
+          total.textContent=members.length+(members.length===1?' Specialist':' Specialists');
+          heading.append(title,total);
+          grid.appendChild(heading);
+          members.forEach(d=>{
+            d.card.style.display='';
+            grid.appendChild(d.card);
+          });
+        });
+        if(!visible.length){
+          const empty=document.createElement('div');
+          empty.className='doctors-empty';
+          empty.textContent='No doctors match the selected filters.';
+          grid.appendChild(empty);
+        }
+
+        const count=visible.length;
+        const rc=document.getElementById('resultsCount');
+        const sc=document.getElementById('showingCount');
+        if(rc) rc.textContent=count+' Results';
+        if(sc) sc.textContent=count;
+      }
+
+      // Search button and all filters work without changing the page layout or reloading.
+      form.addEventListener('submit',e=>{e.preventDefault();applyFilters();});
+      [specialtySelect,genderSelect,availabilitySelect].forEach(el=>el.addEventListener('change',applyFilters));
+      searchInput.addEventListener('input',applyFilters);
+      if(sortSelect) sortSelect.addEventListener('change',applyFilters);
+      applyFilters();
+    })();
+    function openDrawer(){document.getElementById('mobileDrawer').classList.add('show')}
+    function closeDrawer(event){if(!event || event.target.id === 'mobileDrawer') document.getElementById('mobileDrawer').classList.remove('show')}
+    function openChat(){document.getElementById('chatPanel').classList.add('show'); const prompt=document.getElementById('chatCard'); if(prompt) prompt.style.display='none'}
+    function closeChat(){document.getElementById('chatPanel').classList.remove('show')}
+    function hideChatPrompt(){document.getElementById('chatCard').style.display='none'}
+  </script>
+  <script src="assets/security.js"></script>
+</body>
+</html>

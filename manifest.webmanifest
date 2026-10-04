@@ -1,0 +1,23 @@
+{
+  "name": "Ultra Medical Center",
+  "short_name": "Ultra Medical",
+  "description": "Appointments, doctors, , reports and contact access.",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#E30613",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://umc-alain.ae/wp-content/uploads/2020/01/cropped-logo-4.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://umc-alain.ae/wp-content/uploads/2020/01/cropped-logo-4.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

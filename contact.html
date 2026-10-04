@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Location | Ultra Medical Center</title>
+  <meta name="description" content="Contact Ultra Medical Center in Al Jimi, Al Ain. Call, WhatsApp, book appointment, view map, parking guidance and send enquiry." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --primary-red:#E30613;
+      --primary-red-dark:#B4000B;
+      --primary-red-soft:#FFF2F3;
+      --white:#FFFFFF;
+      --page-bg:#FFFFFF;
+      --soft-bg:#FAFAFA;
+      --border-light:#EDEDED;
+      --border-red-soft:#F2D6D8;
+      --text-main:#111827;
+      --text-secondary:#4B5563;
+      --text-muted:#6B7280;
+      --dark-footer:#1F2933;
+      --success-green:#22C55E;
+      --whatsapp-green:#25D366;
+      --shadow:0 16px 42px rgba(17,24,39,.09);
+      --soft-shadow:0 10px 28px rgba(17,24,39,.07);
+      --container:1160px;
+      --radius:12px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--page-bg);font-family:Manrope,Inter,Arial,sans-serif;color:var(--text-main);letter-spacing:-.01em}
+    a{text-decoration:none;color:inherit}
+    button,input,select,textarea{font-family:inherit}
+    button{cursor:pointer}
+    img{max-width:100%;display:block}
+    .container{width:min(var(--container),calc(100% - 64px));margin:auto}
+
+    .btn{height:42px;border-radius:6px;border:0;display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:0 22px;font-size:13px;font-weight:900;transition:.22s ease;white-space:nowrap}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-red{background:linear-gradient(135deg,var(--primary-red),#f71723);color:#fff;box-shadow:0 12px 24px rgba(227,6,19,.22)}
+    .btn-outline{background:#fff;color:var(--primary-red);border:1px solid var(--primary-red)}
+    .btn-soft{background:var(--primary-red-soft);color:var(--primary-red);border:1px solid var(--border-red-soft)}
+
+    .icon{width:28px;height:28px;stroke:var(--primary-red);stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round;flex:0 0 auto}
+    .icon-sm{width:17px;height:17px}.icon-md{width:34px;height:34px}.icon-lg{width:45px;height:45px}.icon-xl{width:54px;height:54px}
+
+    /* Header */
+    .site-header{height:81px;background:#fff;border-bottom:1px solid #ECEEF2;position:sticky;top:0;z-index:90;box-shadow:0 2px 10px rgba(16,24,40,.03)}
+    .header-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:22px}
+    .brand{display:flex;align-items:center;min-width:214px}
+    .brand img{width:190px;height:auto}
+    .main-nav{height:100%;display:flex;align-items:center;gap:25px;margin-left:auto}
+    .main-nav a{height:100%;position:relative;display:flex;align-items:center;text-transform:uppercase;font-size:12px;font-weight:900;color:#1D2430;letter-spacing:-.02em}
+    .main-nav a.active{color:var(--primary-red)}
+    .main-nav a.active::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--primary-red);border-radius:6px 6px 0 0}
+    .header-tools{display:flex;align-items:center;gap:17px;margin-left:8px;font-size:13px;font-weight:900;color:#252B36}
+    .divider{width:1px;height:18px;background:#E3E4E8}
+    .header-actions{display:flex;align-items:center;gap:12px;margin-left:12px}
+    .whatsapp-link{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:900;color:#232834;white-space:nowrap;border:0;background:transparent;padding:0}
+    .whatsapp-dot{width:8px;height:8px;background:var(--whatsapp-green);border-radius:50%;display:inline-block}
+    .mobile-menu{display:none;border:0;background:#fff;color:var(--primary-red);font-size:24px;font-weight:900}
+
+    /* Mobile drawer */
+    .mobile-drawer{position:fixed;inset:0;background:rgba(17,24,39,.45);z-index:120;display:none;align-items:flex-start;justify-content:flex-end}
+    .mobile-drawer.show{display:flex}
+    .drawer-panel{width:min(360px,92vw);height:100%;background:#fff;padding:22px;box-shadow:-18px 0 50px rgba(17,24,39,.16);display:flex;flex-direction:column;gap:12px}
+    .drawer-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}.drawer-top img{width:160px}.drawer-close{width:38px;height:38px;border-radius:50%;border:0;background:var(--primary-red-soft);color:var(--primary-red);font-size:20px;font-weight:900}
+    .drawer-panel a{padding:13px 12px;border-radius:10px;border:1px solid #F1F1F1;font-weight:900}.drawer-panel a.active{background:var(--primary-red-soft);color:var(--primary-red);border-color:var(--border-red-soft)}
+
+    /* Hero */
+    .hero{position:relative;overflow:hidden;min-height:340px;background:linear-gradient(90deg,#fff 0%,#fff 39%,#F8FBFF 74%,#EEF5FF 100%);border-bottom:1px solid #F0F1F4}
+    .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 16% 15%,rgba(227,6,19,.08),transparent 42%);pointer-events:none}
+    .hero::after{content:"";position:absolute;right:0;top:0;bottom:0;width:54%;background:linear-gradient(90deg,rgba(255,255,255,.96),rgba(255,255,255,.38) 27%,rgba(255,255,255,0) 50%),url('assets/contact-hero.jpg') center right/cover no-repeat;pointer-events:none}
+    .hero-content{position:relative;z-index:2;width:55%;padding:54px 0 42px}
+    .breadcrumb{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:800;color:#7D8390;margin-bottom:18px}.breadcrumb a{color:var(--primary-red)}
+    .hero-content h1{font-size:48px;line-height:1.08;margin:0 0 13px;font-weight:900;letter-spacing:-.055em;color:#20242C}
+    .hero-content p{font-size:15px;line-height:1.7;color:#4D5561;max-width:560px;margin:0 0 22px}.hero-ctas{display:flex;gap:14px;flex-wrap:wrap}
+
+    /* Sections */
+    .section{padding:42px 0 0}.section-title{display:flex;align-items:end;justify-content:space-between;border-bottom:1px solid #ECEEF2;padding-bottom:12px;margin-bottom:22px}.section-title h2{font-size:22px;margin:0;font-weight:900;letter-spacing:-.04em}.section-title p{margin:5px 0 0;font-size:12px;color:var(--text-muted);font-weight:700}
+
+    /* Contact map panel */
+    .contact-panel{display:grid;grid-template-columns:.78fr .88fr 1.15fr;gap:0;background:#fff;border:1px solid #E7E8EB;border-radius:10px;box-shadow:var(--shadow);overflow:hidden;margin-top:-34px;position:relative;z-index:5}.contact-column{padding:24px;border-right:1px solid #ECEEF2}.address-column{padding:24px;border-right:1px solid #ECEEF2}.contact-item{display:flex;gap:12px;align-items:flex-start;padding:13px 0;border-bottom:1px solid #F1F2F4}.contact-item:last-child{border-bottom:0}.contact-item .icon-wrap{width:40px;height:40px;border-radius:50%;background:var(--primary-red-soft);display:grid;place-items:center;flex:0 0 auto}.contact-item h3{font-size:13px;margin:0 0 4px;font-weight:900}.contact-item a,.contact-item p{font-size:12px;line-height:1.45;color:#4B5563;margin:0;font-weight:800}.whatsapp-text{color:var(--whatsapp-green)!important}.address-column h2{font-size:22px;line-height:1.15;margin:0 0 12px;font-weight:900}.address-column p{font-size:13px;line-height:1.7;color:#4B5563;margin:0 0 18px;font-weight:700}.address-actions{display:flex;gap:10px;flex-wrap:wrap}.map-area{position:relative;min-height:330px;background:#EAF1F7;overflow:hidden}.map-area::before{content:"";position:absolute;inset:0;background:linear-gradient(35deg,transparent 47%,#CFD7DF 48%,#CFD7DF 51%,transparent 52%),linear-gradient(115deg,transparent 40%,#D8DFE6 41%,#D8DFE6 44%,transparent 45%),linear-gradient(0deg,transparent 65%,#DCE4EC 66%,#DCE4EC 68%,transparent 69%),linear-gradient(90deg,transparent 22%,#DCE4EC 23%,#DCE4EC 24%,transparent 25%)}.map-pin{position:absolute;left:51%;top:40%;width:24px;height:24px;background:var(--primary-red);border-radius:50% 50% 50% 0;transform:rotate(-45deg);z-index:2}.map-pin::after{content:"";position:absolute;width:9px;height:9px;border-radius:50%;background:#fff;left:7.5px;top:7.5px}.map-label{position:absolute;left:46%;top:53%;transform:translateX(-50%);background:#fff;border:1px solid #E7E8EB;border-radius:8px;padding:8px 10px;font-size:11px;font-weight:900;box-shadow:var(--soft-shadow);z-index:3;white-space:nowrap}.map-controls{position:absolute;right:14px;top:14px;display:grid;gap:6px}.map-controls button{width:30px;height:30px;border:1px solid #DDE1E6;border-radius:6px;background:#fff;font-size:18px;font-weight:900;color:#4B5563}.map-nearby{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.94);border:1px solid #E7E8EB;border-radius:9px;padding:12px;box-shadow:var(--soft-shadow)}.map-nearby b{font-size:12px}.map-nearby span{display:block;font-size:10.5px;color:#626A77;margin-top:4px;font-weight:700}
+
+    /* Real embedded Google Map */
+    .real-map{background:#EAF1F7!important;min-height:330px!important}
+    .real-map iframe{width:100%!important;height:100%!important;min-height:330px!important;display:block;border:0}
+    .real-map::before,.real-map .map-pin,.real-map .map-label,.real-map .map-controls,.real-map .map-nearby{display:none!important}
+
+    /* Quick actions */
+    .quick-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:32px 0}.quick-card{background:#fff;border:1px solid #E7E8EB;border-radius:9px;box-shadow:var(--soft-shadow);padding:20px;display:grid;grid-template-columns:44px 1fr 18px;gap:12px;align-items:center;transition:.22s}.quick-card:hover{transform:translateY(-3px);border-color:var(--border-red-soft);background:#FFF8F8}.quick-card h3{font-size:14px;margin:0 0 5px;font-weight:900}.quick-card p{font-size:11px;line-height:1.45;color:#626A77;margin:0;font-weight:700}.arrow{font-size:18px;color:#555B66}
+
+    /* Form + guidance */
+    .form-wrap{background:var(--soft-bg);border-top:1px solid #F0F1F4;border-bottom:1px solid #F0F1F4;padding:42px 0}.form-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:20px}.form-card,.parking-card{background:#fff;border:1px solid #E7E8EB;border-radius:10px;box-shadow:var(--soft-shadow);padding:24px}.form-card h2,.parking-card h2{font-size:22px;margin:0 0 6px;font-weight:900}.form-card p,.parking-card p{font-size:12px;line-height:1.65;color:#626A77;margin:0 0 18px;font-weight:700}.input-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:11px;font-weight:900;color:#384152}.field input,.field select,.field textarea{border:1px solid #DEDFe4;border-radius:6px;background:#fff;padding:0 12px;outline:0;font-size:12px;color:#4B5563}.field input,.field select{height:42px}.field textarea{min-height:112px;padding-top:12px;resize:vertical}.privacy-note{background:var(--primary-red-soft);border:1px solid var(--border-red-soft);border-radius:9px;padding:12px;margin:16px 0;font-size:11px;color:#4B5563;font-weight:800;line-height:1.5}.form-card .btn{width:100%}.parking-list{display:grid;gap:14px;margin-bottom:20px}.parking-item{display:flex;gap:12px}.parking-item .icon-wrap{width:40px;height:40px;border-radius:50%;background:var(--primary-red-soft);display:grid;place-items:center;flex:0 0 auto}.parking-item h3{font-size:14px;margin:0 0 4px;font-weight:900}.parking-item p{font-size:11.5px;margin:0;color:#626A77;line-height:1.55}.parking-image{height:150px;border-radius:9px;background:url('assets/location-parking.jpg') center/cover no-repeat;margin-bottom:16px;border:1px solid #E7E8EB}.find-help{background:var(--primary-red-soft);border:1px solid var(--border-red-soft);border-radius:9px;padding:16px}.find-help h3{font-size:15px;margin:0 0 6px;font-weight:900}.find-help p{margin-bottom:12px}
+
+    /* Insurance strip */
+    .insurance-panel{border:1px solid #E7E8EB;border-radius:9px;background:#fff;box-shadow:var(--soft-shadow);padding:18px 20px;margin:36px auto}.insurance-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}.insurance-head h3{margin:0;font-size:18px;font-weight:900}.insurance-head a{font-size:12px;color:var(--primary-red);font-weight:900}.insurance-logos{height:64px;display:grid;grid-template-columns:30px repeat(7,1fr) 30px;gap:18px;align-items:center;text-align:center}.insurance-logos .logo-text{font-size:22px;font-weight:900;color:#1E64B7}.insurance-logos .aetna{color:#8C3998}.insurance-logos .axa{background:#173B8F;color:#fff;padding:7px 6px;justify-self:center}.insurance-logos .nas{color:#1C69AA}.insurance-logos .saico{color:#15856D}.insurance-logos .now{color:#263776}.insurance-arrow{color:#777;font-size:20px}
+
+    /* Footer */
+    .red-strip{background:linear-gradient(135deg,#CF000B,var(--primary-red));color:#fff}.strip-inner{height:58px;display:grid;grid-template-columns:repeat(4,1fr);align-items:center;gap:22px}.strip-item{display:flex;align-items:center;gap:12px}.strip-item .icon{stroke:#fff;width:28px;height:28px}.strip-item b{display:block;font-size:12px;font-weight:900}.strip-item span{display:block;font-size:10px;color:rgba(255,255,255,.84)}
+    .site-footer{background:var(--dark-footer);color:#fff}.footer-inner{height:54px;display:flex;align-items:center;justify-content:space-between;gap:20px}.copyright{font-size:11px;color:#D7D9DE}.footer-links{display:flex;gap:32px;font-size:11px;color:#D7D9DE}.socials{display:flex;gap:13px;align-items:center}.socials a{width:16px;height:16px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:10px;border:1px solid rgba(255,255,255,.35)}
+
+    /* Live chat */
+    .chat-card{position:fixed;right:20px;bottom:74px;width:166px;background:#fff;border:1px solid #ECEEF2;border-radius:9px;box-shadow:var(--shadow);z-index:60;padding:12px 12px 10px;display:grid;grid-template-columns:36px 1fr 12px;gap:9px;align-items:start}.chat-avatar{width:36px;height:36px;border-radius:50%;background:linear-gradient(180deg,#F5D6D6,#D9DCE3);overflow:hidden}.chat-card b{font-size:10.5px;display:block;line-height:1.3}.chat-card span{font-size:9px;color:#555D69;display:block;margin-top:3px}.chat-card .x{font-size:13px;color:#777;text-align:right;border:0;background:transparent}.chat-card .btn{grid-column:1/-1;height:33px;border-radius:18px;font-size:10.5px;margin-top:5px}
+    .chat-fab{position:fixed;right:18px;bottom:20px;width:52px;height:52px;border-radius:50%;border:4px solid #fff;background:var(--primary-red);box-shadow:0 10px 24px rgba(227,6,19,.35);z-index:61;display:grid;place-items:center}.chat-fab .icon{stroke:#fff;width:25px;height:25px}
+    .chat-panel{position:fixed;right:18px;bottom:84px;width:min(360px,calc(100vw - 36px));background:#fff;border:1px solid #ECEEF2;border-radius:14px;box-shadow:var(--shadow);z-index:100;display:none;overflow:hidden}.chat-panel.show{display:block}.chat-head{background:var(--primary-red);color:#fff;padding:14px 16px;display:flex;align-items:center;justify-content:space-between}.chat-head b{font-size:14px}.chat-close{border:0;background:transparent;color:#fff;font-size:20px}.chat-body{padding:14px;display:grid;gap:10px}.message{padding:10px 12px;border-radius:12px;font-size:12px;line-height:1.45}.message.bot{background:#F5F6F8}.chat-actions{display:grid;gap:8px;margin-top:4px}.chat-actions a{border:1px solid #ECEEF2;border-radius:10px;padding:10px 12px;font-size:12px;font-weight:900;color:#22242C}.chat-actions a:hover{background:var(--primary-red-soft);color:var(--primary-red);border-color:var(--border-red-soft)}
+
+    @media(max-width:1120px){.container{width:min(var(--container),calc(100% - 36px))}.main-nav{display:none}.mobile-menu{display:block}.hero-content{width:66%}.contact-panel,.form-grid{grid-template-columns:1fr}.contact-column,.address-column{border-right:0;border-bottom:1px solid #ECEEF2}.quick-grid{grid-template-columns:repeat(2,1fr)}.strip-inner{height:auto;padding:14px 0;grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:720px){.site-header{height:auto}.header-inner{padding:12px 0;flex-wrap:wrap}.brand img{width:160px}.header-actions{margin-left:0;width:100%;justify-content:space-between;order:3}.whatsapp-link,.header-tools{display:none}.hero::after{width:100%;opacity:.18}.hero-content{width:100%;padding:42px 0}.hero-content h1{font-size:38px}.quick-grid,.input-grid{grid-template-columns:1fr}.quick-card{grid-template-columns:44px 1fr}.insurance-logos{grid-template-columns:1fr 1fr;gap:10px;height:auto}.insurance-arrow{display:none}.strip-inner{grid-template-columns:1fr}.footer-inner{height:auto;padding:18px 0;display:grid;text-align:center}.footer-links{justify-content:center;gap:16px;flex-wrap:wrap}.socials{justify-content:center}.chat-card{display:none}}
+  </style>
+  <link rel="stylesheet" href="assets/global-fix.css">
+</head>
+<body>
+  <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+    <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v4M16 2v4M3 10h18M5 5h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/><path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 22c1.5-4 4.2-6 8-6s6.5 2 8 6"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 20c-.7-2.7-2.4-4-5-4s-4.3 1.3-5 4"/><circle cx="11" cy="9" r="4"/><path d="M18 15c1.8.5 3 1.8 3.5 4M17 5.3a3.5 3.5 0 0 1 0 6.4"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M8.5 12.5 7 22l5-3 5 3-1.5-9.5"/><path d="M9.5 8 11 9.5 14.5 6"/></symbol>
+    <symbol id="i-tech" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M19.1 4.9l-2.8 2.8M7.7 16.3l-2.8 2.8"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 3 5.2 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.4 2L9 10.5a16 16 0 0 0 4.5 4.5l1.2-1.2a2 2 0 0 1 2-.4c.8.3 1.7.5 2.6.6A2 2 0 0 1 22 16.9Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="m4 7 8 6 8-6"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M12 22s7-5.3 7-12a7 7 0 0 0-14 0c0 6.7 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><path d="M5 11 7 6h10l2 5"/><path d="M4 11h16v7H4v-7Z"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></symbol>
+    <symbol id="i-road" viewBox="0 0 24 24"><path d="M9 21 11 3M15 21 13 3M3 21h18"/><path d="M12 7v2M12 13v2M12 19v2"/></symbol>
+    <symbol id="i-bus" viewBox="0 0 24 24"><path d="M6 3h12a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3Z"/><path d="M3 10h18M7 19v2M17 19v2"/><circle cx="7" cy="15" r="1"/><circle cx="17" cy="15" r="1"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2 20 5v6c0 5-3.2 9-8 11-4.8-2-8-6-8-11V5l8-3Z"/><path d="m8.5 12 2.2 2.2L15.8 9"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 9 9 0 0 1-4-.9L3 21l1.9-5.2a8.5 8.5 0 1 1 16.1-4.3Z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ultra Medical Center Home"><img src="assets/logo.png" alt="Ultra Medical Center"></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="specialities.html">Specialities</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="patients-visitors.html">Patients & Visitors</a>
+        <a href="#" onclick="return false;" aria-disabled="true"
+>Health Packages</a>
+        <a href="insurance.html">Insurance</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+      <div class="header-tools"><a href="search.html" aria-label="Search"><svg class="icon icon-sm"><use href="#i-search"/></svg></a></div>
+      <div class="header-actions">
+        <button class="whatsapp-link" type="button" onclick="openChat()"><span class="whatsapp-dot"></span> WhatsApp / Live Chat</button>
+
+        <a class="btn btn-red" href="#" onclick="return false;" aria-disabled="true"><svg class="icon icon-sm" style="stroke:#fff"><use href="#i-calendar"/></svg>Book Appointment</a>
+      </div>
+      <button class="mobile-menu" type="button" aria-label="Open menu" onclick="openDrawer()">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-drawer" id="mobileDrawer" onclick="closeDrawer(event)">
+    <div class="drawer-panel" onclick="event.stopPropagation()">
+      <div class="drawer-top"><img src="assets/logo.png" alt="Ultra Medical Center"><button class="drawer-close" onclick="closeDrawer()">×</button></div>
+      <a href="index.html">Home</a><a href="specialities.html">Specialities</a><a href="doctors.html">Doctors</a><a href="patients-visitors.html">Patients & Visitors</a><a href="#" onclick="return false;" aria-disabled="true"
+>Health Packages</a><a href="insurance.html">Insurance</a><a class="active" href="contact.html">Contact</a><a href="#" onclick="return false;" aria-disabled="true">Book Appointment</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero" aria-label="Contact hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Contact</span></div>
+          <h1>Contact & Location</h1>
+          <p>We’re here to help. Reach out to Ultra Medical Center or visit us in Al Ain – Al Jimi. Our care team is ready to assist you.</p>
+          <div class="hero-ctas"><a class="btn btn-red" href="#" onclick="return false;" aria-disabled="true"><svg class="icon icon-sm" style="stroke:#fff"><use href="#i-calendar"/></svg>Book Appointment</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container contact-panel" id="map" aria-label="Contact details and map">
+      <div class="contact-column">
+        <div class="contact-item"><div class="icon-wrap"><svg class="icon icon-sm"><use href="#i-phone"/></svg></div><div><h3>Call Clinic</h3><a href="tel:+97138842222">+971 3 884 2222</a><p>Available 24/7</p></div></div>
+        <div class="contact-item"><div class="icon-wrap"><svg class="icon icon-sm"><use href="#i-chat"/></svg></div><div><h3>WhatsApp</h3><button type="button" onclick="openChat()" class="whatsapp-text" style="border:0;background:transparent;padding:0;font:inherit;font-weight:900;cursor:pointer">+971 50 470 2948</button><p>Chat with our care team</p></div></div>
+        <div class="contact-item"><div class="icon-wrap"><svg class="icon icon-sm"><use href="#i-mail"/></svg></div><div><h3>Email Us</h3><a href="mailto:info@ultramedicalcenter.ae">info@ultramedicalcenter.ae</a><p>We reply within 24 hours</p></div></div>
+        <div class="contact-item" id="hours"><div class="icon-wrap"><svg class="icon icon-sm"><use href="#i-clock"/></svg></div><div><h3>Opening Hours</h3><p>08:00 AM – 10:00 PM (Mon – Sat)</p><p>09:00 AM – 06:00 PM (Sun & Public Holidays)</p></div></div>
+      </div>
+      <div class="address-column">
+        <h2>Ultra Medical Center</h2>
+        <p>Al Jimi, Near Safeer Mall<br>Al Ain, Abu Dhabi, UAE</p>
+        <div class="address-actions"><a class="btn btn-red" href="https://maps.google.com/?q=Ultra%20Medical%20Center%20Al%20Jimi%20Al%20Ain" target="_blank" rel="noopener">View on Google Maps</a><button class="btn btn-soft" type="button" onclick="openChat()">Ask for Directions</button></div>
+      </div>
+      <div class="map-area real-map" aria-label="Ultra Medical Center Google Map">
+        <iframe
+          src="https://www.google.com/maps?q=Ultra%20Medical%20Center%20Al%20Jimi%20Al%20Ain&output=embed"
+          width="100%"
+          height="100%"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+
+    <section class="container quick-grid" aria-label="Quick contact actions">
+      <a class="quick-card" href="tel:+97138842222"><svg class="icon icon-lg"><use href="#i-phone"/></svg><div><h3>Call Clinic</h3><p>Speak with our care team now.</p></div><span class="arrow">→</span></a>
+      <a class="quick-card" href="#" onclick="return false;" aria-disabled="true"><svg class="icon icon-lg"><use href="#i-calendar"/></svg><div><h3>Book Appointment</h3><p>Schedule your visit in just a few clicks.</p></div><span class="arrow">→</span></a>
+      <button class="quick-card" type="button" onclick="openChat()" style="text-align:left"><svg class="icon icon-lg"><use href="#i-chat"/></svg><div><h3>WhatsApp Care Coordinator</h3><p>Chat with our care coordinator on WhatsApp.</p></div><span class="arrow">→</span></button>
+      <a class="quick-card" href="https://maps.google.com/?q=Ultra%20Medical%20Center%20Al%20Jimi%20Al%20Ain" target="_blank" rel="noopener"><svg class="icon icon-lg"><use href="#i-map"/></svg><div><h3>Get Directions</h3><p>Find the fastest route to our center.</p></div><span class="arrow">→</span></a>
+    </section>
+
+    <section class="form-wrap" aria-label="Message form and parking guidance">
+      <div class="container form-grid">
+        <div class="form-card">
+          <h2>Send Us a Message</h2>
+          <p>Have a question or need assistance? We’ll get back to you shortly.</p>
+          <form action="contact-submitted.html" method="get">
+            <div class="input-grid">
+              <div class="field"><label>Full Name</label><input name="name" required placeholder="Enter full name"></div>
+              <div class="field"><label>Email Address</label><input name="email" type="email" required placeholder="Enter email address"></div>
+              <div class="field"><label>Phone Number</label><input name="phone" required placeholder="+971 50 470 2948"></div>
+              <div class="field"><label>Select Subject</label><select name="subject" required><option value="">Select Subject</option><option>Appointment Enquiry</option><option>Insurance & Billing</option><option>Medical Records</option><option>General Enquiry</option><option>Feedback</option></select></div>
+              <div class="field full"><label>Your Message</label><textarea name="message" required placeholder="Write your message here"></textarea></div>
+            </div>
+            <div class="privacy-note">Your information is secure and will only be used to respond to your inquiry.</div>
+            <button class="btn btn-red" type="submit">Send Message</button>
+          </form>
+        </div>
+        <aside class="parking-card">
+          <h2>Parking & Location Guidance</h2>
+          <p>Plan your visit with easy access and patient-friendly directions.</p>
+          <div class="parking-list">
+            <div class="parking-item"><div class="icon-wrap"><svg class="icon icon-sm"><use href="#i-car"/></svg></div><div><h3>Free Parking</h3><p>Ample free parking is available on-site for all patients.</p></div></div>
+            <div class="parking-item"><div class="icon-wrap"><svg class="icon icon-sm"><use href="#i-road"/></svg></div><div><h3>Easy Access</h3><p>Located near Safeer Mall, Al Jimi with easy access from Sheikh Khalifa Bin Zayed Road.</p></div></div>
+            <div class="parking-item"><div class="icon-wrap"><svg class="icon icon-sm"><use href="#i-bus"/></svg></div><div><h3>Public Transport</h3><p>Bus stops are within walking distance of the center.</p></div></div>
+          </div>
+          <div class="parking-image"></div>
+          <div class="find-help"><h3>Need Help Finding Us?</h3><p>Our care team can guide you with directions.</p><button class="btn btn-red" type="button" onclick="openChat()">WhatsApp Us</button></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="container insurance-panel" aria-label="Insurance partners">
+      <div class="insurance-head"><h3>Insurance Partners</h3><a href="insurance.html">View all insurers</a></div>
+      <div class="insurance-logos"><span class="insurance-arrow">‹</span><span class="logo-text">Daman</span><span class="logo-text aetna">♥aetna</span><span class="logo-text axa">AXA</span><span class="logo-text">orient</span><span class="logo-text nas">NAS</span><span class="logo-text saico">SAICO</span><span class="logo-text now">NOW Health</span><span class="insurance-arrow">›</span></div>
+    </section>
+  </main>
+
+  <section class="red-strip" aria-label="Hospital highlights">
+    <div class="container strip-inner">
+      <div class="strip-item"><svg class="icon"><use href="#i-phone"/></svg><div><b>24/7 Emergency Care</b><span>Always here for you</span></div></div>
+      <div class="strip-item"><svg class="icon"><use href="#i-award"/></svg><div><b>Accredited Medical Center</b><span>Trusted healthcare standards</span></div></div>
+      <div class="strip-item"><svg class="icon"><use href="#i-users"/></svg><div><b>Expert Doctors</b><span>Across multiple specialties</span></div></div>
+      <div class="strip-item"><svg class="icon"><use href="#i-tech"/></svg><div><b>Advanced Medical Technology</b><span>For accurate diagnosis & treatment</span></div></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="copyright">© 2025 Ultra Medical Center. All rights reserved.</div>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms & Conditions</a><a href="sitemap.html">Sitemap</a></nav>
+      <div class="socials" aria-label="Social media"><a href="https://www.facebook.com/UMCAlAin/" aria-label="Facebook">f</a><a href="https://www.instagram.com/umcalain/" aria-label="Instagram">◎</a><a href="https://www.youtube.com/@ultramedicalcenter" aria-label="YouTube">▶</a></div>
+    </div>
+  </footer>
+
+  <div class="chat-card" id="chatCard" aria-label="Care coordinator chat prompt">
+    <div class="chat-avatar"></div>
+    <div><b>Hi! I’m your Care Coordinator.</b><span>How can I help you?</span></div>
+    <button class="x" type="button" onclick="hideChatPrompt()" aria-label="Close chat prompt">×</button>
+    <button class="btn btn-red" type="button" onclick="openChat()">Chat Now</button>
+  </div>
+  <button class="chat-fab" type="button" onclick="openChat()" aria-label="Open live chat"><svg class="icon"><use href="#i-chat"/></svg></button>
+  <div class="chat-panel" id="chatPanel" aria-label="Live chat panel">
+    <div class="chat-head"><b>Care Coordinator</b><button class="chat-close" type="button" onclick="closeChat()">×</button></div>
+    <div class="chat-body">
+      <div class="message bot">Hello, welcome to Ultra Medical Center. How can I help you today?</div>
+      <div class="chat-actions"><a href="#" onclick="return false;" aria-disabled="true">Book an Appointment</a><a href="doctors.html">Find a Doctor</a><a href="https://wa.me/971504702948" target="_blank" rel="noopener">Continue on WhatsApp</a><a href="tel:+97138842222">Call Clinic</a></div>
+    </div>
+  </div>
+
+  <script>
+    function openDrawer(){document.getElementById('mobileDrawer').classList.add('show')}
+    function closeDrawer(event){if(!event || event.target.id === 'mobileDrawer') document.getElementById('mobileDrawer').classList.remove('show')}
+    function openChat(){document.getElementById('chatPanel').classList.add('show'); const prompt=document.getElementById('chatCard'); if(prompt) prompt.style.display='none'}
+    function closeChat(){document.getElementById('chatPanel').classList.remove('show')}
+    function hideChatPrompt(){document.getElementById('chatCard').style.display='none'}
+  </script>
+  <script src="assets/security.js"></script>
+</body>
+</html>

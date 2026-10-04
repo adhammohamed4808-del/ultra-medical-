@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patients & Visitors | Ultra Medical Center</title>
+  <meta name="description" content="Patient and visitor information for Ultra Medical Center, including appointments, insurance, medical records, reports, billing and support." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --primary-red:#E30613;
+      --primary-red-dark:#B4000B;
+      --primary-red-soft:#FFF2F3;
+      --white:#FFFFFF;
+      --page-bg:#FFFFFF;
+      --soft-bg:#FAFAFA;
+      --border-light:#EDEDED;
+      --border-red-soft:#F2D6D8;
+      --text-main:#111827;
+      --text-secondary:#4B5563;
+      --text-muted:#6B7280;
+      --dark-footer:#1F2933;
+      --success-green:#22C55E;
+      --whatsapp-green:#25D366;
+      --shadow:0 16px 42px rgba(17,24,39,.09);
+      --soft-shadow:0 10px 28px rgba(17,24,39,.07);
+      --container:1160px;
+      --radius:12px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--page-bg);font-family:Manrope,Inter,Arial,sans-serif;color:var(--text-main);letter-spacing:-.01em}
+    a{text-decoration:none;color:inherit}
+    button,input,select,textarea{font-family:inherit}
+    button{cursor:pointer}
+    img{max-width:100%;display:block}
+    .container{width:min(var(--container),calc(100% - 64px));margin:auto}
+
+    .btn{height:42px;border-radius:6px;border:0;display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:0 22px;font-size:13px;font-weight:900;transition:.22s ease;white-space:nowrap}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-red{background:linear-gradient(135deg,var(--primary-red),#f71723);color:#fff;box-shadow:0 12px 24px rgba(227,6,19,.22)}
+    .btn-outline{background:#fff;color:var(--primary-red);border:1px solid var(--primary-red)}
+    .btn-soft{background:var(--primary-red-soft);color:var(--primary-red);border:1px solid var(--border-red-soft)}
+
+    .icon{width:28px;height:28px;stroke:var(--primary-red);stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round;flex:0 0 auto}
+    .icon-sm{width:17px;height:17px}.icon-md{width:34px;height:34px}.icon-lg{width:45px;height:45px}.icon-xl{width:54px;height:54px}
+
+    /* Header */
+    .site-header{height:81px;background:#fff;border-bottom:1px solid #ECEEF2;position:sticky;top:0;z-index:90;box-shadow:0 2px 10px rgba(16,24,40,.03)}
+    .header-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:22px}
+    .brand{display:flex;align-items:center;min-width:214px}
+    .brand img{width:190px;height:auto}
+    .main-nav{height:100%;display:flex;align-items:center;gap:25px;margin-left:auto}
+    .main-nav a{height:100%;position:relative;display:flex;align-items:center;text-transform:uppercase;font-size:12px;font-weight:900;color:#1D2430;letter-spacing:-.02em}
+    .main-nav a.active{color:var(--primary-red)}
+    .main-nav a.active::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--primary-red);border-radius:6px 6px 0 0}
+    .header-tools{display:flex;align-items:center;gap:17px;margin-left:8px;font-size:13px;font-weight:900;color:#252B36}
+    .divider{width:1px;height:18px;background:#E3E4E8}
+    .header-actions{display:flex;align-items:center;gap:12px;margin-left:12px}
+    .whatsapp-link{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:900;color:#232834;white-space:nowrap;border:0;background:transparent;padding:0}
+    .whatsapp-dot{width:8px;height:8px;background:var(--whatsapp-green);border-radius:50%;display:inline-block}
+    .mobile-menu{display:none;border:0;background:#fff;color:var(--primary-red);font-size:24px;font-weight:900}
+
+    /* Mobile drawer */
+    .mobile-drawer{position:fixed;inset:0;background:rgba(17,24,39,.45);z-index:120;display:none;align-items:flex-start;justify-content:flex-end}
+    .mobile-drawer.show{display:flex}
+    .drawer-panel{width:min(360px,92vw);height:100%;background:#fff;padding:22px;box-shadow:-18px 0 50px rgba(17,24,39,.16);display:flex;flex-direction:column;gap:12px}
+    .drawer-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}.drawer-top img{width:160px}.drawer-close{width:38px;height:38px;border-radius:50%;border:0;background:var(--primary-red-soft);color:var(--primary-red);font-size:20px;font-weight:900}
+    .drawer-panel a{padding:13px 12px;border-radius:10px;border:1px solid #F1F1F1;font-weight:900}.drawer-panel a.active{background:var(--primary-red-soft);color:var(--primary-red);border-color:var(--border-red-soft)}
+
+    /* Hero */
+    .hero{position:relative;overflow:hidden;min-height:405px;background:linear-gradient(90deg,#fff 0%,#fff 38%,#F8FBFF 73%,#EEF5FF 100%);border-bottom:1px solid #F0F1F4}
+    .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 16% 15%,rgba(227,6,19,.08),transparent 42%);pointer-events:none}
+    .hero::after{content:"";position:absolute;right:0;top:0;bottom:0;width:54%;background:linear-gradient(90deg,rgba(255,255,255,.95),rgba(255,255,255,.35) 26%,rgba(255,255,255,0) 48%),url('assets/patients-visitors-reception.jpg') center right/cover no-repeat;pointer-events:none}
+    .hero-content{position:relative;z-index:2;width:54%;padding:58px 0 48px}
+    .breadcrumb{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:800;color:#7D8390;margin-bottom:18px}.breadcrumb a{color:var(--primary-red)}
+    .hero-content h1{font-size:48px;line-height:1.08;margin:0 0 12px;font-weight:900;letter-spacing:-.055em;color:#20242C}
+    .hero-content h2{font-size:23px;line-height:1.25;margin:0 0 12px;font-weight:900;color:var(--primary-red)}
+    .hero-content p{font-size:15px;line-height:1.7;color:#4D5561;max-width:560px;margin:0 0 22px}
+    .hero-ctas{display:flex;gap:14px;flex-wrap:wrap}
+
+    /* Quick links */
+    .quick-wrap{position:relative;z-index:5;margin-top:-36px}
+    .quick-grid{background:#fff;border:1px solid #E6E7EB;border-radius:9px;box-shadow:var(--shadow);display:grid;grid-template-columns:repeat(4,1fr);overflow:hidden}
+    .quick-card{min-height:94px;padding:20px 20px;display:grid;grid-template-columns:44px 1fr 16px;gap:12px;align-items:center;border-right:1px solid #ECEEF2;transition:.22s}.quick-card:last-child{border-right:0}.quick-card:hover{background:#FFF8F8}.quick-card b{font-size:13px;font-weight:900;display:block;margin-bottom:5px}.quick-card span{font-size:11px;line-height:1.45;color:#606875;font-weight:700}.quick-card .arrow{font-size:18px;color:#555B66}
+
+    /* Sections */
+    .section{padding:42px 0 0}.section-title{display:flex;align-items:end;justify-content:space-between;border-bottom:1px solid #ECEEF2;padding-bottom:12px;margin-bottom:22px}.section-title h2{font-size:22px;margin:0;font-weight:900;letter-spacing:-.04em}.section-title p{margin:5px 0 0;font-size:12px;color:var(--text-muted);font-weight:700}.section-title a{font-size:12px;color:var(--primary-red);font-weight:900}
+
+    .guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding-bottom:28px}.guide-card{background:#fff;border:1px solid #E7E8EB;border-radius:9px;box-shadow:var(--soft-shadow);padding:22px;transition:.22s}.guide-card:hover{transform:translateY(-3px);border-color:var(--border-red-soft);box-shadow:0 18px 40px rgba(227,6,19,.10)}.guide-icon{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:var(--primary-red-soft);margin-bottom:14px}.guide-card h3{font-size:17px;margin:0 0 5px;font-weight:900}.guide-card .subtitle{font-size:12px;color:#4B5563;font-weight:800;margin-bottom:14px}.guide-list{list-style:none;margin:0 0 18px;padding:0;display:grid;gap:9px}.guide-list li{font-size:11px;color:#5B6370;font-weight:700;display:flex;gap:8px;align-items:center}.guide-list li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--primary-red);flex:0 0 auto}.guide-card a{font-size:11px;font-weight:900;color:var(--primary-red)}
+
+    .utility-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;padding-bottom:38px}.utility-card{background:#fff;border:1px solid #E7E8EB;border-radius:9px;box-shadow:var(--soft-shadow);padding:18px;min-height:176px;display:flex;flex-direction:column;justify-content:space-between;transition:.22s}.utility-card:hover{background:var(--primary-red-soft);border-color:var(--border-red-soft)}.utility-card h3{font-size:13px;line-height:1.3;margin:10px 0 7px;font-weight:900}.utility-card p{font-size:11px;line-height:1.5;color:#626A77;margin:0 0 14px;font-weight:700}.utility-card a{font-size:11px;font-weight:900;color:var(--primary-red)}
+
+    .help-strip{background:linear-gradient(135deg,var(--primary-red),var(--primary-red-dark));color:#fff;margin-top:4px}.help-inner{padding:30px 0;display:grid;grid-template-columns:1.1fr repeat(3,.7fr) auto;gap:24px;align-items:center}.help-inner h2{font-size:24px;margin:0 0 5px;font-weight:900}.help-inner p{font-size:13px;line-height:1.55;margin:0;color:rgba(255,255,255,.86)}.help-contact{display:flex;align-items:center;gap:10px}.help-contact .icon{stroke:#fff}.help-contact b{display:block;font-size:12px}.help-contact span{display:block;font-size:11px;color:rgba(255,255,255,.84)}.help-inner .btn{background:#fff;color:var(--primary-red);border:1px solid #fff}
+
+    .info-wrap{background:var(--soft-bg);padding:40px 0}.info-grid{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:18px}.info-panel{background:#fff;border:1px solid #E7E8EB;border-radius:9px;box-shadow:var(--soft-shadow);padding:20px}.info-panel h3{font-size:16px;margin:0 0 13px;font-weight:900}.info-panel ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}.info-panel a,.info-panel li{font-size:12px;color:#56606C;font-weight:800}.info-panel a:hover{color:var(--primary-red)}.small-map{height:112px;border-radius:8px;background:#EAF1F7;position:relative;overflow:hidden;border:1px solid #DBE5EC;margin-bottom:12px}.small-map::before{content:"";position:absolute;inset:0;background:linear-gradient(35deg,transparent 47%,#CFD7DF 48%,#CFD7DF 51%,transparent 52%),linear-gradient(115deg,transparent 40%,#D8DFE6 41%,#D8DFE6 44%,transparent 45%)}.map-pin{position:absolute;left:55%;top:34%;width:18px;height:18px;background:var(--primary-red);border-radius:50% 50% 50% 0;transform:rotate(-45deg)}.map-pin::after{content:"";position:absolute;width:7px;height:7px;border-radius:50%;background:#fff;left:5.5px;top:5.5px}.social-row{display:flex;gap:10px;margin:12px 0}.social-row a{width:28px;height:28px;border-radius:50%;background:var(--primary-red-soft);color:var(--primary-red);display:grid;place-items:center;font-size:11px;font-weight:900}.subscribe{display:flex;gap:7px}.subscribe input{min-width:0;flex:1;height:36px;border:1px solid #E1E3E8;border-radius:6px;padding:0 10px;font-size:11px}.subscribe button{height:36px;border-radius:6px;border:0;background:var(--primary-red);color:#fff;font-size:11px;font-weight:900;padding:0 12px}
+
+    /* Footer */
+    .red-strip{background:linear-gradient(135deg,#CF000B,var(--primary-red));color:#fff}.strip-inner{height:58px;display:grid;grid-template-columns:repeat(4,1fr);align-items:center;gap:22px}.strip-item{display:flex;align-items:center;gap:12px}.strip-item .icon{stroke:#fff;width:28px;height:28px}.strip-item b{display:block;font-size:12px;font-weight:900}.strip-item span{display:block;font-size:10px;color:rgba(255,255,255,.84)}
+    .site-footer{background:var(--dark-footer);color:#fff}.footer-inner{height:54px;display:flex;align-items:center;justify-content:space-between;gap:20px}.copyright{font-size:11px;color:#D7D9DE}.footer-links{display:flex;gap:32px;font-size:11px;color:#D7D9DE}.socials{display:flex;gap:13px;align-items:center}.socials a{width:16px;height:16px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:10px;border:1px solid rgba(255,255,255,.35)}
+
+    /* Live chat */
+    .chat-card{position:fixed;right:20px;bottom:74px;width:166px;background:#fff;border:1px solid #ECEEF2;border-radius:9px;box-shadow:var(--shadow);z-index:60;padding:12px 12px 10px;display:grid;grid-template-columns:36px 1fr 12px;gap:9px;align-items:start}.chat-avatar{width:36px;height:36px;border-radius:50%;background:linear-gradient(180deg,#F5D6D6,#D9DCE3);overflow:hidden}.chat-card b{font-size:10.5px;display:block;line-height:1.3}.chat-card span{font-size:9px;color:#555D69;display:block;margin-top:3px}.chat-card .x{font-size:13px;color:#777;text-align:right;border:0;background:transparent}.chat-card .btn{grid-column:1/-1;height:33px;border-radius:18px;font-size:10.5px;margin-top:5px}
+    .chat-fab{position:fixed;right:18px;bottom:20px;width:52px;height:52px;border-radius:50%;border:4px solid #fff;background:var(--primary-red);box-shadow:0 10px 24px rgba(227,6,19,.35);z-index:61;display:grid;place-items:center}.chat-fab .icon{stroke:#fff;width:25px;height:25px}
+    .chat-panel{position:fixed;right:18px;bottom:84px;width:min(360px,calc(100vw - 36px));background:#fff;border:1px solid #ECEEF2;border-radius:14px;box-shadow:var(--shadow);z-index:100;display:none;overflow:hidden}.chat-panel.show{display:block}.chat-head{background:var(--primary-red);color:#fff;padding:14px 16px;display:flex;align-items:center;justify-content:space-between}.chat-head b{font-size:14px}.chat-close{border:0;background:transparent;color:#fff;font-size:20px}.chat-body{padding:14px;display:grid;gap:10px}.message{padding:10px 12px;border-radius:12px;font-size:12px;line-height:1.45}.message.bot{background:#F5F6F8}.chat-actions{display:grid;gap:8px;margin-top:4px}.chat-actions a{border:1px solid #ECEEF2;border-radius:10px;padding:10px 12px;font-size:12px;font-weight:900;color:#22242C}.chat-actions a:hover{background:var(--primary-red-soft);color:var(--primary-red);border-color:var(--border-red-soft)}
+
+    @media(max-width:1120px){.container{width:min(var(--container),calc(100% - 36px))}.main-nav{display:none}.mobile-menu{display:block}.hero-content{width:66%}.quick-grid{grid-template-columns:repeat(2,1fr)}.quick-card:nth-child(2){border-right:0}.guide-grid{grid-template-columns:repeat(2,1fr)}.utility-grid{grid-template-columns:repeat(2,1fr)}.help-inner{grid-template-columns:1fr 1fr}.info-grid{grid-template-columns:repeat(2,1fr)}.strip-inner{height:auto;padding:14px 0;grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:720px){.site-header{height:auto}.header-inner{padding:12px 0;flex-wrap:wrap}.brand img{width:160px}.header-actions{margin-left:0;width:100%;justify-content:space-between;order:3}.whatsapp-link,.header-tools{display:none}.hero::after{width:100%;opacity:.18}.hero-content{width:100%;padding:42px 0}.hero-content h1{font-size:38px}.quick-grid,.guide-grid,.utility-grid,.help-inner,.info-grid{grid-template-columns:1fr}.quick-card{border-right:0;border-bottom:1px solid #ECEEF2}.strip-inner{grid-template-columns:1fr}.footer-inner{height:auto;padding:18px 0;display:grid;text-align:center}.footer-links{justify-content:center;gap:16px;flex-wrap:wrap}.socials{justify-content:center}.chat-card{display:none}}
+  </style>
+  <link rel="stylesheet" href="assets/global-fix.css">
+</head>
+<body>
+  <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+    <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v4M16 2v4M3 10h18M5 5h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/><path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 22c1.5-4 4.2-6 8-6s6.5 2 8 6"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 20c-.7-2.7-2.4-4-5-4s-4.3 1.3-5 4"/><circle cx="11" cy="9" r="4"/><path d="M18 15c1.8.5 3 1.8 3.5 4M17 5.3a3.5 3.5 0 0 1 0 6.4"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M8.5 12.5 7 22l5-3 5 3-1.5-9.5"/><path d="M9.5 8 11 9.5 14.5 6"/></symbol>
+    <symbol id="i-tech" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M19.1 4.9l-2.8 2.8M7.7 16.3l-2.8 2.8"/></symbol>
+    <symbol id="i-clipboard" viewBox="0 0 24 24"><path d="M9 4h6l1 2h2a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2l1-2Z"/><path d="M9 4h6v4H9V4ZM8 12h8M8 16h8"/></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><path d="M3 6h18v12H3V6Z"/><path d="M3 10h18M7 15h3"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 6h7l2 2h9v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6Z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2 20 5v6c0 5-3.2 9-8 11-4.8-2-8-6-8-11V5l8-3Z"/><path d="m8.5 12 2.2 2.2L15.8 9"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 4.5 1.5c0 2-2 2-2 4M12 18h.01"/></symbol>
+    <symbol id="i-family" viewBox="0 0 24 24"><circle cx="8" cy="8" r="3"/><circle cx="16" cy="8" r="3"/><circle cx="12" cy="15" r="3"/><path d="M2 21c.8-3 2.8-4.5 6-4.5M22 21c-.8-3-2.8-4.5-6-4.5M6 21c1-2.5 3-4 6-4s5 1.5 6 4"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><path d="M9 6V4h6v2M4 7h16v12H4V7Z"/><path d="M4 12h16"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 3 5.2 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.4 2L9 10.5a16 16 0 0 0 4.5 4.5l1.2-1.2a2 2 0 0 1 2-.4c.8.3 1.7.5 2.6.6A2 2 0 0 1 22 16.9Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="m4 7 8 6 8-6"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M12 22s7-5.3 7-12a7 7 0 0 0-14 0c0 6.7 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 9 9 0 0 1-4-.9L3 21l1.9-5.2a8.5 8.5 0 1 1 16.1-4.3Z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ultra Medical Center Home"><img src="assets/logo.png" alt="Ultra Medical Center"></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="specialities.html">Specialities</a>
+        <a href="doctors.html">Doctors</a>
+        <a class="active" href="patients-visitors.html">Patients & Visitors</a>
+        <a href="#" onclick="return false;" aria-disabled="true"
+>Health Packages</a>
+        <a href="insurance.html">Insurance</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-tools"><a href="search.html" aria-label="Search"><svg class="icon icon-sm"><use href="#i-search"/></svg></a></div>
+      <div class="header-actions">
+        <button class="whatsapp-link" type="button" onclick="openChat()"><span class="whatsapp-dot"></span> WhatsApp / Live Chat</button>
+   
+        <a class="btn btn-red" href="#" onclick="return false;" aria-disabled="true"><svg class="icon icon-sm" style="stroke:#fff"><use href="#i-calendar"/></svg>Book Appointment</a>
+      </div>
+      <button class="mobile-menu" type="button" aria-label="Open menu" onclick="openDrawer()">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-drawer" id="mobileDrawer" onclick="closeDrawer(event)">
+    <div class="drawer-panel" onclick="event.stopPropagation()">
+      <div class="drawer-top"><img src="assets/logo.png" alt="Ultra Medical Center"><button class="drawer-close" onclick="closeDrawer()">×</button></div>
+      <a href="index.html">Home</a><a href="specialities.html">Specialities</a><a href="doctors.html">Doctors</a><a class="active" href="patients-visitors.html">Patients & Visitors</a><a href="#" onclick="return false;" aria-disabled="true"
+>Health Packages</a><a href="insurance.html">Insurance</a><a href="contact.html">Contact</a><a href="#" onclick="return false;" aria-disabled="true">Book Appointment</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero" aria-label="Patients and visitors hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Patients & Visitors</span></div>
+          <h1>Patients & Visitors</h1>
+          <h2>Compassionate care. Seamless experience.</h2>
+          <p>We’re here to make your visit as smooth and stress-free as possible. Find everything you need to know before, during, and after your visit to Ultra Medical Center.</p>
+          <div class="hero-ctas"><a class="btn btn-red" href="#" onclick="return false;" aria-disabled="true"><svg class="icon icon-sm" style="stroke:#fff"><use href="#i-calendar"/></svg>Book Appointment</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-wrap" aria-label="Quick links">
+      <div class="container quick-grid">
+        <a class="quick-card" href="doctors.html"><svg class="icon icon-lg"><use href="#i-user"/></svg><div><b>Find a Doctor</b><span>Search by name, specialty or condition</span></div><span class="arrow">→</span></a>
+        <a class="quick-card" href="contact.html#hours"><svg class="icon icon-lg"><use href="#i-clock"/></svg><div><b>Locations & Hours</b><span>View locations, timings & map</span></div><span class="arrow">→</span></a>
+        <a class="quick-card" href="insurance.html"><svg class="icon icon-lg"><use href="#i-shield"/></svg><div><b>Insurance</b><span>We accept a wide range of insurers</span></div><span class="arrow">→</span></a>
+        <a class="quick-card" href="contact.html"><svg class="icon icon-lg"><use href="#i-phone"/></svg><div><b>Contact Us</b><span>Call, WhatsApp or visit us</span></div><span class="arrow">→</span></a>
+      </div>
+    </section>
+
+    <section class="section container" aria-label="Patient guidance">
+      <div class="section-title"><div><h2>Patient Guidance</h2><p>Everything you need before, during and after your visit.</p></div></div>
+      <div class="guide-grid">
+        <article class="guide-card" id="before-your-visit"><div class="guide-icon"><svg class="icon icon-md"><use href="#i-clipboard"/></svg></div><h3>Before Your Visit</h3><div class="subtitle">Plan ahead for a smooth experience.</div><ul class="guide-list"><li>Appointments & Scheduling</li><li>Insurance & Payments</li><li>What to Bring</li><li>Directions & Parking</li></ul><a href="patients-visitors.html#before-your-visit">Learn More →</a></article>
+        <article class="guide-card" id="during-your-visit"><div class="guide-icon"><svg class="icon icon-md"><use href="#i-user"/></svg></div><h3>During Your Visit</h3><div class="subtitle">Everything you need while you’re here.</div><ul class="guide-list"><li>Check-in Process</li><li>Waiting & Patient Comfort</li><li>Amenities & Facilities</li><li>Interpreter Services</li></ul><a href="patients-visitors.html#during-your-visit">Learn More →</a></article>
+        <article class="guide-card" id="after-your-visit"><div class="guide-icon"><svg class="icon icon-md"><use href="#i-heart"/></svg></div><h3>After Your Visit</h3><div class="subtitle">We support your recovery.</div><ul class="guide-list"><li>Follow-up Appointments</li><li>Medications & Prescriptions</li><li>Results & Reports</li><li>Care & Recovery Tips</li></ul><a href="patients-visitors.html#after-your-visit">Learn More →</a></article>
+        <article class="guide-card" id="visitor-info"><div class="guide-icon"><svg class="icon icon-md"><use href="#i-users"/></svg></div><h3>Visitor Information</h3><div class="subtitle">Guidelines for a comfortable visit.</div><ul class="guide-list"><li>Visiting Hours</li><li>Visitor Guidelines</li><li>Children & Family Visits</li><li>Parking for Visitors</li></ul><a href="patients-visitors.html#visitor-info">Learn More →</a></article>
+        <article class="guide-card" id="patient-guide"><div class="guide-icon"><svg class="icon icon-md"><use href="#i-folder"/></svg></div><h3>Patient Guide</h3><div class="subtitle">Your guide to our services.</div><ul class="guide-list"><li>Departments & Services</li><li>Patient Journey</li><li>Care Standards</li><li>Support Services</li></ul><a href="patients-visitors.html#patient-guide">Learn More →</a></article>
+        <article class="guide-card" id="patient-rights"><div class="guide-icon"><svg class="icon icon-md"><use href="#i-shield"/></svg></div><h3>Patient Rights & Responsibilities</h3><div class="subtitle">Your rights. Our commitment.</div><ul class="guide-list"><li>Your Rights</li><li>Your Responsibilities</li><li>Privacy & Confidentiality</li><li>Feedback & Complaints</li></ul><a href="patients-visitors.html#patient-rights">Learn More →</a></article>
+      </div>
+    </section>
+
+    <section class="container" aria-label="Patient services">
+      <div class="utility-grid">
+        <a class="utility-card" href="medical-records-request.html"><div><svg class="icon icon-md"><use href="#i-folder"/></svg><h3>Medical Records Request</h3><p>Request copies of your medical records securely.</p></div><span>Request Now →</span></a>
+        <a class="utility-card" href="reports.html"><div><svg class="icon icon-md"><use href="#i-clipboard"/></svg><h3>Report Collection</h3><p>Collect your lab and radiology reports.</p></div><span>Learn More →</span></a>
+        <a class="utility-card" href="insurance.html#billing"><div><svg class="icon icon-md"><use href="#i-card"/></svg><h3>Billing & Payments</h3><p>Manage bills, payments and insurance claims.</p></div><span>View Options →</span></a>
+        <a class="utility-card" href="patients-visitors.html"><div><svg class="icon icon-md"><use href="#i-help"/></svg><h3>Frequently Asked Questions</h3><p>Find answers to common questions and concerns.</p></div><span>View FAQs →</span></a>
+        <a class="utility-card" href="patients-visitors.html"><div><svg class="icon icon-md"><use href="#i-family"/></svg><h3>Family Access</h3><p>Authorize family members to access your information.</p></div><span>Learn More →</span></a>
+      </div>
+    </section>
+
+    <section class="help-strip" aria-label="Need help">
+      <div class="container help-inner">
+        <div><h2>Need Help?</h2><p>Our patient support team is here for you.</p></div>
+        <a class="help-contact" href="tel:+97138842222"><svg class="icon icon-md"><use href="#i-phone"/></svg><div><b>Call Us</b><span>+971 3 884 2222</span></div></a>
+        <button class="help-contact" type="button" onclick="openChat()" style="border:0;background:transparent;color:#fff;text-align:left;padding:0"><svg class="icon icon-md"><use href="#i-chat"/></svg><div><b>WhatsApp</b><span>+971 50 470 2948</span></div></button>
+        <a class="help-contact" href="mailto:info@ultramedicalcenter.ae"><svg class="icon icon-md"><use href="#i-mail"/></svg><div><b>Email Us</b><span>info@ultramedicalcenter.ae</span></div></a>
+        <a class="btn" href="#" onclick="return false;" aria-disabled="true">Book Appointment</a>
+      </div>
+    </section>
+
+    <section class="info-wrap" aria-label="More information">
+      <div class="container info-grid">
+        <div class="info-panel"><h3>Quick Links</h3><ul><li><a href="doctors.html">Find a Doctor</a></li><li><a href="specialities.html">Specialities</a></li><li><a href="#" onclick="return false;" aria-disabled="true"
+>Health Packages</a></li><li><a href="insurance.html">Insurance</a></li></ul></div>
+        <div class="info-panel"><h3>Popular Services</h3><ul><li><a href="specialities.html#cardiology">Cardiology</a></li><li><a href="specialities.html#orthopedic">Orthopedics</a></li><li><a href="specialities.html#dermatology">Dermatology</a></li><li><a href="specialities.html#pediatrics">Pediatrics</a></li><li><a href="reports.html">Laboratory Services</a></li></ul></div>
+        <div class="info-panel"><h3>Our Locations</h3><a class="small-map" href="contact.html#map"><span class="map-pin"></span></a><a href="contact.html">View All Locations</a></div>
+        <div class="info-panel"><h3>Connect With Us</h3><div class="social-row"><a href="#">f</a><a href="#">◎</a><a href="#">in</a><a href="#">▶</a></div><p style="font-size:12px;color:#626A77;font-weight:700;margin:0 0 12px">Subscribe to Newsletter</p><form class="subscribe" action="newsletter.html" method="get"><input type="email" placeholder="Email address"><button>Join</button></form></div>
+      </div>
+    </section>
+  </main>
+
+  <section class="red-strip" aria-label="Hospital highlights">
+    <div class="container strip-inner">
+      <div class="strip-item"><svg class="icon"><use href="#i-phone"/></svg><div><b>24/7 Emergency Care</b><span>Always here for you</span></div></div>
+      <div class="strip-item"><svg class="icon"><use href="#i-award"/></svg><div><b>Accredited Medical Center</b><span>Trusted healthcare standards</span></div></div>
+      <div class="strip-item"><svg class="icon"><use href="#i-users"/></svg><div><b>Expert Doctors</b><span>Across multiple specialties</span></div></div>
+      <div class="strip-item"><svg class="icon"><use href="#i-tech"/></svg><div><b>Advanced Medical Technology</b><span>For accurate diagnosis & treatment</span></div></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="copyright">© 2025 Ultra Medical Center. All rights reserved.</div>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms & Conditions</a><a href="sitemap.html">Sitemap</a></nav>
+      <div class="socials" aria-label="Social media"><a href="https://www.facebook.com/UMCAlAin/" aria-label="Facebook">f</a><a href="https://www.instagram.com/umcalain/" aria-label="Instagram">◎</a><a href="https://www.youtube.com/@ultramedicalcenter" aria-label="YouTube">▶</a></div>
+    </div>
+  </footer>
+
+  <div class="chat-card" id="chatCard" aria-label="Care coordinator chat prompt">
+    <div class="chat-avatar"></div>
+    <div><b>Hi! I’m your Care Coordinator.</b><span>How can I help you?</span></div>
+    <button class="x" type="button" onclick="hideChatPrompt()" aria-label="Close chat prompt">×</button>
+    <button class="btn btn-red" type="button" onclick="openChat()">Chat Now</button>
+  </div>
+  <button class="chat-fab" type="button" onclick="openChat()" aria-label="Open live chat"><svg class="icon"><use href="#i-chat"/></svg></button>
+  <div class="chat-panel" id="chatPanel" aria-label="Live chat panel">
+    <div class="chat-head"><b>Care Coordinator</b><button class="chat-close" type="button" onclick="closeChat()">×</button></div>
+    <div class="chat-body">
+      <div class="message bot">Hello, welcome to Ultra Medical Center. How can I help you today?</div>
+      <div class="chat-actions"><a href="#" onclick="return false;" aria-disabled="true">Book an Appointment</a><a href="doctors.html">Find a Doctor</a><a href="https://wa.me/971504702948" target="_blank" rel="noopener">Continue on WhatsApp</a><a href="tel:+97138842222">Call Clinic</a></div>
+    </div>
+  </div>
+
+  <script>
+    function openDrawer(){document.getElementById('mobileDrawer').classList.add('show')}
+    function closeDrawer(event){if(!event || event.target.id === 'mobileDrawer') document.getElementById('mobileDrawer').classList.remove('show')}
+    function openChat(){document.getElementById('chatPanel').classList.add('show'); const prompt=document.getElementById('chatCard'); if(prompt) prompt.style.display='none'}
+    function closeChat(){document.getElementById('chatPanel').classList.remove('show')}
+    function hideChatPrompt(){document.getElementById('chatCard').style.display='none'}
+  </script>
+  <script src="assets/security.js"></script>
+</body>
+</html>
