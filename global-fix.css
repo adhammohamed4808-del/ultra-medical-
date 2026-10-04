@@ -1,0 +1,494 @@
+/* =========================================================
+   ULTRA MEDICAL CENTER - GLOBAL FIX
+   Fix: page width overflow + header responsiveness
+   ========================================================= */
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+video,
+svg {
+  max-width: 100%;
+}
+
+.site-header,
+main,
+section,
+footer {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1160px;
+  width: calc(100% - 64px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header overflow fix */
+.header-inner {
+  min-width: 0;
+}
+
+.brand {
+  flex-shrink: 0;
+}
+
+.main-nav {
+  min-width: 0;
+  flex-shrink: 1;
+}
+
+.header-actions {
+  flex-shrink: 0;
+}
+
+/* Desktop compact header */
+@media (max-width: 1500px) {
+  .container {
+    width: calc(100% - 48px);
+  }
+
+  .brand {
+    min-width: 185px !important;
+  }
+
+  .brand img {
+    width: 170px !important;
+  }
+
+  .main-nav {
+    gap: 18px !important;
+  }
+
+  .main-nav a {
+    font-size: 11px !important;
+  }
+
+  .btn {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .header-actions {
+    gap: 8px !important;
+  }
+
+  .whatsapp-link {
+    font-size: 11px !important;
+  }
+}
+
+/* Hide WhatsApp text before it pushes page wider */
+@media (max-width: 1350px) {
+  .whatsapp-link {
+    display: none !important;
+  }
+
+  .main-nav {
+    gap: 15px !important;
+  }
+}
+
+/* Switch to mobile menu earlier */
+@media (max-width: 1220px) {
+  .main-nav,
+  .header-tools,
+  .header-actions {
+    display: none !important;
+  }
+
+  .mobile-menu {
+    display: block !important;
+  }
+
+  .site-header {
+    height: 76px !important;
+  }
+
+  .header-inner {
+    height: 76px !important;
+  }
+}
+
+/* Prevent grids/cards from creating horizontal scroll */
+.doctors-grid,
+.packages-grid,
+.specialty-grid,
+.specialities-grid,
+.quick-grid,
+.insurance-grid,
+.guidance-grid,
+.related-grid,
+.included-grid,
+.why-grid,
+.hero-cards,
+.quick-actions,
+.featured-card,
+.featured-package,
+.doctor-search,
+.search-bar,
+.find-care,
+.find-care-bar {
+  max-width: 100%;
+}
+
+/* Fixed chat should not create page width */
+.chat-card,
+.chat-fab,
+.chat-panel {
+  max-width: calc(100vw - 36px);
+}
+
+/* Mobile safety */
+@media (max-width: 720px) {
+  .container {
+    width: calc(100% - 32px);
+  }
+
+  .hero-content {
+    width: 100% !important;
+  }
+
+  .hero::after {
+    width: 100% !important;
+    opacity: 0.18;
+  }
+}
+/* =========================================================
+   HEADER CLEAN FIX
+   Hide top WhatsApp button and prevent menu congestion
+   ========================================================= */
+
+.whatsapp-link {
+  display: none !important;
+}
+
+/* Give header more breathing space */
+.header-inner {
+  gap: 16px !important;
+}
+
+/* Make navigation slightly compact but readable */
+.main-nav {
+  gap: 22px !important;
+  flex-shrink: 0 !important;
+}
+
+.main-nav a {
+  font-size: 12px !important;
+  line-height: 1.2 !important;
+  white-space: nowrap !important;
+}
+
+/* Keep right buttons clean */
+.header-actions {
+  gap: 12px !important;
+  flex-shrink: 0 !important;
+}
+
+.header-actions .btn {
+  height: 42px !important;
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+}
+
+/* Logo size balance */
+.brand {
+  min-width: 210px !important;
+}
+
+.brand img {
+  width: 190px !important;
+}
+
+/* Hide Arabic/search if screen becomes narrow before overlap */
+@media (max-width: 1400px) {
+  .header-tools {
+    display: none !important;
+  }
+
+  .main-nav {
+    gap: 18px !important;
+  }
+}
+
+/* Switch to mobile menu before header overlaps */
+@media (max-width: 1250px) {
+  .main-nav,
+  .header-tools,
+  .header-actions {
+    display: none !important;
+  }
+
+  .mobile-menu {
+    display: block !important;
+  }
+}
+/* =========================================================
+   FINAL ARABIC HERO FIX
+   Arabic pages: image LEFT, text RIGHT
+   Works for homepage + inner pages
+   ========================================================= */
+
+/* Arabic hero base */
+html[dir="rtl"] .hero {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+/* Force hero content container to place text on RIGHT side */
+html[dir="rtl"] .hero > .container,
+html[dir="rtl"] .hero .container {
+  position: relative !important;
+  z-index: 5 !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: flex-start !important;
+}
+
+/* Text block must stay on right, not over image */
+html[dir="rtl"] .hero-content {
+  width: 42% !important;
+  max-width: 560px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  text-align: right !important;
+  position: relative !important;
+  z-index: 6 !important;
+}
+
+/* Homepage hero image: move to LEFT */
+html[dir="rtl"] .hero-bg::before {
+  left: 0 !important;
+  right: auto !important;
+  width: 64% !important;
+  background:
+    linear-gradient(
+      270deg,
+      rgba(255,255,255,0) 0%,
+      rgba(255,255,255,.15) 38%,
+      rgba(255,255,255,.82) 68%,
+      #fff 100%
+    ),
+    url("../assets/ultra-hospital-building.jpg") center left / cover no-repeat !important;
+}
+
+/* Homepage soft red glow should stay near text side */
+html[dir="rtl"] .hero-bg::after {
+  left: auto !important;
+  right: 0 !important;
+  width: 58% !important;
+  background: radial-gradient(circle at 85% 18%, rgba(227,6,19,.08), transparent 42%) !important;
+}
+
+/* Inner pages using .hero::after as image */
+html[dir="rtl"] .hero::after {
+  left: 0 !important;
+  right: auto !important;
+  width: 54% !important;
+  background-position: center left !important;
+}
+
+/* Keep all Arabic hero text aligned cleanly */
+html[dir="rtl"] .hero h1,
+html[dir="rtl"] .hero .lead,
+html[dir="rtl"] .hero-content h1,
+html[dir="rtl"] .hero-content p,
+html[dir="rtl"] .breadcrumb {
+  text-align: right !important;
+}
+
+/* Arabic hero buttons align from right */
+html[dir="rtl"] .hero-ctas {
+  justify-content: flex-start !important;
+  direction: rtl !important;
+}
+
+/* Hero points stay inside the right text side */
+html[dir="rtl"] .hero-points {
+  direction: rtl !important;
+}
+
+/* Mobile: image becomes light background again */
+@media (max-width: 760px) {
+  html[dir="rtl"] .hero > .container,
+  html[dir="rtl"] .hero .container {
+    display: block !important;
+  }
+
+  html[dir="rtl"] .hero-content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  html[dir="rtl"] .hero-bg::before,
+  html[dir="rtl"] .hero::after {
+    width: 100% !important;
+    opacity: 0.18 !important;
+  }
+}
+
+/* =========================================================
+   FOOTER ACCREDITATIONS
+   ========================================================= */
+
+/* WhatsApp and live chat were removed from the published interface. */
+.whatsapp-link,
+.chat-card,
+.chat-fab,
+.chat-panel,
+button[onclick*="openChat"],
+a[href*="wa.me"],
+a[href*="whatsapp"] {
+  display: none !important;
+}
+
+/* Temporarily disabled services remain visible without being clickable. */
+.is-disabled-link,
+a[aria-disabled="true"],
+a[href*="registration.html"],
+a[href*="health-packages.html"],
+a[href*="package-"],
+a[href*="coverage-assistance.html"] {
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+
+.is-disabled-control {
+  opacity: .62;
+  cursor: not-allowed;
+}
+
+.is-disabled-control select {
+  cursor: not-allowed;
+}
+
+.footer-accreditations {
+  background: #ffffff;
+  border-top: 1px solid #eceef2;
+  padding: 24px 0;
+}
+
+.footer-accreditations__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.footer-accreditations__title {
+  margin: 0 8px 0 0;
+  color: #4b5563;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.footer-accreditation {
+  min-width: 190px;
+  min-height: 96px;
+  padding: 10px 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  box-shadow: 0 5px 18px rgba(17, 24, 39, .05);
+}
+
+.footer-accreditation__certificate {
+  width: 74px;
+  height: 74px;
+  object-fit: contain;
+  flex: 0 0 auto;
+  border: 0;
+  border-radius: 6px;
+  background: #fff;
+}
+
+/* Shared DoH approval number beneath the UMC logo on every page. */
+.brand {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.brand .doh-approval {
+  display: block;
+  width: 100%;
+  margin-top: -2px;
+  color: #5f6671;
+  font-size: 8px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: .01em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.footer-accreditation__seal {
+  width: 38px;
+  height: 38px;
+  border: 2px solid #e30613;
+  border-radius: 50%;
+  color: #e30613;
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: -.03em;
+}
+
+.footer-accreditation__text {
+  display: grid;
+  gap: 2px;
+  color: #1f2933;
+  line-height: 1.05;
+}
+
+.footer-accreditation__text strong {
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.footer-accreditation__text span {
+  color: #6b7280;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .footer-accreditations { padding: 20px 0; }
+  .footer-accreditations__inner { gap: 10px; }
+  .footer-accreditations__title {
+    width: 100%;
+    margin: 0 0 6px;
+    text-align: center;
+  }
+  .footer-accreditation {
+    width: calc(50% - 6px);
+    min-width: 0;
+    min-height: 100px;
+  }
+}
